@@ -1,0 +1,107 @@
+[
+  {
+    "questionText": "Welche Aussage trifft für 'Laufzeitumgebung für Javascript' zu? ",
+    "options": [
+      {
+        "text": "Eine Laufzeitumgebung ist die Umgebung in der das Programm (der Javascript‐Code) ausgeführt wird",
+        "isCorrect": true
+      },
+      {
+        "text": "Laufzeitumgebungen für Javascript sind ausschließlich im Browser verfügbar.",
+        "isCorrect": false
+      },
+      {
+        "text": "Die Laufzeitumgebung stellt dem Javascript‐Interpreter eine bestimmt Zeit zum Ausführen des Javascript‐Codes zur Verfügung ",
+        "isCorrect": false
+      },
+      {
+        "text": "Die Umgebung in der man Javascript‐Code schreibt, nennt man Laufzeitumgebung.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionText": "Welche allgemeinen Aussagen sind richtig?",
+    "options": [
+      {
+        "text": "NodeJS ist eine Laufzeitumgebung für Javascript.",
+        "isCorrect": true
+      },
+      {
+        "text": "Full‐Stack‐Javascript Anwendungen haben Javascript am Client und am Server im Einsatz.",
+        "isCorrect": true
+      },
+      {
+        "text": "Javascript wird von der Laufzeitumgebung kompiliert bevor es ausgeführt wird.",
+        "isCorrect": false
+      },
+      {
+        "text": "Javascript kann nur im Browser oder in NodeJS verwendet werden.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionText": "Was ist eine Javascript Laufzeitumgebung?",
+    "options": [
+      {
+        "text": "NodeJS",
+        "isCorrect": true
+      },
+      {
+        "text": "V8",
+        "isCorrect": true
+      },
+      {
+        "text": "Angular",
+        "isCorrect": false
+      },
+      {
+        "text": "ReactJS",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionText": "Welche Unterschiede gibt es zwischen Javascript und Typescript?",
+    "options": [
+      {
+        "text": "Typescript wird kompiliert, Javascript wird interpretiert.",
+        "isCorrect": true
+      },
+      {
+        "text": "Variablen in Javascript sind typlos, in Typescript sind sie typsicher.",
+        "isCorrect": true
+      },
+      {
+        "text": "Javascript wird in allen Browsern unterstützt, Typescript ist von Microsoft und kann daher nur im Edge Browser verwendet werden.",
+        "isCorrect": false
+      },
+      {
+        "text": "Mit Typescript können größere Projekte und komplexere Probleme gelöst werden. Javascript ist nur für kleine Webanwendungen geeignet.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionText": "Welcher Aussage zu Browser, Browserengine und Javascript‐Engine ist bzw. sind richtig?",
+    "options": [
+      {
+        "text": "Gecko‐basierte Browser verwenden SpiderMonkey als Javascript‐Engine ",
+        "isCorrect": true
+      },
+      {
+        "text": "Webkit‐basierte Browser nutzen JavascriptCore oder V8 als Javascript‐Engine. ",
+        "isCorrect": true
+      },
+      {
+        "text": "NodeJS basiert auf der V8 Javascript‐Engine.",
+        "isCorrect": true
+      },
+      {
+        "text": "Edge Browser nutzen Trident als Javascript‐Engine.",
+        "isCorrect": false
+      }
+    ]
+  }
+]

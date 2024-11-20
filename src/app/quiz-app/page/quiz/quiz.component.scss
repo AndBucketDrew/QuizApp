@@ -1,0 +1,26 @@
+/* quiz.component.scss */
+.quiz-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .quiz-question {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .quiz-options {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .quiz-options li {
+    margin: 10px 0;
+    cursor: pointer;
+  }
+  
+  .quiz-options li:hover {
+    background-color: #f1f1f1;
+  }
+  

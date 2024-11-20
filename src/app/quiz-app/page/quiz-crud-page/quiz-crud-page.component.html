@@ -1,0 +1,26 @@
+<div class="crud-page-container">
+    <h2>Quiz Management</h2>
+  
+    <!-- Buttons Container -->
+    <div class="crud-buttons">
+      <button routerLink="/quiz">Start Quiz</button>
+      <button routerLink="/quiz-crud/add">Add New Question</button>
+    </div>
+  
+    <!-- Questions List -->
+    <div>
+      <ul class="questions-list">
+        <li *ngFor="let question of questions; let i = index">
+          {{ question.questionText }}
+          <div class="button-wrapper">
+            <!-- Edit Button -->
+            <button [routerLink]="['/quiz-crud/edit', i]">Edit</button>
+            
+            <!-- Delete Button -->
+            <button (click)="deleteQuestion(i)">Delete</button>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  

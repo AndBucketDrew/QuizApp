@@ -1,0 +1,108 @@
+[
+    {
+      "questionText": "Wofür steht NPM?",
+      "options": [
+        {
+          "text": "Node Package Manager",
+          "isCorrect": true
+        },
+        {
+          "text": "North Pole Mysteries",
+          "isCorrect": false
+        },
+        {
+          "text": "NodeJS Power Managment",
+          "isCorrect": false
+        },
+        {
+          "text": "Nighttime Peanut Migrations",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Welcher Befehl erstellt eine package.json Datei?",
+      "options": [
+        {
+          "text": "npm init",
+          "isCorrect": true
+        },
+        {
+          "text": "npm i",
+          "isCorrect": false
+        },
+        {
+          "text": "npm create package.json",
+          "isCorrect": false
+        },
+        {
+          "text": "npx create app",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Wie lautet der Befehl um Module downzuloaden und in die package.json einzutragen?",
+      "options": [
+        {
+          "text": "npm install ...",
+          "isCorrect": true
+        },
+        {
+          "text": "node module add ...",
+          "isCorrect": false
+        },
+        {
+          "text": "npm load ...",
+          "isCorrect": false
+        },
+        {
+          "text": "npm i –local ...",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Wozu wird –‐save‐dev beim Installieren von Packages verwendet?",
+      "options": [
+        {
+          "text": "Damit werden packages als devDependencies eingetragen, diese werden beim Deploying nicht mitgegeben",
+          "isCorrect": true
+        },
+        {
+          "text": "Damit beim Installieren des Packages die sicherste Version verwendet wird",
+          "isCorrect": false
+        },
+        {
+          "text": "Es wird zusätzlich zum Namen des Packages auch die Versionsnummer in die package.json eingetragen.",
+          "isCorrect": false
+        },
+        {
+          "text": "Der aktuelle Projektstand wird vor dem Installieren gesichert.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "In ihrer package.json findet sich nachfolgender Code. Wie können Sie das Script 'server_demo.js' ohne der Verwendung von nodemon starten? \n 'scripts': { \n   'start':'node server.js', \n   'demo':'nodemon server_demo.js' \n }",
+      "options": [
+        {
+          "text": "node server_demo.js",
+          "isCorrect": true
+        },
+        {
+          "text": "npm start",
+          "isCorrect": false
+        },
+        {
+          "text": "npm run demo",
+          "isCorrect": false
+        },
+        {
+          "text": "npm run demo --nodemon",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+  

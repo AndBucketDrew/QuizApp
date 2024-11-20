@@ -1,0 +1,33 @@
+<div class="form-container">
+  <h2>{{ questionId ? 'Edit Question' : 'Add New Question' }}</h2>
+  
+  <form [formGroup]="questionForm" (ngSubmit)="saveQuestion()">
+    <!-- Question Text -->
+    <label for="questionText">Question Text</label>
+    <textarea id="questionText" formControlName="questionText"></textarea>
+
+    <!-- Options Section -->
+    <label>Options</label>
+    <div formArrayName="options">
+      <div *ngFor="let option of options.controls; let i = index" [formGroupName]="i" class="form-group">
+        <!-- Option Text -->
+        <input type="text" formControlName="text" placeholder="Option text" />
+
+        <!-- Correct Answer Checkbox -->
+        <label>
+          <input type="checkbox" formControlName="isCorrect" />
+          Correct Answer
+        </label>
+
+        <!-- Remove Option Button -->
+        <button type="button" (click)="removeOption(i)">Remove</button>
+      </div>
+    </div>
+
+    <!-- Add Option Button -->
+    <button type="button" (click)="addOption()">Add Option</button>
+
+    <!-- Save Button -->
+    <button type="submit">Save</button>
+  </form>
+</div>

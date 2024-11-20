@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "Was ist NodeJS?",
+        "options": [
+            {
+                "text": "eine plattformunabhängige Javascript‐Laufzeitumgebung ",
+                "isCorrect": true
+            },
+            {
+                "text": "eine Weiterentwicklung von Javascript ",
+                "isCorrect": false
+            },
+            {
+                "text": "ein Javascript‐Interpreter für Webserver",
+                "isCorrect": false
+            },
+            {
+                "text": "eine neue Version von Javascript",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "Wofür wird NodeJS primär eingesetzt?",
+        "options": [
+            {
+                "text": "um asynchrone skalierbare Netzwerk‐Applikationen zu entwickeln",
+                "isCorrect": true
+            },
+            {
+                "text": "um browserunabhängige Webapplikationen zu entwickeln ",
+                "isCorrect": false
+            },
+            {
+                "text": "um Javascript‐Anwendungen mit Datenbankzugriffen zu entwickeln",
+                "isCorrect": false
+            },
+            {
+                "text": "um Desktopapplikationen mit Javascript zu entwickeln ",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "Wie führen Sie (typischerweise) eine Javascript‐Anwendung mit NodeJS aus?",
+        "options": [
+            {
+                "text": "über eine CLI (Terminal) und den Befehl node",
+                "isCorrect": true
+            },
+            {
+                "text": "durch Einbetten des Codes in eine HTML Datei und öffnen dieser im Browser",
+                "isCorrect": false
+            },
+            {
+                "text": "durch Starten der Desktop‐Applikation NodeJS",
+                "isCorrect": false
+            },
+            {
+                "text": "mittels Aufruf der Anwendung über cURL",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "Wie werden Ausgaben aus NodeJS „sichtbar“?",
+        "options": [
+            {
+                "text": "im Terminal mittels console.log()",
+                "isCorrect": true
+            },
+            {
+                "text": "durch Beschreiben von Dateien im Filesystem",
+                "isCorrect": true
+            },
+            {
+                "text": "durch Ausgabe in Node‐Elementen im SOM (server object model)",
+                "isCorrect": false
+            },
+            {
+                "text": "durch Verwendung der Funktion alert()",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "Wie werden Node‐Module verwendet?",
+        "options": [
+            {
+                "text": "Module werden integriert mit require() oder import",
+                "isCorrect": true
+            },
+            {
+                "text": "sobald sie in node_modules enthalten sind, sind die Funktionen global verfügbar",
+                "isCorrect": false
+            },
+            {
+                "text": "mittels <script src=“...“> werden Module in ds Hauptscript eingebettet",
+                "isCorrect": false
+            },
+            {
+                "text": "mittels @import können beliebig viele Javascript‐Dateien angefügt werden",
+                "isCorrect": false
+            }
+        ]
+    }
+]
