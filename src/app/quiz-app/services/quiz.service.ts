@@ -16,14 +16,19 @@ export class QuizService {
   constructor(private http: HttpClient) { }
 
   // Load questions from JSON and cache them in the 'questions' array
-  loadAllQuestions() {
+  loadAllQuestions(): Observable<void | never[]> {
     const files = ['laufzeitumgebungenJS.json', 'npm.json', 'nodeJs.json'];
-    this.allQuestions = [];
-    files.forEach(file => {
-      this.loadQuestionsFromFile(file).subscribe(data => {
-        this.allQuestions = [...this.allQuestions, ...data]
+    const obsevables = files.map(file => this.loadQuestionsFromFile(file));
+
+    return forkJoin(obsevables).pipe(
+      map(results => {
+        this.allQuestions = results.flat()
+      }),
+      catchError(error => {
+        console.log('Error loading all questions:', error);
+        return of([]);
       })
-    })
+    )
   }
 
   loadSelectedQuestions(): Observable<Question[]> {

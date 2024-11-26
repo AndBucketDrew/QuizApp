@@ -17,9 +17,13 @@ export class QuizCrudPageComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    this.quizService.loadAllQuestions();
-    this.quizService.getAllQuestions().subscribe(allQuestions => {
-      this.questions = allQuestions;
+    this.quizService.loadAllQuestions().subscribe({
+      next: () => {
+        this.quizService.getAllQuestions().subscribe(allQuestions => {
+          this.questions = allQuestions;
+        })
+      },
+      error: err => console.log('Error loading questions', err)
     });
   }
 
