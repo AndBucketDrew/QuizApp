@@ -1,64 +1,91 @@
 import { Injectable } from '@angular/core';
 import { Question } from '../models/question.model';
 import { HttpClient } from '@angular/common/http';
-import { Observable, of } from 'rxjs';
+import { forkJoin, Observable, of } from 'rxjs';
 import { catchError, map, tap } from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root'
 })
 export class QuizService {
-  private questionsUrl = '/assets/laufzeitumgebungenJS.json';
-  private questions: Question[] = []; 
+  private baseQuestionsUrl = '/assets/';
+  private allQuestions: Question[] = [];
+  private selectedQuestions: Question[] = [];
+  private selectedFiles: string[] = [];
 
-  constructor(private http: HttpClient) {
-    this.loadQuestions(); 
-  }
+  constructor(private http: HttpClient) { }
 
   // Load questions from JSON and cache them in the 'questions' array
-  private loadQuestions(): void {
-    this.http.get<Question[]>(this.questionsUrl).subscribe(
-      data => this.questions = data,
-      error => console.error('Error loading questions:', error)
-    );
+  loadAllQuestions() {
+    const files = ['laufzeitumgebungenJS.json', 'npm.json', 'nodeJs.json'];
+    this.allQuestions = [];
+    files.forEach(file => {
+      this.loadQuestionsFromFile(file).subscribe(data => {
+        this.allQuestions = [...this.allQuestions, ...data]
+      })
+    })
   }
 
-  getQuestions(): Observable<Question[]> {
-    if (this.questions.length > 0) {
+  loadSelectedQuestions(): Observable<Question[]> {
+    this.selectedQuestions = [];
+    const obsevables = this.selectedFiles.map(file =>
+      this.loadQuestionsFromFile(file)
+    );
 
-      return of(this.questions);
-    } else {
-  
-      return this.http.get<Question[]>(this.questionsUrl).pipe(
-        tap(data => this.questions = data), 
-        catchError(error => {
-          console.error('Error fetching questions:', error);
-          return of([]);
-        })
-      );
-    }
+    return forkJoin(obsevables).pipe(
+      map(results => {
+        this.selectedQuestions = results.flat();
+        return this.selectedQuestions;
+      }),
+      catchError(error => {
+        console.error('Error loading selected questions:', error);
+        return of([]);
+      })
+    )
+  }
+
+  setSelectedFiles(files: string[]) {
+    this.selectedFiles = files;
+  }
+
+  getAllQuestions(): Observable<Question[]> {
+    return of(this.allQuestions);
+  }
+
+  getSelectedQuestions(): Observable<Question[]> {
+    return of(this.selectedQuestions);
   }
 
   getQuestion(id: number): Observable<Question | undefined> {
-    return of(this.questions[id]);
+    return of(this.allQuestions[id]);
   }
 
   saveQuestionsToLocalStorage(): void {
-    localStorage.setItem('questions', JSON.stringify(this.questions));
+    localStorage.setItem('questions', JSON.stringify(this.allQuestions));
   }
 
   addQuestion(question: Question): void {
-    this.questions.push(question);
+    this.allQuestions.push(question);
     this.saveQuestionsToLocalStorage();
   }
 
   updateQuestion(id: number, updatedQuestion: Question): void {
-    this.questions[id] = updatedQuestion;
+    this.allQuestions[id] = updatedQuestion;
     this.saveQuestionsToLocalStorage();
   }
 
   deleteQuestion(id: number): void {
-    this.questions.splice(id, 1);
+    this.allQuestions.splice(id, 1);
     this.saveQuestionsToLocalStorage();
+  }
+
+  private loadQuestionsFromFile(fileName: string): Observable<Question[]> {
+    const fileUrl = `${this.baseQuestionsUrl}${fileName}`
+    return this.http.get<Question[]>(fileUrl).pipe(
+      catchError(err => {
+        console.log(`Error loading questions from ${fileUrl}:`, err);
+        return of([]);
+      })
+    )
   }
 }

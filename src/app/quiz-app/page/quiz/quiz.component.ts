@@ -19,12 +19,8 @@ export class QuizComponent implements OnInit {
   ) { }
 
 ngOnInit() {
-  this.loadQuestions();
-}
-
-loadQuestions() {
-  this.quizService.getQuestions().subscribe((questions) => {
-    this.questions = questions;
+  this.quizService.loadSelectedQuestions().subscribe(selectedQuestions => {
+    this.questions = selectedQuestions;
     this.shuffle();
   })
 }

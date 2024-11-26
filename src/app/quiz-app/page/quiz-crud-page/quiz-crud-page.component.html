@@ -1,6 +1,10 @@
 <div class="crud-page-container">
     <h2>Quiz Management</h2>
-  
+
+    <h3>Select segments</h3>
+    <label *ngFor="let file of availableFiles">
+      <input type="checkbox" (change)="onFileSelection(file, $event)"> {{ file }}
+    </label>
     <!-- Buttons Container -->
     <div class="crud-buttons">
       <button routerLink="/quiz">Start Quiz</button>
