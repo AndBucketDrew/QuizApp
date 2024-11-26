@@ -22,8 +22,9 @@
     </div>
 
     <div class="actions">
-      <button (click)="submit()">Submit Answer</button>
-      <button *ngIf="!isQuizFinished()" (click)="nextQuestion()">Next</button>
+      <!-- <button (click)="previusQuestion()">Back</button>  TODO-->
+      <button *ngIf="!isSubmited" (click)="submit()">Submit Answer</button>
+      <button *ngIf="!isQuizFinished() && isSubmited" (click)="nextQuestion()">Next</button>
     </div>
   </div>
 

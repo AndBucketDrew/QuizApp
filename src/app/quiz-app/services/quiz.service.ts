@@ -15,7 +15,6 @@ export class QuizService {
 
   constructor(private http: HttpClient) { }
 
-  // Load questions from JSON and cache them in the 'questions' array
   loadAllQuestions(): Observable<void | never[]> {
     const files = ['laufzeitumgebungenJS.json', 'npm.json', 'nodeJs.json'];
     const obsevables = files.map(file => this.loadQuestionsFromFile(file));

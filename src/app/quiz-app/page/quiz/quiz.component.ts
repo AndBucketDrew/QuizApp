@@ -13,6 +13,7 @@ export class QuizComponent implements OnInit {
   score = 0;
   showCorrectAnswer: boolean = false;
   selectedAnswer: Set<string> = new Set<string>();
+  isSubmited: boolean = false;
 
     constructor(
   private quizService: QuizService,
@@ -34,14 +35,19 @@ submit() {
   const isCorrect = currentQuestion.options.every(
     (option) => option.isCorrect === this.selectedAnswer.has(option.text)
   );
-
+  this.isSubmited = true;
   this.showCorrectAnswer = true;
   this.selectedAnswer.clear();
 }
 
 nextQuestion() {
   this.currentQuestionIndex++;
+  this.isSubmited = false;
   this.showCorrectAnswer = false;
+}
+
+previusQuestion() {
+  this.currentQuestionIndex--;
 }
 
 // onOptionCheck(event: Event) {
