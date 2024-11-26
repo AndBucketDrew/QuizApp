@@ -35,6 +35,11 @@ submit() {
   const isCorrect = currentQuestion.options.every(
     (option) => option.isCorrect === this.selectedAnswer.has(option.text)
   );
+  
+  if(isCorrect){
+    this.score++
+  }
+
   this.isSubmited = true;
   this.showCorrectAnswer = true;
   this.selectedAnswer.clear();
@@ -47,19 +52,8 @@ nextQuestion() {
 }
 
 previusQuestion() {
-  this.currentQuestionIndex--;
+  this.currentQuestionIndex--; // TODO
 }
-
-// onOptionCheck(event: Event) {
-//   const checkbox = event.target as HTMLInputElement;
-//   const value = checkbox.value;
-
-//   if (checkbox.checked) {
-//     this.userAnswer.push(value);
-//   } else {
-//     this.userAnswer = this.userAnswer.filter(answer => answer !== value);
-//   }
-// }
 
 toggleOption(option: string, event: Event): void {
   const input = event.target as HTMLInputElement;

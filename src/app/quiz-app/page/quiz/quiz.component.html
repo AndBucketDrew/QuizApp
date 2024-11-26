@@ -1,43 +1,40 @@
-<div class="quiz-container">
-  <div *ngIf="!isQuizFinished(); else finishedTemplate">
-    <h2>Question {{ currentQuestionIndex + 1 }} of {{ questions.length }}</h2>
-    <p>{{ questions[currentQuestionIndex].questionText }}</p>
+<div class="wrapper">
+  <div class="quiz-container">
+    <div *ngIf="!isQuizFinished(); else finishedTemplate">
+      <h2>Question {{ currentQuestionIndex + 1 }} of {{ questions.length }}</h2>
+      <p>{{ questions[currentQuestionIndex].questionText }}</p>
 
-    <div *ngFor="let option of questions[currentQuestionIndex]?.options" class="option">
-      <label>
-        <input
-          type="checkbox"
-          name="answer"
-          [value]="option.text"
-          (change)="toggleOption(option.text, $event)"
-        />
-        <span [ngClass]="{
+      <div *ngFor="let option of questions[currentQuestionIndex]?.options" class="option">
+        <label>
+          <input type="checkbox" name="answer" [value]="option.text" (change)="toggleOption(option.text, $event)" />
+          <span [ngClass]="{
             'correct-answer': showCorrectAnswer && option.isCorrect, 
             'incorrect-answer': showCorrectAnswer && !option.isCorrect, 
             'user-answer': selectedAnswer.has(option.text)
           }">
-          {{ option.text }}
-        </span>
-      </label>
+            {{ option.text }}
+          </span>
+        </label>
+      </div>
+
+      <div class="actions">
+        <!-- <button (click)="previusQuestion()">Back</button>  TODO-->
+        <button *ngIf="!isSubmited" (click)="submit()">Submit Answer</button>
+        <button *ngIf="!isQuizFinished() && isSubmited" (click)="nextQuestion()">Next</button>
+      </div>
     </div>
 
-    <div class="actions">
-      <!-- <button (click)="previusQuestion()">Back</button>  TODO-->
-      <button *ngIf="!isSubmited" (click)="submit()">Submit Answer</button>
-      <button *ngIf="!isQuizFinished() && isSubmited" (click)="nextQuestion()">Next</button>
+    <div *ngIf="showCorrectAnswer">
+      <h3>Correct Answers:</h3>
+      <div *ngFor="let answer of getCorrectAnswers()">
+        <p>{{ answer }}</p>
+      </div>
     </div>
+
+    <ng-template #finishedTemplate>
+      <h2>Quiz Finished!</h2>
+      <p>Your score: {{ score }} / {{ questions.length }}</p>
+      <button routerLink="/quiz-crud">Restart Quiz</button>
+    </ng-template>
   </div>
-
-  <div *ngIf="showCorrectAnswer">
-    <h3>Correct Answers:</h3>
-    <div *ngFor="let answer of getCorrectAnswers()">
-      <p>{{ answer }}</p>
-    </div>
-  </div>
-
-  <ng-template #finishedTemplate>
-    <h2>Quiz Finished!</h2>
-    <p>Your score: {{ score }} / {{ questions.length }}</p>
-    <button routerLink="/quiz-crud">Restart Quiz</button>
-  </ng-template>
 </div>
