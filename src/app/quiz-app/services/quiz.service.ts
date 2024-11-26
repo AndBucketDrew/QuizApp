@@ -16,7 +16,7 @@ export class QuizService {
   constructor(private http: HttpClient) { }
 
   loadAllQuestions(): Observable<void | never[]> {
-    const files = ['laufzeitumgebungenJS.json', 'npm.json', 'nodeJs.json'];
+    const files = ['laufzeitumgebungenJS.json', 'npm.json', 'nodeJs.json', 'zugriffDateisystem.json', 'http-Module.json'];
     const obsevables = files.map(file => this.loadQuestionsFromFile(file));
 
     return forkJoin(obsevables).pipe(

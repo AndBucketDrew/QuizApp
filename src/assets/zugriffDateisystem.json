@@ -1,0 +1,108 @@
+[
+    {
+      "questionText": "Welchen Befehl können Sie unter NodeJS nutzen um den Inhalt einer Datei einzulesen?",
+      "options": [
+        {
+          "text": "fs.readFile()",
+          "isCorrect": true
+        },
+        {
+          "text": "fs.readFileSync()",
+          "isCorrect": true
+        },
+        {
+          "text": "fs.promises.readFile()",
+          "isCorrect": true
+        },
+        {
+          "text": "fs.promises.readFileSync()",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Welche Parameter hat die Callbackfunktion bei fs.readFile()?",
+      "options": [
+        {
+          "text": "error, data",
+          "isCorrect": true
+        },
+        {
+          "text": "options, data",
+          "isCorrect": false
+        },
+        {
+          "text": "path, data",
+          "isCorrect": false
+        },
+        {
+          "text": "event, data",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Was passiert bei folgendem Code, wenn die Datei „test.txt“ nicht existiert?\nfs.writeFile( __dirname + '/test.txt', 'TEST', (err)=>{\nif ( err ) {\nconsole.log( 'Fehler' );\n}  \n});",
+      "options": [
+        {
+          "text": "Es wird eine Datei test.txt erstellt, in der das Wort TEST steht.",
+          "isCorrect": true
+        },
+        {
+          "text": "Es wird eine leere Datei test.txt erstellt.",
+          "isCorrect": false
+        },
+        {
+          "text": "In der Konsole steht „Fehler“ sonst passiert nichts.",
+          "isCorrect": false
+        },
+        {
+          "text": "Es kommt zu einer Exception und das Script bricht ab.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Welche Dateien können mit readFile() eingelesen werden?",
+      "options": [
+        {
+          "text": "alle",
+          "isCorrect": true
+        },
+        {
+          "text": "nur Dateien mit einem textähnlichen MIME‐Type",
+          "isCorrect": false
+        },
+        {
+          "text": "alle gängigen Textdateien, jedoch keine Bilder, Videos oder Audiodateien",
+          "isCorrect": false
+        },
+        {
+          "text": "alle Dateiformate, die im OS definiert sind",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "questionText": "Mit welchem Befehl können neue Dateiordner erzeugt werden?",
+      "options": [
+        {
+          "text": "fs.mkdir()",
+          "isCorrect": true
+        },
+        {
+          "text": "fs.createDirectory()",
+          "isCorrect": false
+        },
+        {
+          "text": "fs.writeFile() ... also option muss jedoch { directory:true } übergeben werden",
+          "isCorrect": false
+        },
+        {
+          "text": "fs.addDir()",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+  
