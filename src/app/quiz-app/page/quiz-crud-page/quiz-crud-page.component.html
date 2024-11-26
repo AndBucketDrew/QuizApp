@@ -2,13 +2,24 @@
     <h2>Quiz Management</h2>
 
     <h3>Select segments</h3>
-    <label *ngFor="let file of availableFiles">
-      <input type="checkbox" (change)="onFileSelection(file, $event)"> {{ file }}
-    </label>
-    <!-- Buttons Container -->
-    <div class="crud-buttons">
-      <button routerLink="/quiz">Start Quiz</button>
-      <button routerLink="/quiz-crud/add">Add New Question</button>
+    <div class="file-selection">
+      <div class="select-all-button">
+        <button (click)="selectAllCategories()">{{ selectAll ? 'Deselect All' : 'Select All' }}</button>
+      </div>
+      <div>
+        <label *ngFor="let file of availableFiles">
+          <input
+            type="checkbox"
+            [checked]="selectedFiles.includes(file)"
+            (change)="onFileSelection(file, $event)"
+          />
+          {{ file }}
+        </label>
+        <div class="crud-buttons">
+          <button routerLink="/quiz">Start Quiz</button>
+          <button routerLink="/quiz-crud/add">Add New Question</button>
+        </div>
+      </div>
     </div>
   
     <!-- Questions List -->

@@ -1,17 +1,18 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { QuizService } from '../../services/quiz.service';
 import { Question } from '../../models/question.model';
-import { Subscription } from 'rxjs';
+
 
 @Component({
   selector: 'app-quiz-crud-page',
   templateUrl: './quiz-crud-page.component.html',
   styleUrls: ['./quiz-crud-page.component.scss']
 })
-export class QuizCrudPageComponent implements OnInit{
+export class QuizCrudPageComponent implements OnInit {
   questions: Question[] = [];
   availableFiles = ['laufzeitumgebungenJS.json', 'npm.json', 'nodeJs.json', 'zugriffDateisystem.json', 'http-Module.json']
   selectedFiles: string[] = [];
+  selectAll: boolean = false
 
   constructor(
     private quizService: QuizService,
@@ -30,11 +31,22 @@ export class QuizCrudPageComponent implements OnInit{
 
   onFileSelection(file: string, event: Event) {
     const isChecked = (event.target as HTMLInputElement).checked;
-    if(isChecked) {
+    if (isChecked) {
       this.selectedFiles.push(file);
     } else {
       this.selectedFiles = this.selectedFiles.filter(f => f !== file);
     }
+    this.quizService.setSelectedFiles(this.selectedFiles);
+  }
+
+  selectAllCategories() {
+    if (this.selectAll) {
+      this.selectedFiles = [];
+    } else {
+      this.selectedFiles = [...this.availableFiles];
+    }
+
+    this.selectAll = !this.selectAll;
     this.quizService.setSelectedFiles(this.selectedFiles);
   }
 

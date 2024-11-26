@@ -1,87 +1,86 @@
 [
-    {
-      "questionText": "Welcher Befehl erzeugt eine „Webserver“‐Applikation im NodeJS?",
-      "options": [
-        {
-          "text": "http.createServer( ()=>{ }).listen( 8080 );",
-          "isCorrect": true
-        },
-        {
-          "text": "http.app.listen( 8080 );",
-          "isCorrect": false
-        },
-        {
-          "text": "http(8080).then( ()=>{ } );",
-          "isCorrect": false
-        },
-        {
-          "text": "http.request( ()=>{ } ).response( ()=> { });",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "questionText": "Welche Parameter hat die Callback‐Funktion der Methode http.createServer()?",
-      "options": [
-        {
-          "text": "request, response",
-          "isCorrect": true
-        },
-        {
-          "text": "resolve, reject",
-          "isCorrect": false
-        },
-        {
-          "text": "event, options",
-          "isCorrect": false
-        },
-        {
-          "text": "success, error",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "questionText": "Wie können Sie den HTTP Statuscode eines HTTP‐Requests definieren, wenn sie den http‐Server mit folgendem Code erzeugt haben?\nvar http = require('http');\nhttp.createServer(function (req, res) {\nres.end('Hello World!');\n}).listen(8080);",
-      "options": [
-        {
-          "text": "innerhalb der Callbackfunktion mit res.writeHead( 200 )",
-          "isCorrect": true
-        },
-        {
-          "text": "innerhalb der Callbackfunktion mit res.status( 200 )",
-          "isCorrect": false
-        },
-        {
-          "text": "mit Methodchaining an listen() anhängen mit .status( 200 )",
-          "isCorrect": false
-        },
-        {
-          "text": "innerhalb der Callbackfunktion mit req.status( 200 )",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "questionText": "Wie können Sie auf verschiedene angefragte URLs unterschiedliche Antworten schicken (HTTP Response)?\nIm Beispiel soll http://localhost:8080/hello das Wort „Hello“ und http://localhost:8080/world das Wort „World“ liefern.\nvar http = require('http');\nhttp.createServer(function (req, res) {\n/* fehlender Code */\n}).listen(8080);",
-      "options": [
-        {
-          "text": "if ( req.url == '/hello' ) { res.end( 'Hello' ); }\nif ( req.url == '/world' ) { res.end( 'World' ); }",
-          "isCorrect": true
-        },
-        {
-          "text": "if ( req.url == 'hello' ) { res.end( 'Hello' ); }\nif ( req.url == 'world' ) { res.end( 'World' ); }",
-          "isCorrect": false
-        },
-        {
-          "text": "if ( req.url == 'http://localhost:8080/hello' ) { res.end( 'Hello' ); }\nif ( req.url == 'http://localhost:8080/world' ) { res.end( 'World' ); }",
-          "isCorrect": false
-        },
-        {
-          "text": "if ( req == 'hello' ) { res.end('Hello'); }\nif ( req == 'world' ) { res.end( 'World' ); }",
-          "isCorrect": false
-        }
-      ]
-    }
-  ]
-  
+  {
+    "questionText": "\nWelcher Befehl erzeugt eine „Webserver“‐Applikation im NodeJS?",
+    "options": [
+      {
+        "text": "http.createServer( ()=>{ }).listen( 8080 );",
+        "isCorrect": true
+      },
+      {
+        "text": "http.app.listen( 8080 );",
+        "isCorrect": false
+      },
+      {
+        "text": "http(8080).then( ()=>{ } );",
+        "isCorrect": false
+      },
+      {
+        "text": "http.request( ()=>{ } ).response( ()=> { });",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionText": "\nWelche Parameter hat die Callback‐Funktion der Methode http.createServer()?",
+    "options": [
+      {
+        "text": "request, response",
+        "isCorrect": true
+      },
+      {
+        "text": "resolve, reject",
+        "isCorrect": false
+      },
+      {
+        "text": "event, options",
+        "isCorrect": false
+      },
+      {
+        "text": "success, error",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionText": "\nWie können Sie den HTTP Statuscode eines HTTP‐Requests definieren, wenn sie den http‐Server mit folgendem Code erzeugt haben?\n\nvar http = require('http');\nhttp.createServer(function (req, res) {\n   res.end('Hello World!');\n}).listen(8080);",
+    "options": [
+      {
+        "text": "innerhalb der Callbackfunktion mit res.writeHead( 200 )",
+        "isCorrect": true
+      },
+      {
+        "text": "innerhalb der Callbackfunktion mit res.status( 200 )",
+        "isCorrect": false
+      },
+      {
+        "text": "mit Methodchaining an listen() anhängen mit .status( 200 )",
+        "isCorrect": false
+      },
+      {
+        "text": "innerhalb der Callbackfunktion mit req.status( 200 )",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "questionText": "\nWie können Sie auf verschiedene angefragte URLs unterschiedliche Antworten schicken (HTTP Response)?\nIm Beispiel soll http://localhost:8080/hello das Wort „Hello“ und http://localhost:8080/world das Wort „World“ liefern.\n\nvar http = require('http');\nhttp.createServer(function (req, res) {\n/* fehlender Code */\n}).listen(8080);",
+    "options": [
+      {
+        "text": "if ( req.url == '/hello' ) { res.end( 'Hello' ); }\n  if ( req.url == '/world' ) { res.end( 'World' ); }",
+        "isCorrect": true
+      },
+      {
+        "text": "if ( req.url == 'hello' ) { res.end( 'Hello' ); }\n  if ( req.url == 'world' ) { res.end( 'World' ); }",
+        "isCorrect": false
+      },
+      {
+        "text": "if ( req.url == 'http://localhost:8080/hello' ) { res.end( 'Hello' ); }\n  if ( req.url == 'http://localhost:8080/world' ) { res.end( 'World' ); }",
+        "isCorrect": false
+      },
+      {
+        "text": "if ( req == 'hello' ) { res.end('Hello'); }\n  if ( req == 'world' ) { res.end( 'World' ); }",
+        "isCorrect": false
+      }
+    ]
+  }
+]
