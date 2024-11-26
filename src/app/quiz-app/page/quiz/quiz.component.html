@@ -9,9 +9,8 @@
         <label class="option-label">
           <input type="checkbox" name="answer" [value]="option.text" (change)="toggleOption(option.text, $event)" />
           <span [ngClass]="{
-            'correct-answer': showCorrectAnswer && option.isCorrect, 
-            'incorrect-answer': showCorrectAnswer && !option.isCorrect, 
-            'user-answer': selectedAnswer.has(option.text)
+            'correct-answer': option.isUserCorrect || option.isUnselected, 
+            'incorrect-answer': option.isUserIncorrect 
           }">
             <pre><code>{{ option.text }}</code></pre>
           </span>
@@ -25,12 +24,12 @@
       </div>
     </div>
 
-    <div *ngIf="showCorrectAnswer">
+    <!-- <div *ngIf="showCorrectAnswer">
       <h3>Correct Answers:</h3>
       <div *ngFor="let answer of getCorrectAnswers()">
         <pre><code>{{ answer }}</code></pre>
       </div>
-    </div>
+    </div> -->
 
     <ng-template #finishedTemplate>
       <h2>Quiz Finished!</h2>

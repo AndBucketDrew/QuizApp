@@ -32,10 +32,18 @@ shuffle() {
 
 submit() {
   const currentQuestion = this.questions[this.currentQuestionIndex];
+
   const isCorrect = currentQuestion.options.every(
     (option) => option.isCorrect === this.selectedAnswer.has(option.text)
   );
   
+  currentQuestion.options.forEach(option => {
+    const isSelected = this.selectedAnswer.has(option.text)
+    option.isUserCorrect = isSelected && option.isCorrect;
+    option.isUserIncorrect = isSelected && !option.isCorrect;
+    option.isUnselected = !isSelected && option.isCorrect;
+  })
+
   if(isCorrect){
     this.score++
   }
