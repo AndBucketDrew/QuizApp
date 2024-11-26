@@ -50,6 +50,14 @@ export class QuizCrudPageComponent implements OnInit {
     this.quizService.setSelectedFiles(this.selectedFiles);
   }
 
+  selectRandomCategories() {
+    const randomNumber = Math.floor(Math.random() * this.availableFiles.length + 1);
+    const shuffle = [...this.availableFiles].sort(() => Math.random() - 0.5);
+    this.selectedFiles = shuffle.slice(0, randomNumber);
+    this.quizService.setSelectedFiles(this.selectedFiles);
+
+  }
+
   deleteQuestion(id: number) {
     this.quizService.deleteQuestion(id);
   }

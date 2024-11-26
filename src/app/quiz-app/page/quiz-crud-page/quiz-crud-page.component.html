@@ -5,6 +5,7 @@
     <div class="file-selection">
       <div class="select-all-button">
         <button (click)="selectAllCategories()">{{ selectAll ? 'Deselect All' : 'Select All' }}</button>
+        <button (click)="selectRandomCategories()">Select Random Categories</button>
       </div>
       <div>
         <label *ngFor="let file of availableFiles">
@@ -15,8 +16,10 @@
           />
           {{ file }}
         </label>
-        <div class="crud-buttons">
+        <div class="start-button">
           <button routerLink="/quiz">Start Quiz</button>
+        </div>
+        <div class="crud-buttons">
           <button routerLink="/quiz-crud/add">Add New Question</button>
         </div>
       </div>
