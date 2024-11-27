@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWofür steht die Abkürzung CRUD?",
+        "options": [
+            {
+                "text": "Create Read Update Delete",
+                "isCorrect": true
+            },
+            {
+                "text": "Create Read Unified Data",
+                "isCorrect": false
+            },
+            {
+                "text": "Cross Request Unicode Data",
+                "isCorrect": false
+            },
+            {
+                "text": "Cross Request Update Data",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche 4 Funktionen muss ein CRUD Webservice anbieten?",
+        "options": [
+            {
+                "text": "Daten lesen, erzeugen, ändern und löschen",
+                "isCorrect": true
+            },
+            {
+                "text": "Daten erstellen, filtern, suchen, verändern",
+                "isCorrect": false
+            },
+            {
+                "text": "Authentifizieren, Request verarbeiten, JSON erzeugen, Response senden",
+                "isCorrect": false
+            },
+            {
+                "text": "Userinterface in Frontend, Backend jeweils für eingeloggte und nicht eingeloggte User unterteilen.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche HTTP‐Methode wird nicht für ein RESTful CRUD Webservice benötigt?",
+        "options": [
+            {
+                "text": "PULL",
+                "isCorrect": true
+            },
+            {
+                "text": "PATCH",
+                "isCorrect": false
+            },
+            {
+                "text": "PUT",
+                "isCorrect": false
+            },
+            {
+                "text": "POST",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche HTTP‐Methoden werden für ein RESTful CRUD Webservice benötigt?",
+        "options": [
+            {
+                "text": "GET, POST, PUT, PATCH und DELETE",
+                "isCorrect": true
+            },
+            {
+                "text": "GET, POST, FETCH, OPTION und DELETE",
+                "isCorrect": false
+            },
+            {
+                "text": "POST, PUT, DELETE und UPDATE",
+                "isCorrect": false
+            },
+            {
+                "text": "CREATE, READ, UPDATE und DELETE",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie wird bei einem RESTful Webservice beim Lösch‐Request definiert welcher Datensatz zu löschen ist?",
+        "options": [
+            {
+                "text": "Die Id wird in der URL direkt mitgegeben",
+                "isCorrect": true
+            },
+            {
+                "text": "Die Id wird per POST‐Daten übermittelt",
+                "isCorrect": false
+            },
+            {
+                "text": "Die Id wird im Request‐Body als Querystring übermittelt",
+                "isCorrect": false
+            },
+            {
+                "text": "Die Id wird als Queryparameter an die URL angefügt.",
+                "isCorrect": false
+            }
+        ]
+    }
+]

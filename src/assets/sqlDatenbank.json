@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWie lautet der SQL Befehl um alle Daten eines bestimmten Users zu erhalten? \nDie Userdaten werden in einer Tabelle Users gespeichert und haben die Werte username, password, email und id. username und id sind eindeutig.",
+        "options": [
+            {
+                "text": "SELECT * FROM Users WHERE id = 1",
+                "isCorrect": true
+            },
+            {
+                "text": "SELECT username FROM Users WHERE email = 'anna@anders.at'",
+                "isCorrect": false
+            },
+            {
+                "text": "GET all FROM Users",
+                "isCorrect": false
+            },
+            {
+                "text": "GET Users.* WITH username = 'anna'",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas kann man mit SQL machen?",
+        "options": [
+            {
+                "text": "SQL kann Queries zu einer Datenbank ausführen",
+                "isCorrect": true
+            },
+            {
+                "text": "Mittels SQL können Daten aus einer Datenbank ausgelesen werden",
+                "isCorrect": true
+            },
+            {
+                "text": "Mit einem SQL Query können Daten in eine Datenbank eingefügt werden",
+                "isCorrect": true
+            },
+            {
+                "text": "Mit SQL können Datenbanken erzeugt werden.",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas ist SQL?",
+        "options": [
+            {
+                "text": "SQL ist eine Sprache um Zugriff zu einer relationalen Datenbank zu realisieren.",
+                "isCorrect": true
+            },
+            {
+                "text": "SQL ist die Bezeichnung für alle Datenbanken, die im Web genutzt werden.",
+                "isCorrect": false
+            },
+            {
+                "text": "SQL ist eine Programmiersprache um Datenbankverbindungen herzustellen.",
+                "isCorrect": false
+            },
+            {
+                "text": "SQL ist ein Standard um Datenbanken in Webanwendungen zu nutzen",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas macht das Modul mysql in NodeJS?",
+        "options": [
+            {
+                "text": "Es liefert einen MySQL Treiber um eine Verbindung zu einer MySQL Datenbank herzustellen und Queries ausführen zu können.",
+                "isCorrect": true
+            },
+            {
+                "text": "Es erzeugt eine MySQL Datenbank am Node‐Server.",
+                "isCorrect": false
+            },
+            {
+                "text": "Es liefert Objekte aus der verbundenen MySQL‐Datenbank in JSON‐Form.",
+                "isCorrect": false
+            },
+            {
+                "text": "Es liefert Methoden zur Umwandlung einer MySQL‐Datenbank in eine Dokumentendatenbank, auf die man mittels Standardfunktionen in NodeJS zugreifen kann.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelches Datenbankschema stellt eine SQL‐Datenbank dar?",
+        "options": [
+            {
+                "text": "relationale, tabellarische Daten",
+                "isCorrect": true
+            },
+            {
+                "text": "Schlüssel‐Werte Datenstruktur",
+                "isCorrect": false
+            },
+            {
+                "text": "Dokumentenspeicher",
+                "isCorrect": false
+            },
+            {
+                "text": "Graphendaten",
+                "isCorrect": false
+            }
+        ]
+    }
+]

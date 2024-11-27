@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWofür steht die Abkürzung JWT?",
+        "options": [
+            {
+                "text": "JSON Web Token",
+                "isCorrect": true
+            },
+            {
+                "text": "Javascript Wired Transfer",
+                "isCorrect": false
+            },
+            {
+                "text": "Join WebSQL Typescript",
+                "isCorrect": false
+            },
+            {
+                "text": "Javascript WWW Text",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWofür kann JWT verwendet werden?",
+        "options": [
+            {
+                "text": "Autorisierung von Requests",
+                "isCorrect": true
+            },
+            {
+                "text": "sicherer Informationsaustausch",
+                "isCorrect": true
+            },
+            {
+                "text": "zum Modifizieren von Daten in einer Datenbank",
+                "isCorrect": false
+            },
+            {
+                "text": "Erstellung von Serverapplikationen ohne NodeJS",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche drei Teile sind in einem JWT enthalten?",
+        "options": [
+            {
+                "text": "Header.Payload.Signature",
+                "isCorrect": true
+            },
+            {
+                "text": "Encryption.Data.Responsemethod",
+                "isCorrect": false
+            },
+            {
+                "text": "URL.Algorithm.Data",
+                "isCorrect": false
+            },
+            {
+                "text": "Authentication.Body.Checksum",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelchen Vorteil gibt es einen JWT im Authorization‐Header zu schicken?",
+        "options": [
+            {
+                "text": "Es werden keine Cookies benötigt. Der Token kann für unterschiedlichen Quellen verwendet werden.",
+                "isCorrect": true
+            },
+            {
+                "text": "Der Authorization Header ist verschlüsselt und daher immer sicher.",
+                "isCorrect": false
+            },
+            {
+                "text": "Es muss nur ein initialer Request gemacht werden, alle weiteren Request vom Client sind automatisch authentifiziert.",
+                "isCorrect": false
+            },
+            {
+                "text": "Nur im Authorization Header darf JSON genutzt werden, ansonsten müsste ein SWT (Simple Web Token) verwendet werden.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWofür und/oder wie wird passport.js genutzt?",
+        "options": [
+            {
+                "text": "Passport ist eine Authentication Middleware und kann in jeder Express basierenden Applikation genutzt werden.",
+                "isCorrect": true
+            },
+            {
+                "text": "Mit Passport werden unterschiedliche Authentication Strategies (Username/Passwort, Google, etc.) über eine einfache Middleware zur Verfügung gestellt.",
+                "isCorrect": true
+            },
+            {
+                "text": "Mit der Passport Bibliothek werden Bilder von Personalausweisen verschlüsselt gespeichert.",
+                "isCorrect": false
+            },
+            {
+                "text": "Passport.js erzeugt einen Authentifizierung Ausweis, den der User auf seinem Mobile in einer Wallet‐App ablegen kann.",
+                "isCorrect": false
+            }
+        ]
+    }
+]

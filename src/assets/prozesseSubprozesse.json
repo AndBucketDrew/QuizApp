@@ -1,0 +1,112 @@
+[
+    {
+        "questionText": "\nWas steht für ein Signal‐Event?",
+        "options": [
+            {
+                "text": "SIGINT",
+                "isCorrect": true
+            },
+            {
+                "text": "SIGTERM",
+                "isCorrect": true
+            },
+            {
+                "text": "SIGCLICK",
+                "isCorrect": false
+            },
+            {
+                "text": "SIGLOAD",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWozu kann das Signal‐Event SIGINT und SIGTERM verwendet werden?",
+        "options": [
+            {
+                "text": "Sollte ein NodeJS Prozess im Terminal beendet werden, kann zuvor noch ein Code ausgeführt werden.",
+                "isCorrect": true
+            },
+            {
+                "text": "Durch Ausführen dieser Signale in der NodeJS Applikation wird die Anwendung zuverlässig beendet.",
+                "isCorrect": false
+            },
+            {
+                "text": "Das Aufrufen eines dieser Signale verhindert das Beenden der NodeJS Applikation.",
+                "isCorrect": false
+            },
+            {
+                "text": "Mittels dieser Ereignisse können Subprozesse gestartet werden.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie wird das Prozess‐Objekt in NodeJS genutzt?",
+        "options": [
+            {
+                "text": "process ist ein EventEmitter und kann auf unterschiedliche Prozess‐Ereignisse reagieren oder Ereignisse auslösen.",
+                "isCorrect": true
+            },
+            {
+                "text": "Das Objekt process wird als Speicher für globale Variablen in der Applikation verwendet.",
+                "isCorrect": false
+            },
+            {
+                "text": "process wird verwendet um mehrere Threads für Berechnungen zu starten.",
+                "isCorrect": false
+            },
+            {
+                "text": "Das Objekt process dient zum Konfigurieren der CPU Leistungen am Server.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie kann ein Subprozess in einer NodeJS Applikation gestartet werden?",
+        "options": [
+            {
+                "text": "child_process.fork()",
+                "isCorrect": true
+            },
+            {
+                "text": "child_process.spawn()",
+                "isCorrect": true
+            },
+            {
+                "text": "new Worker()",
+                "isCorrect": false
+            },
+            {
+                "text": "new WebWorker()",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas ist der Unterschied zw. Subprozessen („child_process“) und Multiprocessing („worker_threads“)?",
+        "options": [
+            {
+                "text": "Beide starten neue Prozesse, Multiprozesse kommunizieren miteinander, Subprozesse laufen unabhängig voneinander.",
+                "isCorrect": true
+            },
+            {
+                "text": "Beide starten neue Prozesse, es gibt keinen Unterschied.",
+                "isCorrect": false
+            },
+            {
+                "text": "Nur Subprozesse können eigene Prozesse erzeugen, Multiprocessing teilt einen bestehenden Prozess auf mehrere „threads“ auf.",
+                "isCorrect": false
+            },
+            {
+                "text": "Mit Multiprocessing können mehrere Prozesse gestartet werden, ein Prozess kann aber nur einen Subprozess starten.",
+                "isCorrect": false
+            }
+        ]
+    }
+]
+
+
+
+
+

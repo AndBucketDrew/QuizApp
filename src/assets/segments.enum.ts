@@ -11,6 +11,11 @@ export enum Segments {
     HTTPS = 'https.json',
     EXPRESS_JS = 'expressJS.json',
     EVENT_DRIVEN_IPC = 'eventdrivenIPC.json',
+    SQL_DATENBANK = 'sqlDatenbank.json',
+    REST_CRUD = 'restCrud.json',
+    PROZESSE_SUBPROZESSE = 'prozesseSubprozesse.json',
+    AUTH_JWT = 'authJWT.json',
+    NOSQL_DATENBANK = 'noSqlDatenbank.json'
 }
 
 export const ALL_SEGMENTS = [
@@ -26,4 +31,9 @@ export const ALL_SEGMENTS = [
     Segments.HTTPS,
     Segments.EXPRESS_JS,
     Segments.EVENT_DRIVEN_IPC,
+    Segments.SQL_DATENBANK,
+    Segments.REST_CRUD,
+    Segments.PROZESSE_SUBPROZESSE,
+    Segments.AUTH_JWT,
+    Segments.NOSQL_DATENBANK
 ];

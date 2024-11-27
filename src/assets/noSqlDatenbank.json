@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWelche Sprache wird bei NoSQL Datenbank für die Datenverarbeitung genutzt?",
+        "options": [
+            {
+                "text": "es gibt keine einheitliche Sprache",
+                "isCorrect": true
+            },
+            {
+                "text": "alle NoSQL‐Datenbanken nutzen SQL",
+                "isCorrect": false
+            },
+            {
+                "text": "NoSQL‐Datenbanken nutzen Javascript anstelle von SQL",
+                "isCorrect": false
+            },
+            {
+                "text": "NoSQL‐Datenbanken benötigen ein DBMS und brauchen keine eigene Sprache",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas ist das „CAP“‐Prinzip bei NoSQL‐Datenbanken?",
+        "options": [
+            {
+                "text": "nur zwei Eigenschaften aus Konsistenz, Verfügbarkeit und Teilungstoleranz werden garantiert",
+                "isCorrect": true
+            },
+            {
+                "text": "alle drei Eigenschaften (Konsistenz, Atomarität und Dauerhaftigkeit) werden garantiert",
+                "isCorrect": false
+            },
+            {
+                "text": "eine NoSQL‐Datenbank muss eine Eigenschaft aus Konsistenz, Atomarität und Teilungstoleranz besitzen",
+                "isCorrect": false
+            },
+            {
+                "text": "Das CAP‐Prinzip besagt, dass die Daten in der NoSQL Datenbank nicht verteilt gespeichert werden dürfen.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas ist eine NoSQL Datenbank?",
+        "options": [
+            {
+                "text": "MongoDB",
+                "isCorrect": true
+            },
+            {
+                "text": "CouchDB",
+                "isCorrect": true
+            },
+            {
+                "text": "Access",
+                "isCorrect": false
+            },
+            {
+                "text": "SQLite",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWofür empfiehlt sich die Nutzung einer NoSQL Datenbank?",
+        "options": [
+            {
+                "text": "grafische oder hierarchische Daten",
+                "isCorrect": true
+            },
+            {
+                "text": "große und/oder stark verändernde Datensätze",
+                "isCorrect": true
+            },
+            {
+                "text": "tabellarisch modellierte Daten",
+                "isCorrect": false
+            },
+            {
+                "text": "Systeme, bei denen Konsistenz entscheidend ist",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWo können Sie Ihre MongoDB hosten?",
+        "options": [
+            {
+                "text": "MongoDB Atlas",
+                "isCorrect": true
+            },
+            {
+                "text": "nur auf localhost",
+                "isCorrect": false
+            },
+            {
+                "text": "render.com",
+                "isCorrect": false
+            },
+            {
+                "text": "Google App Store",
+                "isCorrect": false
+            }
+        ]
+    }
+]
