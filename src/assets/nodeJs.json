@@ -1,6 +1,6 @@
 [
     {
-        "questionText": "Was ist NodeJS?",
+        "questionText": "\nWas ist NodeJS?",
         "options": [
             {
                 "text": "eine plattformunabhängige Javascript‐Laufzeitumgebung ",
@@ -21,7 +21,7 @@
         ]
     },
     {
-        "questionText": "Wofür wird NodeJS primär eingesetzt?",
+        "questionText": "\nWofür wird NodeJS primär eingesetzt?",
         "options": [
             {
                 "text": "um asynchrone skalierbare Netzwerk‐Applikationen zu entwickeln",
@@ -42,7 +42,7 @@
         ]
     },
     {
-        "questionText": "Wie führen Sie (typischerweise) eine Javascript‐Anwendung mit NodeJS aus?",
+        "questionText": "\nWie führen Sie (typischerweise) eine Javascript‐Anwendung mit NodeJS aus?",
         "options": [
             {
                 "text": "über eine CLI (Terminal) und den Befehl node",
@@ -63,7 +63,7 @@
         ]
     },
     {
-        "questionText": "Wie werden Ausgaben aus NodeJS „sichtbar“?",
+        "questionText": "\nWie werden Ausgaben aus NodeJS „sichtbar“?",
         "options": [
             {
                 "text": "im Terminal mittels console.log()",
@@ -84,7 +84,7 @@
         ]
     },
     {
-        "questionText": "Wie werden Node‐Module verwendet?",
+        "questionText": "\nWie werden Node‐Module verwendet?",
         "options": [
             {
                 "text": "Module werden integriert mit require() oder import",

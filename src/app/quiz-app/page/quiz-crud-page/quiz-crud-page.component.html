@@ -8,14 +8,16 @@
         <button (click)="selectRandomCategories()">Select Random Categories</button>
       </div>
       <div>
-        <label *ngFor="let file of availableFiles">
-          <input
-            type="checkbox"
-            [checked]="selectedFiles.includes(file)"
-            (change)="onFileSelection(file, $event)"
-          />
-          {{ file }}
-        </label>
+        <div class="available-files">
+          <label *ngFor="let file of availableFiles">
+            <input
+              type="checkbox"
+              [checked]="selectedFiles.includes(file)"
+              (change)="onFileSelection(file, $event)"
+            />
+            {{ file }}
+          </label>
+        </div>
         <div class="start-button">
           <button routerLink="/quiz">Start Quiz</button>
         </div>

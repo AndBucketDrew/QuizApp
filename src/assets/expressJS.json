@@ -1,0 +1,86 @@
+[
+    {
+        "questionText": "\nSie haben einen Server mit ExpressJS eingerichtet (siehe Codebeispiel). \nWie beantworten Sie alle eingehenden GET‐Requests (Port 3001) mit “Hello World”?\n\nconst express = require( ‚express‘ );",
+        "options": [
+            {
+                "text": "app.listen( 3001 ); \napp.get( '*', (req,res)=>{ res.send( 'Hello World' );  });",
+                "isCorrect": true
+            },
+            {
+                "text": "app.listen( 3001 ); \napp.get( '/', (req, res)=>{ res.end( 'Hello World' ); } );",
+                "isCorrect": false
+            },
+            {
+                "text": "app.listen( 3001, (req,res)=>{ res.send( 'Hello World' ); });",
+                "isCorrect": false
+            },
+            {
+                "text": "app.listen( 3001 ); \napp.use( '/', (req,res,next) => { next('Hello World' ); } );",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie verarbeiten Sie den Query Parameter „page“ in ExpressJS bei folgender URL?\nhttp://localhost:3001/test?page=1",
+        "options": [
+            {
+                "text": "\napp.get( '/test', (req,res)=>{ \n    console.log( req.query.page ); \n});",
+                "isCorrect": true
+            },
+            {
+                "text": "\napp.get( '/test?page', (req,res) => { \n    console.log( page ); \n});",
+                "isCorrect": false
+            },
+            {
+                "text": "\napp.use( express.query() ); \napp.get( '/test', (req,res)=>{ \n    console.log( express.query.page ); \n});",
+                "isCorrect": false
+            },
+            {
+                "text": "\napp.get( '/test?:page', (req,res)=>{ \n    console.log( req.params.page  ); \n});",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nSie möchten statische Dateien aus dem Ordner “www” mittels einer ExpressJS Serverapplikation ausgeben. Wie lautet der Befehl?",
+        "options": [
+            {
+                "text": "app.use( express.static( 'www' ) );",
+                "isCorrect": true
+            },
+            {
+                "text": "app.static( use.www );",
+                "isCorrect": false
+            },
+            {
+                "text": "app.next( static( 'www' ) );",
+                "isCorrect": false
+            },
+            {
+                "text": "app.get( '*', (req,res)=>{ res.useStatic( 'www' ); } );",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nEs sollen POST‐Daten, die als application/json übermittelt wurden, in ihrer ExpressJS Serverapplikation weiterverarbeitet werden. \nWelchen Befehl müssen Sie vor dem Routing verwenden?",
+        "options": [
+            {
+                "text": "app.use( express.json() );",
+                "isCorrect": true
+            },
+            {
+                "text": "app.post( '*', (req,res)=>{ JSON.parse( req.body ); } );",
+                "isCorrect": false
+            },
+            {
+                "text": "app.postData( (data)=>data.json() );",
+                "isCorrect": false
+            },
+            {
+                "text": "app.use( bodyparser.urlencoded() );",
+                "isCorrect": false
+            }
+        ]
+    }
+]

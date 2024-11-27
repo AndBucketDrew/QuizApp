@@ -3,6 +3,7 @@ import { Question } from '../models/question.model';
 import { HttpClient } from '@angular/common/http';
 import { forkJoin, Observable, of } from 'rxjs';
 import { catchError, map, tap } from 'rxjs/operators';
+import { ALL_SEGMENTS } from '../../../assets';
 
 @Injectable({
   providedIn: 'root'
@@ -16,7 +17,7 @@ export class QuizService {
   constructor(private http: HttpClient) { }
 
   loadAllQuestions(): Observable<void | never[]> {
-    const files = ['laufzeitumgebungenJS.json', 'npm.json', 'nodeJs.json', 'zugriffDateisystem.json', 'http-Module.json'];
+    const files = ALL_SEGMENTS;
     const obsevables = files.map(file => this.loadQuestionsFromFile(file));
 
     return forkJoin(obsevables).pipe(

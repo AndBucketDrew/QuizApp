@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWas beschreibt “Routing” in ihrer NodeJS Applikation?",
+        "options": [
+            {
+                "text": "Es beschreibt wie die Applikation auf Client‐Requests zu unterschiedlichen Endpoints (URL) und unterschiedlichen Methoden reagieren soll.",
+                "isCorrect": true
+            },
+            {
+                "text": "Es beschreibt wie Daten aus unterschiedlichen Request‐Methoden (GET, POST, usw.) eingelesen werden.",
+                "isCorrect": false
+            },
+            {
+                "text": "Es beschreibt welcher User mit einer HTTP‐Anfrage Zugriff erhalten und welcher abgelehnt werden soll.",
+                "isCorrect": false
+            },
+            {
+                "text": "Es beschreibt die Verschachtelung der eingebundenen Module in der Serverapplikation.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie können Sie bei einer ExpressJS Applikation zwischen einer Anfrage mit der Methode GET und einer mit POST unterscheiden?",
+        "options": [
+            {
+                "text": "app.get( ... ) oder app.post( ... )",
+                "isCorrect": true
+            },
+            {
+                "text": "req.type == 'GET' oder req.type == 'POST'",
+                "isCorrect": false
+            },
+            {
+                "text": "app.use ( GETCallback, POSTCallback )",
+                "isCorrect": false
+            },
+            {
+                "text": "req.body.get oder req.body.post",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche der Routes (ExpressJS Applikation) wird mit folgender URL angesprochen?\nhttp://localhost:3001/exam_wifi/5000",
+        "options": [
+            {
+                "text": "app.get( '/exam_wifi/*', ()=>{});",
+                "isCorrect": true
+            },
+            {
+                "text": "app.get( '/exam*/:number', ()=>{});",
+                "isCorrect": true
+            },
+            {
+                "text": "app.get( '/exam_wifi/5000', ()=>{});",
+                "isCorrect": true
+            },
+            {
+                "text": "app.get( /wifi/, ()=>{});",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie können Sie die folgende Middleware in ihre ExpressJS‐Applikation integrieren?\nconst myMiddle = (req,res,next) => { /*...*/ next(); };",
+        "options": [
+            {
+                "text": "app.use( myMiddle );",
+                "isCorrect": true
+            },
+            {
+                "text": "app.get( '/*', myMiddle, (req,res)=> { /*...*/ } );",
+                "isCorrect": true
+            },
+            {
+                "text": "app.middle( myMiddle().then() );",
+                "isCorrect": false
+            },
+            {
+                "text": "app( use myMiddle() );",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelcher Codeteil beschäftigt sich mit dem Routing in ihrer Serverapplikation?",
+        "options": [
+            {
+                "text": "if (req.method == ‘POST’ ) { ... }",
+                "isCorrect": true
+            },
+            {
+                "text": "switch( req.url ) { ... }",
+                "isCorrect": true
+            },
+            {
+                "text": "const server = http.createServer( (req,res)=>{ ... } ).listen( 3001 );",
+                "isCorrect": false
+            },
+            {
+                "text": "res.writeHead( 200, { 'Content‐Type': 'text/html' } );",
+                "isCorrect": false
+            }
+        ]
+    }
+]

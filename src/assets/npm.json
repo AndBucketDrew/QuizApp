@@ -1,6 +1,6 @@
 [
     {
-      "questionText": "Wofür steht NPM?",
+      "questionText": "\nWofür steht NPM?",
       "options": [
         {
           "text": "Node Package Manager",
@@ -21,7 +21,7 @@
       ]
     },
     {
-      "questionText": "Welcher Befehl erstellt eine package.json Datei?",
+      "questionText": "\nWelcher Befehl erstellt eine package.json Datei?",
       "options": [
         {
           "text": "npm init",
@@ -42,7 +42,7 @@
       ]
     },
     {
-      "questionText": "Wie lautet der Befehl um Module downzuloaden und in die package.json einzutragen?",
+      "questionText": "\nWie lautet der Befehl um Module downzuloaden und in die package.json einzutragen?",
       "options": [
         {
           "text": "npm install ...",
@@ -63,7 +63,7 @@
       ]
     },
     {
-      "questionText": "Wozu wird –‐save‐dev beim Installieren von Packages verwendet?",
+      "questionText": "\nWozu wird –‐save‐dev beim Installieren von Packages verwendet?",
       "options": [
         {
           "text": "Damit werden packages als devDependencies eingetragen, diese werden beim Deploying nicht mitgegeben",
@@ -84,7 +84,7 @@
       ]
     },
     {
-      "questionText": "In ihrer package.json findet sich nachfolgender Code. Wie können Sie das Script 'server_demo.js' ohne der Verwendung von nodemon starten? \n 'scripts': { \n   'start':'node server.js', \n   'demo':'nodemon server_demo.js' \n }",
+      "questionText": "\nIn ihrer package.json findet sich nachfolgender Code. Wie können Sie das Script 'server_demo.js' ohne der Verwendung von nodemon starten? \n\n 'scripts': { \n    'start':'node server.js', \n    'demo':'nodemon server_demo.js' \n }",
       "options": [
         {
           "text": "node server_demo.js",

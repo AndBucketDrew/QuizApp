@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWelche der folgenden Module sind Template Engines?",
+        "options": [
+            {
+                "text": "EJS",
+                "isCorrect": true
+            },
+            {
+                "text": "HBS",
+                "isCorrect": true
+            },
+            {
+                "text": "NPM",
+                "isCorrect": false
+            },
+            {
+                "text": "WSS",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie werden mit der Template Engine HBS Variableninhalte in HTML Tags ausgegeben? \nBeispiel: der Inhalt von „nachname“ soll im <p id=\"name\"> ausgegeben werden.",
+        "options": [
+            {
+                "text": "<p id=\"name\">{{nachname}}</p>",
+                "isCorrect": true
+            },
+            {
+                "text": "<p id=\"name\">${nachname}</p>",
+                "isCorrect": false
+            },
+            {
+                "text": "<p id=\"name\"><%=nachname%></p>",
+                "isCorrect": false
+            },
+            {
+                "text": "$( '#name' ).html( nachname );",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie werden mit der Template Engine EJS Variableninhalte in HTML Tags ausgegeben? \nBeispiel: der Inhalt von „nachname“ soll im <p id=\"name\"> ausgegeben werden.",
+        "options": [
+            {
+                "text": "<p id=\"name\"><%=nachname%></p>",
+                "isCorrect": true
+            },
+            {
+                "text": "<p id=\"name\">${nachname}</p>",
+                "isCorrect": false
+            },
+            {
+                "text": "<p id=\"name\">{{nachname}}</p>",
+                "isCorrect": false
+            },
+            {
+                "text": "$( '#name' ).html( nachname );",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nMit welchem Befehl können sie in ExpressJS die Template Engine „pug“ nutzen?",
+        "options": [
+            {
+                "text": "app.set( 'view engine', 'pug' );",
+                "isCorrect": true
+            },
+            {
+                "text": "app.use( 'views', '/pug' );",
+                "isCorrect": false
+            },
+            {
+                "text": "app.render( 'engine', 'pug' );",
+                "isCorrect": false
+            },
+            {
+                "text": "express.import( 'pug' );",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie nutzen Sie bei einem Request das EJS Template für die index‐Seite? \n\napp.set( 'view engine', 'ejs' ); \napp.get( '/', (req,res)=>{ \n    /* Befehl... */ \n});",
+        "options": [
+            {
+                "text": "res.render( 'pages/index' );",
+                "isCorrect": true
+            },
+            {
+                "text": "res.sendFile( './index.ejs' );",
+                "isCorrect": false
+            },
+            {
+                "text": "res.end( 'index' );",
+                "isCorrect": false
+            },
+            {
+                "text": "res.send( ejs.render( 'index' ) );",
+                "isCorrect": false
+            }
+        ]
+    }
+]

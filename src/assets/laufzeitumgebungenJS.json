@@ -1,6 +1,6 @@
 [
   {
-    "questionText": "Welche Aussage trifft für 'Laufzeitumgebung für Javascript' zu? ",
+    "questionText": "\nWelche Aussage trifft für 'Laufzeitumgebung für Javascript' zu? ",
     "options": [
       {
         "text": "Eine Laufzeitumgebung ist die Umgebung in der das Programm (der Javascript‐Code) ausgeführt wird",
@@ -21,7 +21,7 @@
     ]
   },
   {
-    "questionText": "Welche allgemeinen Aussagen sind richtig?",
+    "questionText": "\nWelche allgemeinen Aussagen sind richtig?",
     "options": [
       {
         "text": "NodeJS ist eine Laufzeitumgebung für Javascript.",
@@ -42,7 +42,7 @@
     ]
   },
   {
-    "questionText": "Was ist eine Javascript Laufzeitumgebung?",
+    "questionText": "\nWas ist eine Javascript Laufzeitumgebung?",
     "options": [
       {
         "text": "NodeJS",
@@ -63,7 +63,7 @@
     ]
   },
   {
-    "questionText": "Welche Unterschiede gibt es zwischen Javascript und Typescript?",
+    "questionText": "\nWelche Unterschiede gibt es zwischen Javascript und Typescript?",
     "options": [
       {
         "text": "Typescript wird kompiliert, Javascript wird interpretiert.",
@@ -84,7 +84,7 @@
     ]
   },
   {
-    "questionText": "Welcher Aussage zu Browser, Browserengine und Javascript‐Engine ist bzw. sind richtig?",
+    "questionText": "\nWelcher Aussage zu Browser, Browserengine und Javascript‐Engine ist bzw. sind richtig?",
     "options": [
       {
         "text": "Gecko‐basierte Browser verwenden SpiderMonkey als Javascript‐Engine ",

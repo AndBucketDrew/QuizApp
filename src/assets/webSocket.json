@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWie lautet eine gültige URL für eine Websocket‐Verbindung?",
+        "options": [
+            {
+                "text": "wss://testserver.at:443",
+                "isCorrect": true
+            },
+            {
+                "text": "http://testserver.at:80",
+                "isCorrect": false
+            },
+            {
+                "text": "https://testserver.at/wss:443",
+                "isCorrect": false
+            },
+            {
+                "text": "websocks://testserver.at:443/socket",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas ist der Unterschied zwischen einer Websocket Kommunikation zu einer HTTP Kommunikation?",
+        "options": [
+            {
+                "text": "\nBei einer HTTP Kommunikation stellt der Client eine Anfrage an den Server, die dieser beantwortet. \nBei Websocket wird eine Verbindung erstellt, über welche der Client aber auch der Server beliebig Daten schicken können.",
+                "isCorrect": true
+            },
+            {
+                "text": "Es wird die URL mit ws:// statt mit http:// geschrieben, sonst bleibt alles gleich.",
+                "isCorrect": false
+            },
+            {
+                "text": "Bei einer HTTP Kommunikation werden üblicherweise Dateien übermittelt bei Websockets nur Datenpakete.",
+                "isCorrect": false
+            },
+            {
+                "text": "\nBei einer HTTP Verbindung bleibt eine permanente Verbindung zwischen Client und Server aufrecht, \nwobei bei Websockets Verbindungen nur für den Datenaustausch erzeugt werden.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas ist unbedingt notwendig bevor über eine Websocket‐Verbindung Daten ausgetauscht werden können?",
+        "options": [
+            {
+                "text": "Es muss einen initialen HTTP handshake geben, ausgelöst vom Client an den Server.",
+                "isCorrect": true
+            },
+            {
+                "text": "Der User muss sich zuerst am Server authentifizieren.",
+                "isCorrect": false
+            },
+            {
+                "text": "Die Webapplikation muss zuerst per OAuth2 eine Berechtigung erhalten.",
+                "isCorrect": false
+            },
+            {
+                "text": "Der User muss im Browser zuerst die Websocket‐Berechtigung erteilen.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche der folgenden Anwendungen wären besonders gut mit Websockets umzusetzen?",
+        "options": [
+            {
+                "text": "Chat‐Applikationen",
+                "isCorrect": true
+            },
+            {
+                "text": "Kanban‐Board‐Applikationen",
+                "isCorrect": true
+            },
+            {
+                "text": "Newsfeed‐Applikationen",
+                "isCorrect": true
+            },
+            {
+                "text": "Screen‐Sharing‐Appliktionen",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas ist Socket.IO?",
+        "options": [
+            {
+                "text": "Socket.IO ist eine Javascript Bibliothek für Serverseite und Clientseite zur Nutzung von Websockets.",
+                "isCorrect": true
+            },
+            {
+                "text": "Socket.IO ist eine VanillaJS API für die Nutzung von Websockets am Client.",
+                "isCorrect": false
+            },
+            {
+                "text": "Socket.IO ist ein Protokoll Standard für Kommunikation über Websockets.",
+                "isCorrect": false
+            },
+            {
+                "text": "Socket.IO ist ein Plugin für ExpressJS zur Nutzung von Websockets.",
+                "isCorrect": false
+            }
+        ]
+    }
+]

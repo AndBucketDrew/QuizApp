@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWofür werden Module in NodeJS grundsätzlich verwendet?",
+        "options": [
+            {
+                "text": "Damit Code auf mehrere Dateien aufgeteilt, bzw. wiederverwendet werden kann.",
+                "isCorrect": true
+            },
+            {
+                "text": "Damit wie in Java bei OOP nicht nur Klassen sondern auch Module verwendet werden können.",
+                "isCorrect": false
+            },
+            {
+                "text": "Damit man Code auch von anderen Entwicklern verwenden kann",
+                "isCorrect": false
+            },
+            {
+                "text": "Damit alle Funktionen einen eigenen Namespace erhalten",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nKönnen Javascript Module auch im Browser ohne NodeJS verwendet werden?",
+        "options": [
+            {
+                "text": "Ja, jedoch muss zur Nutzung von import das Script auch ein Modul sein.",
+                "isCorrect": true
+            },
+            {
+                "text": "Ja, das ist in allen aktuellen Browserversionen direkt möglich.",
+                "isCorrect": false
+            },
+            {
+                "text": "Nein, Module können nur in NodeJS verwendet werden.",
+                "isCorrect": false
+            },
+            {
+                "text": "Nein, das geht nur in einem Webview wenn Node‐Integration aktiviert wurde",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nDas module \"math.js\" enthält zwei Funktionen\nlet add = (a,b)=>a+b; let sub = (a,b)=>a‐b;\nWie müssen die Funktionen exportiert werden, damit folgender Code fehlerfrei funktioniert?\nlet myMath = require('./math.js' );\nlet summe = myMath.add( 3,5 );",
+        "options": [
+            {
+                "text": "module.exports = {add, sub};",
+                "isCorrect": true
+            },
+            {
+                "text": "module.exports = add && sub;",
+                "isCorrect": false
+            },
+            {
+                "text": "export default add, default sub;",
+                "isCorrect": false
+            },
+            {
+                "text": "export { add: add, sub: sub };",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie sieht das passende Statement für import aus?\nexport default class Tier { /*...*/ } // myclass.js",
+        "options": [
+            {
+                "text": "import Tier from './myclass.js';",
+                "isCorrect": true
+            },
+            {
+                "text": "const Tier = import from './myclass.js';",
+                "isCorrect": false
+            },
+            {
+                "text": "import {Tier} from './myclass.js';",
+                "isCorrect": false
+            },
+            {
+                "text": "import class as Tier from './myclass.js';",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nSie wollen zwei Funktionen exportieren, welche Syntax wäre korrekt?",
+        "options": [
+            {
+                "text": "\nconst f1 = ()=>{} \nconst f2= ()=>{} \nexport {f1, f2} ",
+                "isCorrect": true
+            },
+            {
+                "text": "\nexport f1 = () => {} \nexport f2 = () => {} ",
+                "isCorrect": true
+            },
+            {
+                "text": " \nexport {\n    f1: ()=> {}, \n    f2: ()=> {} \n} ",
+                "isCorrect": true
+            },
+            {
+                "text": "Es müssen zwei separate Javascript‐Dateien angelegt werden.",
+                "isCorrect": false
+            }
+        ]
+    }
+]

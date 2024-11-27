@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWofür steht die Abkürzung IPC?",
+        "options": [
+            {
+                "text": "Inter‐process communication",
+                "isCorrect": true
+            },
+            {
+                "text": "Internet progressive communication",
+                "isCorrect": false
+            },
+            {
+                "text": "International Protocol for computing",
+                "isCorrect": false
+            },
+            {
+                "text": "International process‐computing",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelchen Mechanismus beschreibt IPC?",
+        "options": [
+            {
+                "text": "IPC bezeichnet das Verfahren, wie Datenaustausch zwischen verschiedenen Prozessen funktioniert.",
+                "isCorrect": true
+            },
+            {
+                "text": "Mit Hilfe von IPC werden Schnittstellen zwischen Servern definiert.",
+                "isCorrect": false
+            },
+            {
+                "text": "Das User‐Interface wird mit IPC beschrieben und standardisiert.",
+                "isCorrect": false
+            },
+            {
+                "text": "Die Art wird Javascript‐Code in HTML eingebettet wird, wird im IPC festgeschrieben.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas versteht man unter „eventdriven“ zu programmieren?",
+        "options": [
+            {
+                "text": "Funktionen werden als Eventhandler angelegt und mittels einem Event getriggered.",
+                "isCorrect": true
+            },
+            {
+                "text": "Eventhandler müssen selbst definiert werden für alle User‐Ereignisse.",
+                "isCorrect": false
+            },
+            {
+                "text": "Eventdriven zu programmieren ist das Gegenteil von objektorientierter Programmierung.",
+                "isCorrect": false
+            },
+            {
+                "text": "Alle Funktionen, die über Events getriggered werden, dürfen sie keine Parameter enthalten.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas benötigen Sie um „eventdriven“ in NodeJS zu programmieren?",
+        "options": [
+            {
+                "text": "den EventEmitter aus dem Module events",
+                "isCorrect": true
+            },
+            {
+                "text": "einen http‐Server, damit Events eingehen können",
+                "isCorrect": false
+            },
+            {
+                "text": "in NodeJS kann nicht „eventdriven“ programmiert werden, da Ereignisse nur am Client ausgelöst werden",
+                "isCorrect": false
+            },
+            {
+                "text": "das Modul ExpressJS, um entsprechende Routen einrichten zu können",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelcher Code ist “eventdriven” umgesetzt?\nconst EventEmitter = require( 'events' );\nconst myEv = new EventEmitter();",
+        "options": [
+            {
+                "text": "\nmyEv.on( 'request', ()=>{ /*...*/ } );\nmyEv.emit( 'request' );",
+                "isCorrect": true
+            },
+            {
+                "text": "\nmyEv.onrequest = ()=>{ /*...*/ };\nmyEv.request();",
+                "isCorrect": false
+            },
+            {
+                "text": "\nmyEv.on( 'request' );\nmyEv.request = ()=> { /*...*/ };",
+                "isCorrect": false
+            },
+            {
+                "text": "\nmyEv.addEventListener( 'request', ()=>{ /*...*/ } );\nrequest.trigger();",
+                "isCorrect": false
+            }
+        ]
+    }
+]

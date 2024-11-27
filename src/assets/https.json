@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWorauf muss bei der Verwendung des https‐Modules in NodeJS geachtet werden?",
+        "options": [
+            {
+                "text": "Es muss bei import überprüft werden ob im aktuellen NodeJS‐Build der Support des crypto Modules vorhanden ist.",
+                "isCorrect": true
+            },
+            {
+                "text": "Es muss sichergestellt sein, dass am aktuellen Server auch ein entsprechendes SSL‐Zertifikat eingerichtet ist.",
+                "isCorrect": true
+            },
+            {
+                "text": "Es muss darauf geachtet werden, dass die Verbindungen zum NodeJS Server nur noch auf Port 443 passieren.",
+                "isCorrect": false
+            },
+            {
+                "text": "Das https Module muss zuerst von NPM installiert werden.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWofür steht das S in HTTPS?",
+        "options": [
+            {
+                "text": "secure",
+                "isCorrect": true
+            },
+            {
+                "text": "safe",
+                "isCorrect": false
+            },
+            {
+                "text": "sanitezed",
+                "isCorrect": false
+            },
+            {
+                "text": "standard",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas macht HTTPS anders als HTTP?",
+        "options": [
+            {
+                "text": "Die Daten die bei einem Request zwischen Client und Server hin und hergeschickt werden sind verschlüsselt.",
+                "isCorrect": true
+            },
+            {
+                "text": "Alle Daten, die ein User in ein Formular auf einer https‐Webseite eingibt, sind sofort verschlüsselt und können auch mit Javascript nicht ausgelesen werden.",
+                "isCorrect": false
+            },
+            {
+                "text": "Nur auf Webseiten mit https ist sichergestellt, dass keine externen Scripts in den Code integriert werden, also kein Cross‐Site‐Scripting, volles CORS usw.",
+                "isCorrect": false
+            },
+            {
+                "text": "Alle Daten die per XHR an den Server geschickt werden, kommen dort verschlüsselt an und können daher auch nie unverschlüsselt oder im Klartext in einer Datenbank gespeichert werden.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nKönnen Sie lokal einen NodeJS Server erstellen, der nur über eine gesicherte Verbindung erreichbar ist, also über https://localhost?",
+        "options": [
+            {
+                "text": "Ja, es muss aber ein Zertifikat lokal eingerichtet sein.",
+                "isCorrect": true
+            },
+            {
+                "text": "Ja, jedoch muss entweder von Windows oder Apple ein entsprechendes kostenpflichtiges Zertifikat im OS hinterlegt werden.",
+                "isCorrect": false
+            },
+            {
+                "text": "Nein, Verbindungen auf localhost sind sowieso immer verschlüsselt, auch wenn man nur http verwendet.",
+                "isCorrect": false
+            },
+            {
+                "text": "Nein, Zertifikate können nur auf Webservern eingerichtet werden.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nStimme es, dass Webseiten mit https immer sicher sind?",
+        "options": [
+            {
+                "text": "Nein, auch gefälschte Webseiten können https nutzen.",
+                "isCorrect": true
+            },
+            {
+                "text": "Nein, es ist zwar die Verbindung verschlüsselt, dennoch kann die Webseite alle möglichen anderen Sicherheitsprobleme haben.",
+                "isCorrect": true
+            },
+            {
+                "text": "Nein, nur wenn das hinterlegte SSL Zertifikat dem im Impressum stehenden Eigentümer gehört ist die Webseite sicher.",
+                "isCorrect": false
+            },
+            {
+                "text": "Ja, sobald https verwendet wird, kann mit meinen Daten nichts mehr passieren.",
+                "isCorrect": false
+            }
+        ]
+    }
+]

@@ -1,6 +1,7 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { QuizService } from '../../services/quiz.service';
 import { Question } from '../../models/question.model';
+import { ALL_SEGMENTS } from '../../../../assets';
 
 
 @Component({
@@ -10,7 +11,7 @@ import { Question } from '../../models/question.model';
 })
 export class QuizCrudPageComponent implements OnInit {
   questions: Question[] = [];
-  availableFiles = ['laufzeitumgebungenJS.json', 'npm.json', 'nodeJs.json', 'zugriffDateisystem.json', 'http-Module.json']
+  availableFiles = ALL_SEGMENTS;
   selectedFiles: string[] = [];
   selectAll: boolean = false
 

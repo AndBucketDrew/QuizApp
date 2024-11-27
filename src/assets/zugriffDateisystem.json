@@ -1,6 +1,6 @@
 [
     {
-      "questionText": "Welchen Befehl können Sie unter NodeJS nutzen um den Inhalt einer Datei einzulesen?",
+      "questionText": "\nWelchen Befehl können Sie unter NodeJS nutzen um den Inhalt einer Datei einzulesen?",
       "options": [
         {
           "text": "fs.readFile()",
@@ -21,7 +21,7 @@
       ]
     },
     {
-      "questionText": "Welche Parameter hat die Callbackfunktion bei fs.readFile()?",
+      "questionText": "\nWelche Parameter hat die Callbackfunktion bei fs.readFile()?",
       "options": [
         {
           "text": "error, data",
@@ -42,7 +42,7 @@
       ]
     },
     {
-      "questionText": "Was passiert bei folgendem Code, wenn die Datei „test.txt“ nicht existiert?\nfs.writeFile( __dirname + '/test.txt', 'TEST', (err)=>{\nif ( err ) {\nconsole.log( 'Fehler' );\n}  \n});",
+      "questionText": "\nWas passiert bei folgendem Code, wenn die Datei „test.txt“ nicht existiert?\n\nfs.writeFile( __dirname + '/test.txt', 'TEST', (err)=>{\n    if ( err ) {\n        console.log( 'Fehler' );\n    }  \n});",
       "options": [
         {
           "text": "Es wird eine Datei test.txt erstellt, in der das Wort TEST steht.",
@@ -63,7 +63,7 @@
       ]
     },
     {
-      "questionText": "Welche Dateien können mit readFile() eingelesen werden?",
+      "questionText": "\nWelche Dateien können mit readFile() eingelesen werden?",
       "options": [
         {
           "text": "alle",
@@ -84,7 +84,7 @@
       ]
     },
     {
-      "questionText": "Mit welchem Befehl können neue Dateiordner erzeugt werden?",
+      "questionText": "\nMit welchem Befehl können neue Dateiordner erzeugt werden?",
       "options": [
         {
           "text": "fs.mkdir()",
