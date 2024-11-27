@@ -15,69 +15,74 @@ export class QuizComponent implements OnInit {
   selectedAnswer: Set<string> = new Set<string>();
   isSubmited: boolean = false;
 
-    constructor(
-  private quizService: QuizService,
+  constructor(
+    private quizService: QuizService,
   ) { }
 
-ngOnInit() {
-  this.quizService.loadSelectedQuestions().subscribe(selectedQuestions => {
-    this.questions = selectedQuestions;
-    this.shuffle();
-  })
-}
-
-shuffle() {
-  this.questions = this.questions.sort(() => Math.random() - 0.5);
-}
-
-submit() {
-  const currentQuestion = this.questions[this.currentQuestionIndex];
-
-  const isCorrect = currentQuestion.options.every(
-    (option) => option.isCorrect === this.selectedAnswer.has(option.text)
-  );
-  
-  currentQuestion.options.forEach(option => {
-    const isSelected = this.selectedAnswer.has(option.text)
-    option.isUserCorrect = isSelected && option.isCorrect;
-    option.isUserIncorrect = isSelected && !option.isCorrect;
-    option.isUnselected = !isSelected && option.isCorrect;
-  })
-
-  if(isCorrect){
-    this.score++
+  ngOnInit() {
+    this.quizService.loadSelectedQuestions().subscribe(selectedQuestions => {
+      this.questions = selectedQuestions;
+      this.shuffle();
+    })
   }
 
-  this.isSubmited = true;
-  this.showCorrectAnswer = true;
-  this.selectedAnswer.clear();
-}
-
-nextQuestion() {
-  this.currentQuestionIndex++;
-  this.isSubmited = false;
-  this.showCorrectAnswer = false;
-}
-
-previusQuestion() {
-  this.currentQuestionIndex--; // TODO
-}
-
-toggleOption(option: string, event: Event): void {
-  const input = event.target as HTMLInputElement;
-  if (input.checked) {
-    this.selectedAnswer.add(option);
-  } else {
-    this.selectedAnswer.delete(option);
+  // Comment out when adding questions... makes life easier
+  shuffle() {
+    this.questions = this.questions.sort(() => Math.random() - 0.5);
+    this.questions.forEach(question => {
+      question.options = question.options.sort(() => Math.random() - 0.5);
+    });
   }
-}
 
-getCorrectAnswers() {
-  const currentQuestion = this.questions[this.currentQuestionIndex]
-  return currentQuestion?.options.filter(option => option.isCorrect).map(option => option.text) || [];
-}
+  submit() {
+    const currentQuestion = this.questions[this.currentQuestionIndex];
 
-isQuizFinished() {
-  return this.currentQuestionIndex >= this.questions.length;
-}
+    const isCorrect = currentQuestion.options.every(
+      (option) => option.isCorrect === this.selectedAnswer.has(option.text)
+    );
+
+    currentQuestion.options.forEach(option => {
+      const isSelected = this.selectedAnswer.has(option.text)
+      option.isUserCorrect = isSelected && option.isCorrect;
+      option.isUserIncorrect = isSelected && !option.isCorrect;
+      option.isUnselected = !isSelected && option.isCorrect;
+    })
+
+    if (isCorrect) {
+      this.score++
+    }
+
+
+    this.isSubmited = true;
+    this.showCorrectAnswer = true;
+    this.selectedAnswer.clear();
+  }
+
+  nextQuestion() {
+    this.currentQuestionIndex++;
+    this.isSubmited = false;
+    this.showCorrectAnswer = false;
+  }
+
+  previusQuestion() {
+    this.currentQuestionIndex--; // TODO
+  }
+
+  toggleOption(option: string, event: Event): void {
+    const input = event.target as HTMLInputElement;
+    if (input.checked) {
+      this.selectedAnswer.add(option);
+    } else {
+      this.selectedAnswer.delete(option);
+    }
+  }
+
+  getCorrectAnswers() {
+    const currentQuestion = this.questions[this.currentQuestionIndex]
+    return currentQuestion?.options.filter(option => option.isCorrect).map(option => option.text) || [];
+  }
+
+  isQuizFinished() {
+    return this.currentQuestionIndex >= this.questions.length;
+  }
 }
