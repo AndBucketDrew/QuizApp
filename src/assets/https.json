@@ -57,7 +57,7 @@
                 "isCorrect": false
             },
             {
-                "text": "Alle Daten die per XHR an den Server geschickt werden, kommen dort verschlüsselt an und können daher auch nie unverschlüsselt oder im Klartext in einer Datenbank gespeichert werden.",
+                "text": "Alle Daten die per XHR an den Server geschickt werden, kommen dort verschlüsselt an und können daher auch nie \nunverschlüsselt oder im Klartext in einer Datenbank gespeichert werden.",
                 "isCorrect": false
             }
         ]
