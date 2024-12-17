@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWas ist agiles Projektmanagement?",
+        "options": [
+            {
+                "text": "Es ist eine Arbeitsweise bei der Teams in kurzen, zeitlichen beschränkten Zyklen arbeiten um flexibel auf Veränderungen reagieren zu können.",
+                "isCorrect": true
+            },
+            {
+                "text": "Ist eine Projektplanungsform bei der besonders rasch (=agil) eine vollständige Applikation erstellt werden kann, da Aufgaben auf sehr viele Entwickler auch außerhalb des eigenen Teams aufgeteilt werden können.",
+                "isCorrect": false
+            },
+            {
+                "text": "Von agilem Projektmanagement spricht man, wenn im Team meist junge (agile) Projektmanger:innen tätig sind.",
+                "isCorrect": false
+            },
+            {
+                "text": "Beim agilen Projektmanagment wird zu Beginn ein vollständiger und detaillierter Projektplan erstellt.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas versteht man unter einem Kanban-Board?",
+        "options": [
+            {
+                "text": "Eine Auflistung von Aufgaben in Spalten.",
+                "isCorrect": true
+            },
+            {
+                "text": "Ist ein interaktives Board um während eines Meetings live Flowcharts erstellen zu können.",
+                "isCorrect": false
+            },
+            {
+                "text": "Kanban kommt aus dem japanischen und bedeutet Liste, folglich ist ein Kanban-Board eine Liste aller Anforderungen einer Applikation.",
+                "isCorrect": false
+            },
+            {
+                "text": "Im Kanban-Board werden alle Sprints für den aktuellen Monat angezeigt.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche Spalten sind in Kanban-Board zu finden?",
+        "options": [
+            {
+                "text": "Es gibt keine Vorgabe und kann projektspezifisch in allen Variationen verwendet werden.",
+                "isCorrect": true
+            },
+            {
+                "text": "Es darf nur die Spalten 'To do', 'In progress' und 'Done' geben.",
+                "isCorrect": false
+            },
+            {
+                "text": "Jedes Kanban Board muss mindestens die Spalten 'Low priority', 'High priority' und 'Closed' haben.",
+                "isCorrect": false
+            },
+            {
+                "text": "Nur bei Software Projekten darf es die Spalten 'Feature requests' und 'Bugs' geben.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas ist die Annahme im Scrum?",
+        "options": [
+            {
+                "text": "Entwicklungsprojekte sind zu komplex, um sie vollumfassend zu planen.",
+                "isCorrect": true
+            },
+            {
+                "text": "Entwicklungsprojekte sind zu komplex, um sie in Einzelaufgaben unterteilt zu können.",
+                "isCorrect": false
+            },
+            {
+                "text": "Sind Entwicklungsprojekte zu komplex, sollte man zuerst eine umfassende Planung aller Einzelaufgaben durchführen.",
+                "isCorrect": false
+            },
+            {
+                "text": "Entwicklungsprojekte sind nie zu komplex, es muss jede Anforderung ausreichend geplant und dokumentiert werden.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas sind Nachteile (in der Praxis) vom agilen Projektmanagement?",
+        "options": [
+            {
+                "text": "Die vielen Meetings kosten Zeit.",
+                "isCorrect": true
+            },
+            {
+                "text": "Sehr konzentriert auf einzelne Aufgaben statt auf das Gesamtprojekt.",
+                "isCorrect": true
+            },
+            {
+                "text": "Sehr konzentriert auf das Gesamtprojekt statt auf einzelne Aufgaben.",
+                "isCorrect": false
+            },
+            {
+                "text": "Es gibt sehr lange Entscheidungswege/-prozesse.",
+                "isCorrect": false
+            }
+        ]
+    }
+]

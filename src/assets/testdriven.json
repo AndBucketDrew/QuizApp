@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWie sieht eine Iteration bei Testdriven-Development aus?",
+        "options": [
+            {
+                "text": "Schreiben des Tests > Ausführen > Implementierung > Erneut Ausführen > Refactoring",
+                "isCorrect": true
+            },
+            {
+                "text": "Implementierung > Schreiben des Tests > Ausführen > Refactoring",
+                "isCorrect": false
+            },
+            {
+                "text": "Implementierung > Ausführen > im Fehlerfall Schreiben des Tests > Refactoring",
+                "isCorrect": false
+            },
+            {
+                "text": "Schreiben des Tests > Ausführen > Anpassen des Tests > Ausführen > Refactoring",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche Aussagen im Zusammenhang mit TDD sind zutreffend?",
+        "options": [
+            {
+                "text": "Bevor eine neue Komponente implementiert wird, wird ein Unit-Test definiert, was die Komponente leisten soll.",
+                "isCorrect": true
+            },
+            {
+                "text": "Ein Unit-Test darf aus mehreren Behauptungen (assertions) bestehen.",
+                "isCorrect": true
+            },
+            {
+                "text": "Ein Testrunner führt den Test aus.",
+                "isCorrect": true
+            },
+            {
+                "text": "Jede Behauptung (assertion) in einem Unit-Test benötigt eine Setup- und Teardown-Phase.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie lauten die Testfall-Phasen (in richtiger Reihenfolge) in einem Unit-Test?",
+        "options": [
+            {
+                "text": "Setup > Exercise > Verify > Teardown",
+                "isCorrect": true
+            },
+            {
+                "text": "Test > Run > Implement > Re-Run > Refactoring",
+                "isCorrect": false
+            },
+            {
+                "text": "Config > Check > Execute > Log",
+                "isCorrect": false
+            },
+            {
+                "text": "Open > Connect > Test > Start > Done",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas sind Javascript Unit Testtools?",
+        "options": [
+            {
+                "text": "QUnit",
+                "isCorrect": true
+            },
+            {
+                "text": "mocha.js",
+                "isCorrect": true
+            },
+            {
+                "text": "Rhino",
+                "isCorrect": false
+            },
+            {
+                "text": "Swagger",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas ist Subresource Integrity (SRI) bzw. wie wird es verwendet?",
+        "options": [
+            {
+                "text": "Es ist ein Hash der Javascript-Datei, der über das Attribute integrity im <script> mitgegeben wird, mit dem der Browser Veränderungen an der Datei erkennen kann.",
+                "isCorrect": true
+            },
+            {
+                "text": "Bei Unit-Tests wird mittels SRI überprüft ob alle Resourcen (js, css, etc.) von der gleichen Domain geladen werden.",
+                "isCorrect": false
+            },
+            {
+                "text": "Eine SRI ist nur dann hergestellt, wenn alle Resourcen-Daten/Dateien über https geladen werden.",
+                "isCorrect": false
+            },
+            {
+                "text": "SRI ist direkt am Node-Server inkludiert und erkennt Dateiänderungen automatisch anhand von gespeicherten Hash-Codes.",
+                "isCorrect": false
+            }
+        ]
+    }
+]

@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWelche Standard-Elemente kennt das Flowchart?",
+        "options": [
+            {
+                "text": "Kreis, Pfeil, Rechteck, Rechteck mit vertikalen Linien, Raute und Parellogramm",
+                "isCorrect": true
+            },
+            {
+                "text": "Kreis, Dreieck, Rechteck, Oval, Linien, Texte",
+                "isCorrect": false
+            },
+            {
+                "text": "Rechteck, Zylinder, Pfeile, Oktagon, Badges, Ringe",
+                "isCorrect": false
+            },
+            {
+                "text": "Rechteck, Pfeile, Raute, Sechsecke, Texte, Cards, Kreuzungen",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWofür kann ein Flowchart verwendet werden?",
+        "options": [
+            {
+                "text": "einen Prozess/Ablauf zu dokumentieren",
+                "isCorrect": true
+            },
+            {
+                "text": "um eine Sitemap zu visualisieren",
+                "isCorrect": true
+            },
+            {
+                "text": "einen User Journey zu skizzieren",
+                "isCorrect": true
+            },
+            {
+                "text": "eine Vorlage für die Erstellung des HTML/CSS Templates zu bekommen",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche Tools sind geeignet um Wireframes zu erstellen?",
+        "options": [
+            {
+                "text": "Figma",
+                "isCorrect": true
+            },
+            {
+                "text": "Balsamiq",
+                "isCorrect": true
+            },
+            {
+                "text": "Draw.io",
+                "isCorrect": true
+            },
+            {
+                "text": "Adobe XD",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche Aussagen sind korrekt?",
+        "options": [
+            {
+                "text": "Ein Wireframe ist eine schematische Darstellung, die hilft die Struktur der Applikation darzustellen.",
+                "isCorrect": true
+            },
+            {
+                "text": "Ein Mockup ist eine originalgetreue Designvorlage, die zeigt, wie das fertige Produkt aussehen wird.",
+                "isCorrect": true
+            },
+            {
+                "text": "Ein Prototyp ist die fertig entwickelte App inkl. allen Funktionen und dem finalen Design eingerichtet auf einem Testserver.",
+                "isCorrect": false
+            },
+            {
+                "text": "Ein Flowchart ist ein Diagramm, das die Benutzergruppen demografisch, geografisch oder nach technischen Parametern (Browser, OS) einteilt.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche Aussagen sind korrekt?",
+        "options": [
+            {
+                "text": "Ein Prototyp ist ein einfaches Modell der Applikation, welches primär zum Veranschaulichen oder Testen von Funktionen und User‐Interface dient",
+                "isCorrect": true
+            },
+            {
+                "text": "Ein Flowchart ist eine grafische Darstellung von Abläufen und Zusammenhängen mit einfachen Symbolen.",
+                "isCorrect": true
+            },
+            {
+                "text": "Ein Wireframe ist ein programmiertes HTML Grundgerüst inkl. Verzweigungen ohne CSS.",
+                "isCorrect": false
+            },
+            {
+                "text": "Ein Mockup ist ein erster Grundriss/Skizze der Applikation inkl. der CI‐Schriftart und –Farbe",
+                "isCorrect": false
+            }
+        ]
+    }
+]

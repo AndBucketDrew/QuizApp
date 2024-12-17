@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWas ist ein “Sourcecontrol Management System”?",
+        "options": [
+            {
+                "text": "GIT",
+                "isCorrect": true
+            },
+            {
+                "text": "Gitlab",
+                "isCorrect": false
+            },
+            {
+                "text": "Github",
+                "isCorrect": false
+            },
+            {
+                "text": "Visual Studio Code",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWobei kann Git helfen?",
+        "options": [
+            {
+                "text": "unterschiedliche Versionen vom selben File abzurufen (File-History)",
+                "isCorrect": true
+            },
+            {
+                "text": "Konflikte lösen, wenn mehrere Entwickler das gleiche File verändert haben",
+                "isCorrect": true
+            },
+            {
+                "text": "erlaubt es im Team an denselben Dateien, mit demselben Codestand, zu arbeiten",
+                "isCorrect": true
+            },
+            {
+                "text": "Programmcode kann automatisch debuggt werden",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas ist der Unterschied zwischen Git und Github?",
+        "options": [
+            {
+                "text": "Git ist ein „version control“-System zum Arbeiten mit Repositories, Github ist eine Hosting Service um Repositories auf Basis von Git zu hosten.",
+                "isCorrect": true
+            },
+            {
+                "text": "Git und Github sind beides „version control“-Systeme. Bei Github ist es zentralverwaltet und wird immer eine einzelne Version des Repositories ausgecheckt, bei Git wird immer ein kompletter Snapshot des gesamten Repositories inkl. der gesamten Commit-History ausgescheckt.",
+                "isCorrect": false
+            },
+            {
+                "text": "Git ist ein „version control“-System, während Github primär ein Tool ist um CI/CD Pipelines zu verwenden.",
+                "isCorrect": false
+            },
+            {
+                "text": "Github ist nur für Opensource-Repositories zu verwenden, während Git nur für private bzw. geschützte Repositories zum Einsatz kommt.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche Aussagen sind korrekt in Bezug auf Visual Studio Code und den Git Funktionen \"Fetch\" und \"Sync\"?",
+        "options": [
+            {
+                "text": "Mit Fetch wird zuerst überprüft ob es remote commits gibt, die in Konflikt mit den eigenen Änderungen stehen. Danach muss zuerst ein pull ausgeführt werden.",
+                "isCorrect": true
+            },
+            {
+                "text": "Sync führt zuerst ein git pull und danach sofort ein git push aus.",
+                "isCorrect": true
+            },
+            {
+                "text": "Mit Fetch werden Daten von remote auf die lokale Umgebung downgeloadet, bevor man Änderungen vornimmt.",
+                "isCorrect": false
+            },
+            {
+                "text": "Sync führt immer einen merge Befehl aus um eigene commits mit commits anderer Entwickler automatisch zusammen zu bringen.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie werden Änderungen am Code mit Git in einem Repository eingefügt?",
+        "options": [
+            {
+                "text": "Alle Änderungen werden zuerst gestaged und danach commitet. Erst wenn alle Konflikte mit anderen Änderungen behoben sind, können diese mit dem Server (bzw. Cloudhost) synchronisiert werden.",
+                "isCorrect": true
+            },
+            {
+                "text": "Sobald Dateien geändert wurden, sind diese sofort für alle Entwickler sichtbar. Erst duch einen Commit kann die Änderung in der Filehistory gefunden werden.",
+                "isCorrect": false
+            },
+            {
+                "text": "Nach dem Ändern einer Datei muss sofort mit dem Cloudhost synchronisiert werden, da sonst die Änderung automatisch wieder reverted wird.",
+                "isCorrect": false
+            },
+            {
+                "text": "Für jede Änderung am Code muss zuerst ein neuer Branch erstellt werden. Erst nach Fertigstellung wird der Branch mit dem main-Branch gemergt und danach entfernt.",
+                "isCorrect": false
+            }
+        ]
+    }
+]

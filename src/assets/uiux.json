@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWas ist der Unterschied zwischen einem UX- und einem UI-Designer?",
+        "options": [
+            {
+                "text": "UI-Designer gestalten das Aussehen der Applikation, UX-Designer überlegt sich die Interaktionsabläufe der Applikation",
+                "isCorrect": true
+            },
+            {
+                "text": "UI-Designer erstellt HTML/CSS Templates, während der UX-Designer die Javascript-Codes entwickelt.",
+                "isCorrect": false
+            },
+            {
+                "text": "UI-Designer macht die Wireframes, der UX-Designer erarbeitet Mockups.",
+                "isCorrect": false
+            },
+            {
+                "text": "Es gibt keine Trennung zwischen UI und UX. UI-Designer und UX-Designer haben somit die gleichen Aufgaben.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas sind Aufgaben eines UX-Designers?",
+        "options": [
+            {
+                "text": "Benutzerrecherche um Ziele, Bedürfnisse zu identifizieren",
+                "isCorrect": true
+            },
+            {
+                "text": "Entwicklung von Personas",
+                "isCorrect": true
+            },
+            {
+                "text": "Erstellung von User Journeys",
+                "isCorrect": true
+            },
+            {
+                "text": "Auswahl der Schriftarten und Farbschemas",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas sind Aufgaben eines UI-Designers?",
+        "options": [
+            {
+                "text": "Auswahl von Schriftarten und Farbschemas",
+                "isCorrect": true
+            },
+            {
+                "text": "Entwurf von interaktiven Elementen, Buttons, etc.",
+                "isCorrect": true
+            },
+            {
+                "text": "Erstellen von Wireframes und Mockups",
+                "isCorrect": true
+            },
+            {
+                "text": "Durchführung von Benutzertests um Interaktionsabläufe zu überprüfen",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas wäre ein Beispiel für zwei Personas?",
+        "options": [
+            {
+                "text": "der unternehmenslustige Rentner und die durchorganisierte Mutter",
+                "isCorrect": true
+            },
+            {
+                "text": "Max Mustermann und Anna Anderson",
+                "isCorrect": false
+            },
+            {
+                "text": "ein iPhone User und ein Android User",
+                "isCorrect": false
+            },
+            {
+                "text": "let user1 = new User(); let user2 = new User();",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWozu dienen Personas?",
+        "options": [
+            {
+                "text": "Personas veranschaulichen typische Vertreter einer Zielgruppe, als „echte“ Menschen sind ihre Bedürfnisse und Anforderungen einfacher verstehbar.",
+                "isCorrect": true
+            },
+            {
+                "text": "Personas nennt man die Gesamtheit aller Daten, die zu einer Person in der Datenbank gespeichert sind.",
+                "isCorrect": false
+            },
+            {
+                "text": "Personas sind individuelle Screenentwürfe, angepasst an unterschiedliche Bildschirmgrößen",
+                "isCorrect": false
+            },
+            {
+                "text": "Mit Personas werden die Datenschutzrichtlinien einer Applikationen getestet.",
+                "isCorrect": false
+            }
+        ]
+    }
+]

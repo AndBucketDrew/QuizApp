@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWofür steht das bzw. was steht im Lastenheft?",
+        "options": [
+            {
+                "text": "Das Lastenheft ist die Sicht des Auftraggebers.",
+                "isCorrect": true
+            },
+            {
+                "text": "Das Lastenheft enthält immer eine Beschreibung des IST Zustandes.",
+                "isCorrect": true
+            },
+            {
+                "text": "Das Lastenheft ist die Sicht des Auftragnehmers.",
+                "isCorrect": false
+            },
+            {
+                "text": "Das Lastenheft enthält alle Verpflichtungen des Entwicklers gegenüber dem Auftraggeber.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas muss ein Pflichtenheft enthalten?",
+        "options": [
+            {
+                "text": "Wie und womit wird etwas umgesetzt.",
+                "isCorrect": true
+            },
+            {
+                "text": "Was sind Ziele und Nicht-Ziele.",
+                "isCorrect": true
+            },
+            {
+                "text": "Zeit- und Kostenplanung",
+                "isCorrect": true
+            },
+            {
+                "text": "Alle Zugangsdaten zu notwendigen Tools, Servern, etc.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWofür wird ein Pflichtenheft benötigt?",
+        "options": [
+            {
+                "text": "Damit alle notwendigen Projekttätigkeiten im Detail formuliert und schriftlich festgehalten werden.",
+                "isCorrect": true
+            },
+            {
+                "text": "Ohne Pflichtenheft kann keine Kostenkalkulation gemacht werden.",
+                "isCorrect": false
+            },
+            {
+                "text": "Um den Auftraggeber an seine Pflichten erinnern zu können.",
+                "isCorrect": false
+            },
+            {
+                "text": "Damit alle Codeänderungen für weitere Entwickler gut dokumentiert sind.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas ist ein ERD?",
+        "options": [
+            {
+                "text": "Ein ERD ist eine Grafik zur Darstellung der Zusammenhänge und Beziehungen von Daten.",
+                "isCorrect": true
+            },
+            {
+                "text": "Mittels ERD werden Abläufe im Programm skizziert.",
+                "isCorrect": false
+            },
+            {
+                "text": "Das ERD ist ein System mit einer grafischen Oberfläche (GUI) für den Zugriff auf Datenbanken.",
+                "isCorrect": false
+            },
+            {
+                "text": "ERD ist eine standardisierte Beschreibungssprache um Datentypen einheitlich zu beschreiben.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWomit können Datenbankstrukturen am besten grafisch dargestellt werden?",
+        "options": [
+            {
+                "text": "ERD",
+                "isCorrect": true
+            },
+            {
+                "text": "ERP",
+                "isCorrect": false
+            },
+            {
+                "text": "CRM",
+                "isCorrect": false
+            },
+            {
+                "text": "DBMS",
+                "isCorrect": false
+            }
+        ]
+    }
+]

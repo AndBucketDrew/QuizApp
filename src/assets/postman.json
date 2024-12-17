@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWofür wird die Postman Plattform verwendet?",
+        "options": [
+            {
+                "text": "Postman enthält Tools um APIs zu entwickeln und zu testen.",
+                "isCorrect": true
+            },
+            {
+                "text": "Mit Postman können APIs dokumentiert werden.",
+                "isCorrect": true
+            },
+            {
+                "text": "Postman ist ein Javascript-Modul um XHR auf der Serverseite zu entwickeln.",
+                "isCorrect": false
+            },
+            {
+                "text": "Die Postman-Library dient zur browserunabhängigen Programmierung von XHRs.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas ist ein Mock Server bzw. wozu dient er?",
+        "options": [
+            {
+                "text": "Ein Mock Server ist ein Fake Server, der einen echten Server simuliert um APIs zu testen.",
+                "isCorrect": true
+            },
+            {
+                "text": "Mit einem Mock Server können Requests auch ohne Authentifizierung getestet werden.",
+                "isCorrect": true
+            },
+            {
+                "text": "Während der Entwicklung können APIs schon verwendet werden, bevor diese auf einem Server öffentlich verfügbar sind.",
+                "isCorrect": true
+            },
+            {
+                "text": "Mittels dem Mock Server können Design-Mockups präsentiert werden.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas ist Swagger?",
+        "options": [
+            {
+                "text": "Swagger stellt mehrere Tools bereit um REST APIs zu designen, zu erzeugen und zu dokumentieren.",
+                "isCorrect": true
+            },
+            {
+                "text": "Swagger ist ein Tool um NodeJS Server zu Server Requests zu programmieren.",
+                "isCorrect": false
+            },
+            {
+                "text": "Mit Swagger erstellt man Single Page Applikationen.",
+                "isCorrect": false
+            },
+            {
+                "text": "Swagger ist ein Cloudservice zum Hosten von GIT-Repositories.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nIn welchem Format werden OpenAPI Spezifikationen erstellt?",
+        "options": [
+            {
+                "text": "JSON",
+                "isCorrect": true
+            },
+            {
+                "text": "YAML",
+                "isCorrect": true
+            },
+            {
+                "text": "XML",
+                "isCorrect": false
+            },
+            {
+                "text": "MD",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWofür wird cURL verwendet?",
+        "options": [
+            {
+                "text": "cURL ist ein Tool um Netzwerk-Requests in der Kommandozeile zu erstellen.",
+                "isCorrect": true
+            },
+            {
+                "text": "cURL ist ein spezielles Format für URLs.",
+                "isCorrect": false
+            },
+            {
+                "text": "cURL ist eine Erweiterung für ExpressJS um mehrere URLs zu verbinden (connecting URL).",
+                "isCorrect": false
+            },
+            {
+                "text": "cURL ist eine Erweiterung für URLs um einfacher Daten mitzuschicken.",
+                "isCorrect": false
+            }
+        ]
+    }
+]

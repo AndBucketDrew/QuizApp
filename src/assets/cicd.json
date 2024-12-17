@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWas versteht man unter „continuous integration“?",
+        "options": [
+            {
+                "text": "Mittels CI wird die Integration von Codeänderungen mehrerer Entwickler automatisiert.",
+                "isCorrect": true
+            },
+            {
+                "text": "Automatisierte Tools werden verwendet, um die Korrektheit von neuen Codes vor der Integration zu bestätigen.",
+                "isCorrect": true
+            },
+            {
+                "text": "Wiederholtes Integrieren von Codeänderungen bis alle Anforderungen an die Applikation erfüllt werden.",
+                "isCorrect": false
+            },
+            {
+                "text": "Das Bereitstellen der fertig gebuildeten Daten, abrufbar für den User (z.B. Webhost, App Store, etc.).",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas sind die drei Phasen (in richtiger Reihenfolge) bei einer Software-Release-Pipeline?",
+        "options": [
+            {
+                "text": "continuous integration, delivery und deployment",
+                "isCorrect": true
+            },
+            {
+                "text": "continuous deployment, unittesting, integration",
+                "isCorrect": false
+            },
+            {
+                "text": "continuous staging, commit, merging",
+                "isCorrect": false
+            },
+            {
+                "text": "continuous integration, merging, release",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas wird mit continuous deployment automatisiert?",
+        "options": [
+            {
+                "text": "das Bereitstellen der Daten der fertig gebuildeten Anwendung, abrufbar für den User (z.B. Webhost, App Store, etc.)",
+                "isCorrect": true
+            },
+            {
+                "text": "das Zusammenführen aller Codeänderungen im master-Branch.",
+                "isCorrect": false
+            },
+            {
+                "text": "das Auflösen aller Merge-Konflikte und Übernahme im default-Branch.",
+                "isCorrect": false
+            },
+            {
+                "text": "das Erzeugen eines Ordners \"dist\", der alle Daten enthält.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas ist die Grundlage um „continuous integration“ in einem Projekt einrichten zu können?",
+        "options": [
+            {
+                "text": "Die Basis ist ein VCS (version control system) wie z.B. GIT damit man Automatisierung einrichten kann.",
+                "isCorrect": true
+            },
+            {
+                "text": "Es müssen mindestens drei Entwickler an einem Projekt arbeiten, damit eine Integration eingerichtet werden kann.",
+                "isCorrect": false
+            },
+            {
+                "text": "Bevor eine CI eingerichtet werden kann, müssen die Zugänge zum Webhost festgelegt werden.",
+                "isCorrect": false
+            },
+            {
+                "text": "Das Git-Repository muss bei Github gehostet und public gesetzt werden.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas macht der „Runner“ bei der Gitlab CI/CD Pipeline?",
+        "options": [
+            {
+                "text": "Der Gitlab Runner ist eine Applikation der die einzelnen Jobs in der Pipeline abarbeitet.",
+                "isCorrect": true
+            },
+            {
+                "text": "Der Gitlab Runner läuft alle Branches des Repositories durch um Änderungen zu finden und diese der Pipeline hinzuzufügen.",
+                "isCorrect": false
+            },
+            {
+                "text": "Der Gitlab Runner zeigt alle aktiven CI/CD Pipelines in einer Liste an.",
+                "isCorrect": false
+            },
+            {
+                "text": "Mit dem Gitlab Runner können Umgebungsvariablen (env) zu einer Pipeline hinzugefügt werden.",
+                "isCorrect": false
+            }
+        ]
+    }
+]

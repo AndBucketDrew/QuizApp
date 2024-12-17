@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWas ist das Ziel beim Requirements Engineering?",
+        "options": [
+            {
+                "text": "Eine vollständig, eindeutige, widerspruchsfreie Spezifikation aller Anforderungen zu erhalten.",
+                "isCorrect": true
+            },
+            {
+                "text": "Mit dem Einsatz von Requirements Engineering wird der Entwicklungsaufwand reduziert und dadurch ggf. Kosten gespart.",
+                "isCorrect": true
+            },
+            {
+                "text": "Eine umfangreiche schriftliche Dokumentation der wichtigsten Anforderungen des Auftraggebers zu bekommen.",
+                "isCorrect": false
+            },
+            {
+                "text": "Ein System zu implementieren, welches automatisiert Programmfunktionen überprüft und Auswertungsprotokolle erstellt.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie stellt sich der Zusammenhang zwischen Problem, Anforderung und Lösung im Requirements Engineering dar?",
+        "options": [
+            {
+                "text": "Ein Problem ist ein Auslöser für eine Anforderung an ein System. Dieses System liefert die Lösung für das Problem.",
+                "isCorrect": true
+            },
+            {
+                "text": "Eine Anforderung erzeugt ein Problem, welches mit einer Anpassung am System gelöst wird.",
+                "isCorrect": false
+            },
+            {
+                "text": "Lösungen für Probleme werden im Requirements Engineering als Anforderung bezeichnet.",
+                "isCorrect": false
+            },
+            {
+                "text": "Die Lösung einer Anforderung ist wichtiger als die Lösung eines Problems.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche Techniken eignen sich um Anforderungen zu ermitteln?",
+        "options": [
+            {
+                "text": "Kreativitätstechniken (Brainstorming, Workshops)",
+                "isCorrect": true
+            },
+            {
+                "text": "Befragungstechniken (Interviews, Fragebögen)",
+                "isCorrect": true
+            },
+            {
+                "text": "Beobachtungstechniken (Feldbeobachtung, Apprenticing)",
+                "isCorrect": true
+            },
+            {
+                "text": "Qualitätstechniken (Kundenzufriedenheit, Softwaretests)",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas versteht man unter risikoorientiertem Requirements Engineering?",
+        "options": [
+            {
+                "text": "Ist die Spezifikation von Anforderungen mit dem Ziel, das Risiko zu minimieren, dass ein System entwickelt wird, welches den Kunden nicht nützt.",
+                "isCorrect": true
+            },
+            {
+                "text": "Ist die vollständige Beschreibung der Anforderungen, die sich der Kunde wünscht.",
+                "isCorrect": false
+            },
+            {
+                "text": "Ist die vollständige Beschreibung der Anforderungen, die der Kunde braucht.",
+                "isCorrect": false
+            },
+            {
+                "text": "Ist eine riskantere aber zeitsparende Methode um Anforderungen zu ermitteln.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie wird der Begriff Anforderung im Requirements Engineering beschrieben?",
+        "options": [
+            {
+                "text": "Eine Anforderung ist eine Bedingung oder Fähigkeit, die ein Nutzer benötigt, um ein Problem zu lösen oder ein Ziel zu erreichen.",
+                "isCorrect": true
+            },
+            {
+                "text": "Eine Anforderung ist eine Bedingung oder Fähigkeit, die ein System oder eine Systemkomponente erfüllen oder besitzen muss, um einen Vertrag, Standard, Spezifikation oder ein anderes formales Dokument zu erfüllen.",
+                "isCorrect": true
+            },
+            {
+                "text": "Eine Anforderung ist eine Bedingung oder Fähigkeit, die der Auftraggeber schriftlich festhält und dem Auftragnehmer übermittelt.",
+                "isCorrect": true
+            },
+            {
+                "text": "Eine Anforderung ist eine Bedingung oder Fähigkeit, die der Entwickler haben muss, um alle Probleme lösen zu können.",
+                "isCorrect": false
+            }
+        ]
+    }
+]

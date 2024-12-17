@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWofür steht die Abkürzung MVC?",
+        "options": [
+            {
+                "text": "Model-View-Controller",
+                "isCorrect": true
+            },
+            {
+                "text": "Markup-View-Content",
+                "isCorrect": false
+            },
+            {
+                "text": "Markup-Version-Control",
+                "isCorrect": false
+            },
+            {
+                "text": "Master-Version-Controller",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas wird mit dem MVC Pattern implementiert?",
+        "options": [
+            {
+                "text": "User Interface, Data- und Controlling-Logik",
+                "isCorrect": true
+            },
+            {
+                "text": "Designmodel, Sourcecode-Versionierung und Content-Security-Policy",
+                "isCorrect": false
+            },
+            {
+                "text": "Datenbanksystem, Viewlogik und Security-Protokoll",
+                "isCorrect": false
+            },
+            {
+                "text": "Continuous Integration, Deployment und Unittests",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche Abkürzungen stehen für Designpatterns in der Softwareentwicklung?",
+        "options": [
+            {
+                "text": "MVC",
+                "isCorrect": true
+            },
+            {
+                "text": "MVVM",
+                "isCorrect": true
+            },
+            {
+                "text": "MXV",
+                "isCorrect": false
+            },
+            {
+                "text": "TCM",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas wird im „V“ von MVC definiert?",
+        "options": [
+            {
+                "text": "das User Interface",
+                "isCorrect": true
+            },
+            {
+                "text": "die HTML-Version",
+                "isCorrect": false
+            },
+            {
+                "text": "das verwendete Datenbanksystem",
+                "isCorrect": false
+            },
+            {
+                "text": "die Logik, wie ein User Daten verändern kann",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas wird mit dem Controller in einem MVC-Pattern gemacht?",
+        "options": [
+            {
+                "text": "Der Controller verarbeitet Anfragen des User, manipuliert das Model und gibt dem User Änderungen im View zurück.",
+                "isCorrect": true
+            },
+            {
+                "text": "Der Controller nimmt die Anfrage des Users entgegen und speichert diese im View.",
+                "isCorrect": false
+            },
+            {
+                "text": "Der Controller verwaltet Daten, die über das Model an den User bereitgestellt werden.",
+                "isCorrect": false
+            },
+            {
+                "text": "Der Controller ist für die Kontrolle und Validierung der eingehenden Daten zuständig.",
+                "isCorrect": false
+            }
+        ]
+    }
+]
