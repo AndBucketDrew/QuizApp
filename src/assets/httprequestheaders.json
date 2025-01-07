@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWelche der folgenden Begriffe sind keine HTTP Request Methoden?",
+        "options": [
+            {
+                "text": "SECURE und SSL",
+                "isCorrect": true
+            },
+            {
+                "text": "GET und POST",
+                "isCorrect": false
+            },
+            {
+                "text": "PUT und DELETE",
+                "isCorrect": false
+            },
+            {
+                "text": "PATCH und CONNECT",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche Aussage trifft laut HTTP-Standard für die Beschreibung einer HTTP Request Methode zu?",
+        "options": [
+            {
+                "text": "Eine GET Anfrage soll nur Daten abrufen.",
+                "isCorrect": true
+            },
+            {
+                "text": "Eine Anfrage mit Methode DELETE soll eine Ressource löschen.",
+                "isCorrect": true
+            },
+            {
+                "text": "Mit einer CHANGE Anfrage wird eine Ressource teilweise verändert.",
+                "isCorrect": false
+            },
+            {
+                "text": "Eine Anfrage mit Methode OPTION ändert die Einstellungen einer Ressource.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche Cache-Richtlinien können mit dem Cache-Control Header definiert werden?",
+        "options": [
+            {
+                "text": "no-cache",
+                "isCorrect": true
+            },
+            {
+                "text": "max-age",
+                "isCorrect": true
+            },
+            {
+                "text": "full-cache",
+                "isCorrect": false
+            },
+            {
+                "text": "max-cache",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nIn welcher Syntax werden Cookies mit dem Set-Cookie Header übertragen?",
+        "options": [
+            {
+                "text": "name=value; name2=value2",
+                "isCorrect": true
+            },
+            {
+                "text": "{name:value,name2:value2}",
+                "isCorrect": false
+            },
+            {
+                "text": "[value,value2]",
+                "isCorrect": false
+            },
+            {
+                "text": "name=value&name2=value2",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWarum ist HTTP Basic Authentication eher als unsicher an zu sehen?",
+        "options": [
+            {
+                "text": "Username und Passwort werden nur Base64 enkodiert.",
+                "isCorrect": true
+            },
+            {
+                "text": "Das Passwort ist mit MD5 kodiert.",
+                "isCorrect": false
+            },
+            {
+                "text": "Es wird ein JSON Web Token unverschlüsselt verwendet.",
+                "isCorrect": false
+            },
+            {
+                "text": "Unterschiedliche Browser verwenden unterschiedliche Verschlüsselungen.",
+                "isCorrect": false
+            }
+        ]
+    }
+]
