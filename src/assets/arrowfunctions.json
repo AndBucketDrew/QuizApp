@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWelches der Statements zeigt eine syntaktisch richtige Arrowfunktion?",
+        "options": [
+            {
+                "text": "let x = (y) => y**2;",
+                "isCorrect": true
+            },
+            {
+                "text": "let x => (y) { return y**2; }",
+                "isCorrect": false
+            },
+            {
+                "text": "let x = function(y) { return y**2; }",
+                "isCorrect": false
+            },
+            {
+                "text": "let x = y -> return y**2;",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche Arrowfunktion liefert das doppelte des übergebenen Wertes?",
+        "options": [
+            {
+                "text": "let x = y => y * 2;",
+                "isCorrect": true
+            },
+            {
+                "text": "let x = (y) => { return y * 2; }",
+                "isCorrect": true
+            },
+            {
+                "text": "let x = y => { y * 2; }",
+                "isCorrect": false
+            },
+            {
+                "text": "let x = (y) => return *2 ;",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche Aussagen sind korrekt?",
+        "options": [
+            {
+                "text": "Arrowfunktionen haben keinen eigenen Kontext, also kein eigenes this.",
+                "isCorrect": true
+            },
+            {
+                "text": "Arrowfunktionen dürfen nur in einer Zeile verwendet werden.",
+                "isCorrect": false
+            },
+            {
+                "text": "Arrowfunktionen sind schneller also erhöhen die Performance des Codes.",
+                "isCorrect": false
+            },
+            {
+                "text": "Arrowfunktionen sind die einzigen Funktionen mit Defaultwerten für Parameter.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas ist die korrekte Syntax für einen Templatestring und dem Einbetten einer Variable „x“ in einen String?",
+        "options": [
+            {
+                "text": "let str = `Hello ${x}!`;",
+                "isCorrect": true
+            },
+            {
+                "text": "let str = 'Hello ' + x + '!';",
+                "isCorrect": false
+            },
+            {
+                "text": "let str = \"Hello {x}!\"",
+                "isCorrect": false
+            },
+            {
+                "text": "let str = `Hello (x)!`;",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie können Strings in JavaScript erzeugt werden, die sich im Code über mehrer Zeilen erstrecken?",
+        "options": [
+            {
+                "text": "mit Templatestrings",
+                "isCorrect": true
+            },
+            {
+                "text": "am Ende jeder Zeile muss ein Backslash stehen",
+                "isCorrect": true
+            },
+            {
+                "text": "innerhalb von Strings immer <br> vor jedem Zeilenumbruch schreiben",
+                "isCorrect": false
+            },
+            {
+                "text": "mit der Stringmethode linebreak();",
+                "isCorrect": false
+            }
+        ]
+    }
+]

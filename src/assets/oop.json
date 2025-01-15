@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nKann in Javascript objektorientiert programmiert werden?",
+        "options": [
+            {
+                "text": "Ja",
+                "isCorrect": true
+            },
+            {
+                "text": "Ja, aber erst seit ECMAScript6 und der Verwendung von class",
+                "isCorrect": false
+            },
+            {
+                "text": "Nein, es können nur Konstruktorfunktionen erstellt werden",
+                "isCorrect": false
+            },
+            {
+                "text": "Nein, Javascript bietet keine Möglichkeit Klassen zu erzeugen",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie werden Objekte von einer Klasse in Javascript erzeugt?",
+        "options": [
+            {
+                "text": "let o = new MeineKlasse();",
+                "isCorrect": true
+            },
+            {
+                "text": "let o = class MeineKlasse{};",
+                "isCorrect": false
+            },
+            {
+                "text": "let o = MeineKlasse.create();",
+                "isCorrect": false
+            },
+            {
+                "text": "let o = MeineKlasse();",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie wird eine Konstruktorfunktion in ECMAScript6 Syntax innerhalb einer Klasse erstellt?",
+        "options": [
+            {
+                "text": "class MeineKlasse { constructor() { } }",
+                "isCorrect": true
+            },
+            {
+                "text": "class MeineKlasse { this.function = () => { } }",
+                "isCorrect": false
+            },
+            {
+                "text": "const MeineKlasse = class function() { }",
+                "isCorrect": false
+            },
+            {
+                "text": "const MeineKlasse = () => { this.type = 'class'; }",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas bedeutet Duck‐Typing im Zusammenhang mit objektorientierter Programmierung?",
+        "options": [
+            {
+                "text": "Beim Duck‐Typing wird der Typ des Objektes nicht durch die Klasse beschrieben, sondern durch das Vorhandensein von Methoden oder Attributen.",
+                "isCorrect": true
+            },
+            {
+                "text": "Wenn es aussieht und sich verhält wie eine „Ente“ dann ist es eine „Ente“.",
+                "isCorrect": true
+            },
+            {
+                "text": "Beim Duck‐Typing wird zum Erstellen von Methoden einer Klasse ausschließlich das Hinzufügen der Methode zum Prototype‐Objekt verwendet.",
+                "isCorrect": false
+            },
+            {
+                "text": "Im Gegensatz zu Modulen sind geduck‐typte Klassen immer global verfügbar.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche Nachteile hat objektorientiertes Programmieren im Browser?",
+        "options": [
+            {
+                "text": "es gibt keine Nachteile im Browser",
+                "isCorrect": true
+            },
+            {
+                "text": "durch OOP wird das Rendern des DOM langsamer",
+                "isCorrect": false
+            },
+            {
+                "text": "auf Grund von OOP kann es zu unterschiedlicher Darstellung in verschiedenen Browsern kommen",
+                "isCorrect": false
+            },
+            {
+                "text": "das Debuggen in der Webkonsole ist bei OOP nicht mehr möglich",
+                "isCorrect": false
+            }
+        ]
+    }
+]

@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWofür steht this innerhalb einer Funktion?",
+        "options": [
+            {
+                "text": "this ist der Objekt‐Kontext aus dem die Funktion aufgerufen wurde (ausgenommen Arrow‐Funktionen)",
+                "isCorrect": true
+            },
+            {
+                "text": "this ist ein reservierter Begriff mit dem sich eine Funktion selbst wieder aufrufen kann",
+                "isCorrect": false
+            },
+            {
+                "text": "this darf nur innerhalb von Klassen‐Methoden verwendet werden und spricht das eigene Objekt an.",
+                "isCorrect": false
+            },
+            {
+                "text": "this ist ein Array in dem alle übergebenen Werte (Parameter) enthalten sind",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWofür wird die Methode .bind() in VanillaJS verwendet?",
+        "options": [
+            {
+                "text": "Um den Wert von this einer Funktion zu setzen, unabhängig davon wie die Funktion später aufgerufen wird.",
+                "isCorrect": true
+            },
+            {
+                "text": "Um einen Eventlistener an ein Objekt zu “binden“.",
+                "isCorrect": false
+            },
+            {
+                "text": "Um bestimmte Werte in eine Funktion einzuschließen.",
+                "isCorrect": false
+            },
+            {
+                "text": "Um den Wert von this abzufragen.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWird this im globalen Kontext verwendet, wofür steht this?",
+        "options": [
+            {
+                "text": "window",
+                "isCorrect": true
+            },
+            {
+                "text": "document",
+                "isCorrect": false
+            },
+            {
+                "text": "navigator",
+                "isCorrect": false
+            },
+            {
+                "text": "this",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas erhält man mit this innerhalb eines DOM Eventhandlers, der mit dem function‐Keyword deklariert wird?",
+        "options": [
+            {
+                "text": "das DOM Element bei dem das Ereignis aufgetreten ist",
+                "isCorrect": true
+            },
+            {
+                "text": "das Eventobjekt des Ereignisses",
+                "isCorrect": false
+            },
+            {
+                "text": "das Window‐Objekt, wenn es sich um eine globale Funktion handelt",
+                "isCorrect": false
+            },
+            {
+                "text": "alle DOM Elemente die verändert werden sollen",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelchen Unterschied haben die beiden DOM Eventhandler‐Funktionen? \nelem.addEventListener( 'click', function(ev) { console.log( this ); } ); // 1 \nelem.addEventListener( 'click', (ev)=>{ console.log(this); } ); // 2",
+        "options": [
+            {
+                "text": "Script 1 zeigt das geklickte Element, Script 2 das window Objekt",
+                "isCorrect": true
+            },
+            {
+                "text": "beide zeigen das geklickte Element",
+                "isCorrect": false
+            },
+            {
+                "text": "beide zeigen das event Objekt „ev“",
+                "isCorrect": false
+            },
+            {
+                "text": "beide zeigen undefined, da this nicht deklariert wurde",
+                "isCorrect": false
+            }
+        ]
+    }
+]

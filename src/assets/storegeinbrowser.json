@@ -1,0 +1,128 @@
+[
+    {
+        "questionText": "\nWelche Möglichkeiten haben Sie am Client um Daten lokal zu speichern?",
+        "options": [
+            {
+                "text": "document.cookies",
+                "isCorrect": true
+            },
+            {
+                "text": "localStorage",
+                "isCorrect": true
+            },
+            {
+                "text": "mySQLLocal",
+                "isCorrect": false
+            },
+            {
+                "text": "fs.writeFile",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas ist der Unterschied zwischen localStorage und sessionStorage?",
+        "options": [
+            {
+                "text": "Werte aus dem sessionStorage werden beim Schließen des Browsers entfernt, während die Werte im localStorage gespeichert bleiben.",
+                "isCorrect": true
+            },
+            {
+                "text": "Werte des sessionStorages sind am Server, Werte im localStorage sind am Client gespeichert.",
+                "isCorrect": false
+            },
+            {
+                "text": "Aus dem sessionStorage kann Client und Server zugreifen, auf den localStorage hat nur der Client Zugriffsrechte.",
+                "isCorrect": false
+            },
+            {
+                "text": "Solange ein User in der Applikation eingeloggt ist, kann er auf den sessionStorage zugreifen. Der localStorage steht allen Usern zur Verfügung.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie werden Werte in Cookies gespeichert?",
+        "options": [
+            {
+                "text": "als name‐value pairs mit ; getrennt",
+                "isCorrect": true
+            },
+            {
+                "text": "als URLSearchParams‐String",
+                "isCorrect": false
+            },
+            {
+                "text": "als stingifizierter JSON",
+                "isCorrect": false
+            },
+            {
+                "text": "als x‐www‐form‐urlencoded String",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie wird der folgende Cookie korrekt gelöscht? 'username=Test; expires=Thu, 31 Dec 2026 12:00:00 UTC; path=/';",
+        "options": [
+            {
+                "text": "document.cookie = 'username=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/';",
+                "isCorrect": true
+            },
+            {
+                "text": "document.cookie = '';",
+                "isCorrect": false
+            },
+            {
+                "text": "document.cookie.clear();",
+                "isCorrect": false
+            },
+            {
+                "text": "document.cookie.removeItem('username');",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche Methoden werden bei localStorage verwendet?",
+        "options": [
+            {
+                "text": "setItem()",
+                "isCorrect": true
+            },
+            {
+                "text": "getItem()",
+                "isCorrect": true
+            },
+            {
+                "text": "addItem()",
+                "isCorrect": false
+            },
+            {
+                "text": "removeAll()",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas bedeutet die Angabe HttpOnly in einem Cookie?",
+        "options": [
+            {
+                "text": "nur der Server, der das Cookie erstellt hat, hat Zugriff darauf",
+                "isCorrect": true
+            },
+            {
+                "text": "der Cookie wird nur bei http aber nicht bei https genutzt",
+                "isCorrect": false
+            },
+            {
+                "text": "der Cookie darf nur bei XMLHttpRequests genutzt werden",
+                "isCorrect": false
+            },
+            {
+                "text": "der Cookie wird beim Schließen des Browsers gelöscht",
+                "isCorrect": false
+            }
+        ]
+    }
+]

@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWas trifft auf eine Getter‐Methode zu?",
+        "options": [
+            {
+                "text": "Eine Getter‐Methode wird nicht wie eine Funktion aufgerufen, sondern wird wie eine Objekteigenschaft verwendet.",
+                "isCorrect": true
+            },
+            {
+                "text": "Eine Getter‐Methode ist eine Funktion ohne Parameter, die einen Wert zurückgibt.",
+                "isCorrect": true
+            },
+            {
+                "text": "Eine Getter‐Methode wird verwendet, wenn man beim Abrufen einer Objekteigenschaft weitere Logik verbauen möchte.",
+                "isCorrect": true
+            },
+            {
+                "text": "Getter‐Methoden machen GET‐Request zum Server.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche Aussage ist nicht korrekt?",
+        "options": [
+            {
+                "text": "Zu jeder Getter‐Methode muss es eine Setter‐Methode mit dem gleichen Namen geben.",
+                "isCorrect": true
+            },
+            {
+                "text": "Getter‐Methoden dürfen keine Parameter haben.",
+                "isCorrect": false
+            },
+            {
+                "text": "Der Rückgabewert der Getter‐Methoden kann jeden beliebigen Datentyp haben.",
+                "isCorrect": false
+            },
+            {
+                "text": "Getter‐Methoden sind optional und nicht verpflichtend bei der Klassen‐Syntax.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWofür kann eine Setter‐Methode verwendet werden?",
+        "options": [
+            {
+                "text": "zum Verändern von privaten Variablen",
+                "isCorrect": true
+            },
+            {
+                "text": "um vor dem Speichern eines Wertes noch weitere Logik auszuführen, z.B. die Validierung des Wertes",
+                "isCorrect": true
+            },
+            {
+                "text": "damit asynchrone Zuweisungen umgesetzt werden können",
+                "isCorrect": false
+            },
+            {
+                "text": "damit von einem Array ein Set angelegt wird",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie rufen Sie die Setter‐Methode msg() aus dem folgenden Codebeispiel auf? class meineKlasse { \n#text = 'Hello World'; \nconstructor() { \n} \nset msg( x ) { \nthis.#msg = x; \n} \n} \nlet o = new meineKlasse();",
+        "options": [
+            {
+                "text": "o.msg = 'neuer Text';",
+                "isCorrect": true
+            },
+            {
+                "text": "o.msg( 'neuer Text' );",
+                "isCorrect": false
+            },
+            {
+                "text": "o.prototype.msg( 'neuer Text' );",
+                "isCorrect": false
+            },
+            {
+                "text": "gar nicht, weil es fehlt die Getter‐Methode von msg()",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie können Sie die Getter‐Methode „hoch2“ nachträglich einem Objekt zuweisen? \nlet o = { x:1 }",
+        "options": [
+            {
+                "text": "Object.defineProperty( o, 'hoch2', { get() { return this.x**2; }});",
+                "isCorrect": true
+            },
+            {
+                "text": "o.hoch2 = function() { return this.x**2; }",
+                "isCorrect": false
+            },
+            {
+                "text": "o.hoch2 = get() { return this.x**2; }",
+                "isCorrect": false
+            },
+            {
+                "text": "const hoch2 = function() { return this.x**2; }; \no.add( 'hoch2', hoch2 );",
+                "isCorrect": false
+            }
+        ]
+    }
+]

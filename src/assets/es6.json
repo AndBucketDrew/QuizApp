@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWas zählt zu Neuerungen, die mit ECMAScript6 eingeführt wurden?",
+        "options": [
+            {
+                "text": "Arrow‐Funktionen",
+                "isCorrect": true
+            },
+            {
+                "text": "Template‐Strings",
+                "isCorrect": true
+            },
+            {
+                "text": "Spread‐Operator",
+                "isCorrect": true
+            },
+            {
+                "text": "Arrays",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie werden Werte aus Variablen in einen Template String eingefügt?",
+        "options": [
+            {
+                "text": "let text = `x hat den Wert${x}`;",
+                "isCorrect": true
+            },
+            {
+                "text": "let text = `x hat den Wert%s`, x;",
+                "isCorrect": false
+            },
+            {
+                "text": "let text = 'x hat den Wert '+x;",
+                "isCorrect": false
+            },
+            {
+                "text": "let text = `x hat den Wer%x`;",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nMit welcher Methode kann überprüft werden, ob eine Zeichenkette in einer anderen Zeichenkette (String) vorkommt?",
+        "options": [
+            {
+                "text": "text.includes( 'ello' );",
+                "isCorrect": true
+            },
+            {
+                "text": "text.search( 'ello' );",
+                "isCorrect": true
+            },
+            {
+                "text": "text.find( 'ello' );",
+                "isCorrect": false
+            },
+            {
+                "text": "string_search( text, 'ello' );",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelches Element bzw. welche Elemente gibt es erst seit ECMAScript6 in VanillaJS?",
+        "options": [
+            {
+                "text": "let s = new Set();",
+                "isCorrect": true
+            },
+            {
+                "text": "let m = new Map();",
+                "isCorrect": true
+            },
+            {
+                "text": "let a = new Array();",
+                "isCorrect": false
+            },
+            {
+                "text": "let o = new Object();",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie sieht der Spread‐Operator aus?",
+        "options": [
+            {
+                "text": "...",
+                "isCorrect": true
+            },
+            {
+                "text": "<>",
+                "isCorrect": false
+            },
+            {
+                "text": "=>",
+                "isCorrect": false
+            },
+            {
+                "text": "<=>",
+                "isCorrect": false
+            }
+        ]
+    }
+]

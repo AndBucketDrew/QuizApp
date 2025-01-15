@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nBei welcher Zeitfunktion muss keine Angabe gemacht werden, wann (=Zeitverzögerung) die Funktion aufgerufen wird?",
+        "options": [
+            {
+                "text": "requestAnimationFrame",
+                "isCorrect": true
+            },
+            {
+                "text": "setTimeout",
+                "isCorrect": false
+            },
+            {
+                "text": "setInterval",
+                "isCorrect": false
+            },
+            {
+                "text": "bei setTimeout, setInterval und requestAnimationFrame muss immer ein Parameter für Zeit (Angabe in ms) gemacht werden.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas ist der Unterschied zwischen setTimeout und setInterval?",
+        "options": [
+            {
+                "text": "setTimeout ruft die Callbackfunktion nur einmal auf, setInterval ruft die Callbackfunktion immer wieder auf",
+                "isCorrect": true
+            },
+            {
+                "text": "setTimout ist eine Methode des window Objekts, setInterval ist eine Methode vom document-Objekt.",
+                "isCorrect": false
+            },
+            {
+                "text": "die Verzögerung bei setTimout wird in Millisekunden, bei setInterval in Sekunden angegeben.",
+                "isCorrect": false
+            },
+            {
+                "text": "setInterval kann wieder beendet werden, setTimeout wird immer ausgeführt.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nMit welchem Befehl kann ein gestartetes Interval (setInterval) wieder beendet werden?",
+        "options": [
+            {
+                "text": "clearInterval()",
+                "isCorrect": true
+            },
+            {
+                "text": "clearTimeout()",
+                "isCorrect": false
+            },
+            {
+                "text": "clearAllInterval()",
+                "isCorrect": false
+            },
+            {
+                "text": "removeInterval()",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie oft wird eine Callback-Funktion die mit requestAnimationFrame() angesprochen wird ausgeführt?",
+        "options": [
+            {
+                "text": "ein Mal",
+                "isCorrect": true
+            },
+            {
+                "text": "alle 17 Millisekunden",
+                "isCorrect": false
+            },
+            {
+                "text": "sooft wie mittels dem zweiten Parameter definiert wurde",
+                "isCorrect": false
+            },
+            {
+                "text": "solange bis es mit clearRequestAnimationFrame() beendet wird",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWorauf ist zu achten, wenn Zeitfunktionen im Script verwendet werden?",
+        "options": [
+            {
+                "text": "Die Callback-Funktionen sind asynchron.",
+                "isCorrect": true
+            },
+            {
+                "text": "Die Angabe der Zeitverzögerung soll 30 Sekunden nicht übersteigen.",
+                "isCorrect": false
+            },
+            {
+                "text": "Callback-Funktionen dürfen keine XHR senden.",
+                "isCorrect": false
+            },
+            {
+                "text": "Der User darf während dem Ausführen der Callback-Funktion keine Event-Handler auslösen.",
+                "isCorrect": false
+            }
+        ]
+    }
+]

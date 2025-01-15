@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWie erzeugen Sie ein neues HTML‐Element im „container“ mit JavaScript?\nlet container = document.getElementById( 'container' );",
+        "options": [
+            {
+                "text": "container.innerHTML = '<p>Neu</p>';",
+                "isCorrect": true
+            },
+            {
+                "text": "let p = document.createElement( 'p' );\n p.innerHTML = 'Neu';\n container.appendChild( p );",
+                "isCorrect": true
+            },
+            {
+                "text": "let p = document.create( '<p>Neu</p>' );\n container.add( p );",
+                "isCorrect": false
+            },
+            {
+                "text": "let p = '<p>Neu</p>'; p.appendTo( container );",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie fügen Sie ein neues Element „neu“ in ein bestehendes Element „container“ ein?\nlet container = document.getElementById( 'container'  );\nlet neu = document.createElement( 'div'  );",
+        "options": [
+            {
+                "text": "container.appendChild( neu );",
+                "isCorrect": true
+            },
+            {
+                "text": "neu.append( container );",
+                "isCorrect": false
+            },
+            {
+                "text": "container.innerHTML = neu;",
+                "isCorrect": false
+            },
+            {
+                "text": "neu.appendTo( container );",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie kann in JavaScript ein neues <img> erzeugt werden?",
+        "options": [
+            {
+                "text": "document.createElement( 'img' )",
+                "isCorrect": true
+            },
+            {
+                "text": "new Image()",
+                "isCorrect": true
+            },
+            {
+                "text": "HTMLNodeElement.innerHTML = '<img src=”…”>'",
+                "isCorrect": true
+            },
+            {
+                "text": "document.images = {src: '….'}",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWofür wird die Methode createElementNS benötigt?",
+        "options": [
+            {
+                "text": "Zum Erstellen von NodeElementen mit einem bestimmten Namespace.",
+                "isCorrect": true
+            },
+            {
+                "text": "Zum Erstellen von NodeElementen auf http Seiten (not secure)",
+                "isCorrect": false
+            },
+            {
+                "text": "Ist deprecated, wurde in ECMAScript5 verwendet.",
+                "isCorrect": false
+            },
+            {
+                "text": "Wird nur in Kombination mit jQuery gebraucht.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWofür kann die Methode insertBefore genutzt werden?",
+        "options": [
+            {
+                "text": "Ein Element wird vor ein anderes Element eingefügt.",
+                "isCorrect": true
+            },
+            {
+                "text": "Ein Element wird innerhalb eines Elements als 1. Kind (also vor allen anderen) eingefügt.",
+                "isCorrect": false
+            },
+            {
+                "text": "Ein Element wird eingefügt bevor der DOM sichtbar ist.",
+                "isCorrect": false
+            },
+            {
+                "text": "Ein Element wird eingefügt bevor der Inhalt des Elements definiert wurde.",
+                "isCorrect": false
+            }
+        ]
+    }
+]

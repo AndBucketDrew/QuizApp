@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWelche der folgenden Befehle sind VanillaJS und dienen zum Erzeugen von AJAX‐Requests?",
+        "options": [
+            {
+                "text": "fetch()",
+                "isCorrect": true
+            },
+            {
+                "text": "new XMLHttpRequest()",
+                "isCorrect": true
+            },
+            {
+                "text": "$.ajax()",
+                "isCorrect": false
+            },
+            {
+                "text": "axios()",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas bedeutet CORS?",
+        "options": [
+            {
+                "text": "Cross‐Origin Resource Sharing",
+                "isCorrect": true
+            },
+            {
+                "text": "Controlled‐Origin Request Sending",
+                "isCorrect": false
+            },
+            {
+                "text": "Confirmed‐Origin Request Sharing",
+                "isCorrect": false
+            },
+            {
+                "text": "Cross‐Object Request Submit",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWozu dient die Same Origin Policy bei Webapplikationen?",
+        "options": [
+            {
+                "text": "Es ist ein Mechanismus der das Teilen von Informationen zu anderen Domains einschränkt bzw. verhindert.",
+                "isCorrect": true
+            },
+            {
+                "text": "Es ist eine lästige Serverfunktion, die das Entwickeln von Javascript Applikationen erschwert.",
+                "isCorrect": false
+            },
+            {
+                "text": "Es ist eine veraltete Technologie und kann mit modernen JavaScript einfach umgangen werden.",
+                "isCorrect": false
+            },
+            {
+                "text": "Es dient dem Schutz der eigen entwickelten Webapplikationen vor Hack‐Angriffen.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWarum wird der folgende Code nicht funktionieren? let req = new XMLHttpRequest(); \nreq.open( 'GET', 'http://www.example.org' );\n req.send(); \nconsole.log( req.responseText );",
+        "options": [
+            {
+                "text": "Request zum Server ist asynchron. Erst wenn der Request abgeschlossen ist, kann auf responseText zugegriffen werden.",
+                "isCorrect": true
+            },
+            {
+                "text": "Die Methode send muss Parameter enthalten, sonst wird der Request nicht abgeschickt.",
+                "isCorrect": false
+            },
+            {
+                "text": "Da der Request asynchron ist muss das Statement req.send() auf req.responseText = await req.send(); geändert werden.",
+                "isCorrect": false
+            },
+            {
+                "text": "Der Code ist korrekt, jedoch wurde das CORS Problem nicht berücksichtigt.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche Verwendung der Funktion fetch() ist korrekt? \nMit der Annahme let url = 'http://www.example.org';",
+        "options": [
+            {
+                "text": "fetch(url, {method:'GET'} ) \n.then( resp => resp.text() ) \n.then( data => { console.log( data ) } );",
+                "isCorrect": true
+            },
+            {
+                "text": "let data = fetch(url, {method: 'GET' } ).then( resp => resp.text() );",
+                "isCorrect": false
+            },
+            {
+                "text": "fetch( { url: url, success: ( data )=>{ console.log( data ); } } );",
+                "isCorrect": false
+            },
+            {
+                "text": "let req = fetch( url ); \nreq.onreadystatechange = ()=>{ if ( req.readyState == 4 ) { console.log( req.data ); } }",
+                "isCorrect": false
+            }
+        ]
+    }
+]

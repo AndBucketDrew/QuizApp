@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWofür wird das FileReader Objekt verwendet?",
+        "options": [
+            {
+                "text": "Mit dem FileReader können Inhalte von Dateien am Client (Browser) gelesen werden.",
+                "isCorrect": true
+            },
+            {
+                "text": "FileReader ist ein Modul in NodeJS um serverseitig Dateien einzulesen.",
+                "isCorrect": false
+            },
+            {
+                "text": "Der FileReader kann Dateien, die per POST an den Server geschickt wurden, auslesen.",
+                "isCorrect": false
+            },
+            {
+                "text": "Der FileReader erzeugt neue Dateien am Client-Rechner.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche Dateien können mittels FileReader eingelesen werden?",
+        "options": [
+            {
+                "text": "Ausschließlich Dateien die per File-Inputfeld oder per Drag and Drop vom User angegeben wurden.",
+                "isCorrect": true
+            },
+            {
+                "text": "Alle Dateien am Client, wenn der Pfad korrekt angegeben wurde.",
+                "isCorrect": false
+            },
+            {
+                "text": "Alle Dateien am Server, die im selben Ordner oder Unterordnern, in der die Server-Applikation liegt.",
+                "isCorrect": false
+            },
+            {
+                "text": "Nur Dateien vom Client, wenn der Benutzer Admin-Berechtigung hat.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas macht die Methode FileReader.readAsDataURL?",
+        "options": [
+            {
+                "text": "Liest den Inhalt einer Datei ein und liefert den Inhalt als base64 enkodierte Zeichenkette.",
+                "isCorrect": true
+            },
+            {
+                "text": "Liefert zu der Datei eine absolute URL beginnend mit file://.",
+                "isCorrect": false
+            },
+            {
+                "text": "Liest den Inhalt einer Datei per URL ein und liefert den Mime-Type.",
+                "isCorrect": false
+            },
+            {
+                "text": "Liest den Inhalt einer Datei synchron ein und liefert einen Promise.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche Eventlistener unterstützt das FileReader Objekt?",
+        "options": [
+            {
+                "text": "load, loadstart, progress, loadend",
+                "isCorrect": true
+            },
+            {
+                "text": "start, progress, end",
+                "isCorrect": false
+            },
+            {
+                "text": "change, submit, finish",
+                "isCorrect": false
+            },
+            {
+                "text": "success, error, done",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWofür wird die WebRTC API verwendet?",
+        "options": [
+            {
+                "text": "Mittels Web Real-Time Communication können Webapplikationen Audio und/oder Video direkt aufnehmen oder streamen.",
+                "isCorrect": true
+            },
+            {
+                "text": "Mit Web Runtime Communication kann der Client direkt mit dem Server und umgekehrt Daten austauschen.",
+                "isCorrect": false
+            },
+            {
+                "text": "Mittels Web Root Top Center gibt es im CSS eine neue Technologie zum einfacheren Positionieren von HTML Elementen.",
+                "isCorrect": false
+            },
+            {
+                "text": "Mit Web Run Thread Compute werden aufwendige Berechnungen in eigene „Working threads ausgelagert.",
+                "isCorrect": false
+            }
+        ]
+    }
+]

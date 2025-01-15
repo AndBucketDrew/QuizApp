@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWie können HTML Elemente im DOM mit Javascript angesprochen werden?",
+        "options": [
+            {
+                "text": "document.getElementById()",
+                "isCorrect": true
+            },
+            {
+                "text": "document.querySelector()",
+                "isCorrect": true
+            },
+            {
+                "text": "document.getNodeList()",
+                "isCorrect": false
+            },
+            {
+                "text": "document.DOMElement()",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nMit welchem Statement erhält man alle Elemente mit der Klasse „c“?",
+        "options": [
+            {
+                "text": "document.getElementsByClassName('c')",
+                "isCorrect": true
+            },
+            {
+                "text": "document.querySelector('c')",
+                "isCorrect": false
+            },
+            {
+                "text": "document.getElementById('c')",
+                "isCorrect": false
+            },
+            {
+                "text": "document.classList('c')",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie ändern Sie den Inhalt des Elements container?\nlet container = document.getElementById( 'container' );",
+        "options": [
+            {
+                "text": "container.innerHTML = 'Neu';",
+                "isCorrect": true
+            },
+            {
+                "text": "container.html = 'Neu';",
+                "isCorrect": false
+            },
+            {
+                "text": "new TextNode('Neu').appendTo(container);",
+                "isCorrect": false
+            },
+            {
+                "text": "container.html('Neu');",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie kann die Klasse „c” dem Element „container“ gegeben werden?\nlet container = document.getElementById('container' );",
+        "options": [
+            {
+                "text": "container.className = 'c';",
+                "isCorrect": true
+            },
+            {
+                "text": "container.classList.add('c');",
+                "isCorrect": true
+            },
+            {
+                "text": "container.addClass('c');",
+                "isCorrect": false
+            },
+            {
+                "text": "container.class = 'c';",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie erhalten Sie das Elternelement eines Elements “el”? \nlet el = document.getElementById( 'meinElement'  );",
+        "options": [
+            {
+                "text": "el.parentNode",
+                "isCorrect": true
+            },
+            {
+                "text": "el.getElementsByTagName('parent')",
+                "isCorrect": false
+            },
+            {
+                "text": "el.parent()",
+                "isCorrect": false
+            },
+            {
+                "text": "document.getParentNodeFrom(el)",
+                "isCorrect": false
+            }
+        ]
+    }
+]

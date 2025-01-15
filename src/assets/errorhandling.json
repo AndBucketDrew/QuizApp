@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWelche Browserkomponenten dienen zum Debuggen von Javascript Code?",
+        "options": [
+            {
+                "text": "Javascript Console",
+                "isCorrect": true
+            },
+            {
+                "text": "Javascript Debugger",
+                "isCorrect": true
+            },
+            {
+                "text": "DOM Explorer",
+                "isCorrect": true
+            },
+            {
+                "text": "Quelltextansicht",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas passiert im Browser, wenn bei der Ausführung von Javascript Code unbehandelte Fehler auftreten?",
+        "options": [
+            {
+                "text": "Der betreffende Javascript Code bricht ab, anderer Javascript Code wird weiterhin ausgeführt.",
+                "isCorrect": true
+            },
+            {
+                "text": "Die betreffende Javascript Anweisung bricht ab, liefert eine Fehlermeldung und der verbleibende Code wird weiterhin ausgeführt.",
+                "isCorrect": false
+            },
+            {
+                "text": "Nicht nur der Javascript Code bricht ab, auch das Rendern der Seite wird nicht mehr fortgesetzt. Es erscheint meist eine leere weiße Seite.",
+                "isCorrect": false
+            },
+            {
+                "text": "Der betreffende Javascript Code bricht ab, kein anderer Javascript Code auf der Seite wird mehr ausgeführt.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWo ist der beste Ort um Javascript Code zu debuggen?",
+        "options": [
+            {
+                "text": "Direkt im Browser in den Webentwicklertools (Konsole, Debugger)",
+                "isCorrect": true
+            },
+            {
+                "text": "In einem externen Debugger‐Programm",
+                "isCorrect": false
+            },
+            {
+                "text": "Beim Kompilieren des Javascript Codes in Visual Studio Code",
+                "isCorrect": false
+            },
+            {
+                "text": "In einem eigenen Javascript Interpreter, z.B. DebuggerJS",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie sieht ein Javascript Code mit „try“ aus?",
+        "options": [
+            {
+                "text": "try {  /* Code der ausgeführt werden soll */}\ncatch (e) { /* Code falls der auszuführende Code eine Exception wirft */ }",
+                "isCorrect": true
+            },
+            {
+                "text": "try ( /* Bedingung */ ) { /* Code der auszuführen ist*/ }\nelse { /* Ausgabe einer Fehlermeldung */ }",
+                "isCorrect": false
+            },
+            {
+                "text": "try (err)=>{\n   if (err) { /* Code im Fehlerfall */ }\nelse { /* Code der ausgeführt werden soll */ }",
+                "isCorrect": false
+            },
+            {
+                "text": "try { /* Code der auszuführen ist, im Fehlerfall soll dieser ignoriert werden */ }",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie kann in Javascript eine Exception erzeugt werden?",
+        "options": [
+            {
+                "text": "throw \"mein Fehler\";",
+                "isCorrect": true
+            },
+            {
+                "text": "document.createError( \"mein Fehler\" );",
+                "isCorrect": false
+            },
+            {
+                "text": "try { e = \"mein Fehler\"; } catch (e) { … }",
+                "isCorrect": false
+            },
+            {
+                "text": "new Exception( \"mein Fehler\" );",
+                "isCorrect": false
+            }
+        ]
+    }
+]

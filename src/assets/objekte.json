@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWie kann ein neues (leeres) Objekt erzeugt werden?",
+        "options": [
+            {
+                "text": "let o = new Object();",
+                "isCorrect": true
+            },
+            {
+                "text": "let o = Object.create({});",
+                "isCorrect": true
+            },
+            {
+                "text": "let o = {};",
+                "isCorrect": true
+            },
+            {
+                "text": "let o = createElement(object);",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie kann man den Wert der Eigenschaft 'a' aus folgendem Objekt ansprechen?",
+        "options": [
+            {
+                "text": "console.log(o.a);",
+                "isCorrect": true
+            },
+            {
+                "text": "console.log(o['a']);",
+                "isCorrect": true
+            },
+            {
+                "text": "console.log(o[a]);",
+                "isCorrect": false
+            },
+            {
+                "text": "console.log(a in o);",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie kann man in einem bestehenden Objekt 'o' einen Wert hinzufügen?",
+        "options": [
+            {
+                "text": "o.b = 'neuer Wert';",
+                "isCorrect": true
+            },
+            {
+                "text": "o['b'] = 'neuer Wert';",
+                "isCorrect": true
+            },
+            {
+                "text": "o.setAttribute('b', 'neuer Wert');",
+                "isCorrect": false
+            },
+            {
+                "text": "o = {b: 'neuer Wert'};",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie können Sie eine Kopie von einem bestehenden Objekt 'o' erzeugen?",
+        "options": [
+            {
+                "text": "let o2 = {...o};",
+                "isCorrect": true
+            },
+            {
+                "text": "let o2 = Object.assign({}, o);",
+                "isCorrect": true
+            },
+            {
+                "text": "let o2 = JSON.parse(JSON.stringify(o));",
+                "isCorrect": true
+            },
+            {
+                "text": "let o2 = o;",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche Antwort liefert 'OK' in der console, wenn das Objekt 'o' nachfolgend Eigenschaften besitzt?",
+        "options": [
+            {
+                "text": "if (o) { console.log('OK'); }",
+                "isCorrect": true
+            },
+            {
+                "text": "if ('a' in o) { console.log('OK'); }",
+                "isCorrect": true
+            },
+            {
+                "text": "if (o.a) { console.log('OK'); }",
+                "isCorrect": false
+            },
+            {
+                "text": "if (o && o.a == true) { console.log('OK'); }",
+                "isCorrect": false
+            }
+        ]
+    }
+]

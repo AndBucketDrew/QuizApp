@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWofür steht JSON?",
+        "options": [
+            {
+                "text": "Javascript Object Notation",
+                "isCorrect": true
+            },
+            {
+                "text": "Javascript Object Notification",
+                "isCorrect": false
+            },
+            {
+                "text": "Javascript Output Notification",
+                "isCorrect": false
+            },
+            {
+                "text": "Javascript Offset Number",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWofür wird XML verwendet?",
+        "options": [
+            {
+                "text": "Mit XML werden Daten beschrieben.",
+                "isCorrect": true
+            },
+            {
+                "text": "XML wird benötigt, um AJAX Requests an den Server zu schicken.",
+                "isCorrect": false
+            },
+            {
+                "text": "XML ist die Basis aller Datenformate im Web.",
+                "isCorrect": false
+            },
+            {
+                "text": "Mit XML erzeugen Sie dynamische Webseiten.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche der folgenden Angaben ist ein JSON?",
+        "options": [
+            {
+                "text": "{\"a\":1, \"b\":[] }",
+                "isCorrect": true
+            },
+            {
+                "text": "[1,2,{ \"a\":true}]",
+                "isCorrect": true
+            },
+            {
+                "text": "{a:1, b:{}, c:[1,2,3]}",
+                "isCorrect": false
+            },
+            {
+                "text": "{\"a\":1, \"f\":function() { } ]",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas liefert der Befehl JSON.stringify( {a:1, b:new Array() } )?",
+        "options": [
+            {
+                "text": "'{\"a\":1, \"b\":[]}'",
+                "isCorrect": true
+            },
+            {
+                "text": "'{\"a\":\"1\",\"b\":\"[]\"}'",
+                "isCorrect": false
+            },
+            {
+                "text": "Javascript Exception (=Error), da new Array() mit JSON nicht kompatibel ist",
+                "isCorrect": false
+            },
+            {
+                "text": "'{\"a\":1, \"b\":\"new Array()\"}'",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas bedeutet CSV, und was ist es?",
+        "options": [
+            {
+                "text": "CSV steht für comma‐separated values und wird für Text‐Dateien verwendet um Daten zu speichern bzw. zu übermitteln.",
+                "isCorrect": true
+            },
+            {
+                "text": "CSV bedeutet cascading style values und wird zur einfacheren Erstellung von CSS Dateien verwendet.",
+                "isCorrect": false
+            },
+            {
+                "text": "Mit compared subversion oder kurz CSV lassen sich in Git repositories branches einfach und schnell vergleichen.",
+                "isCorrect": false
+            },
+            {
+                "text": "Cross site vulnerabilities (CSV) sind Schwachstellen in Webapplikationen, die von Hackern genutzt werden schadhaften Code einzuspeisen.",
+                "isCorrect": false
+            }
+        ]
+    }
+]

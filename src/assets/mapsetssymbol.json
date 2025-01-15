@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWofür werden Sets in Javascript verwendet?",
+        "options": [
+            {
+                "text": "zum Speichern von eindeutigen Werten, verhindert doppelte Werte",
+                "isCorrect": true
+            },
+            {
+                "text": "zum Speichern von Objekten, die besser sortierbar sind als in einem Array",
+                "isCorrect": false
+            },
+            {
+                "text": "zum Speichern von HTMLNodeElementen, die DOM Struktur bleibt erhalten",
+                "isCorrect": false
+            },
+            {
+                "text": "zum Speichern von Werten wie in einem Array, im Set sind sie jedoch verschlüsselt",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche Methoden bieten Sets in Javascript?",
+        "options": [
+            {
+                "text": "add(), has(), delete(), forEach()",
+                "isCorrect": true
+            },
+            {
+                "text": "push(), pop(), splice(), slice()",
+                "isCorrect": false
+            },
+            {
+                "text": "map(), filter(), sort(), includes()",
+                "isCorrect": false
+            },
+            {
+                "text": "append(), remove(), min(), max()",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie können Sie aus einem Array „values“ alle doppelten Werte entfernen?",
+        "options": [
+            {
+                "text": "let uniqueValues = [ ...new Set( values ) ];",
+                "isCorrect": true
+            },
+            {
+                "text": "let uniqueValues = values.removeDuplicates()",
+                "isCorrect": false
+            },
+            {
+                "text": "let uniqueValues = new Array( new Map( values ) );",
+                "isCorrect": false
+            },
+            {
+                "text": "let uniqueValues = values * values;",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas sind Unterschiede zwischen Object und Map?",
+        "options": [
+            {
+                "text": "Beim Iterieren von Maps, bleibt die Reihung der Eigenschaften (keys) so wie sie erstellt wurden.",
+                "isCorrect": true
+            },
+            {
+                "text": "JSON unterstützt keine Maps.",
+                "isCorrect": true
+            },
+            {
+                "text": "Die Anzahl der Werte in einer Map ist einfach mit size abzurufen, bei einem Object geht das nur über Umwege.",
+                "isCorrect": true
+            },
+            {
+                "text": "In einer Map sind Werte eindeutig, bei Object gibt es keine Prüfung, ob ein Wert bereits vorhanden ist.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie erstellen Sie eine „versteckte“ Objekt‐Eigenschaft?",
+        "options": [
+            {
+                "text": "mit Symbol() als unique identifier",
+                "isCorrect": true
+            },
+            {
+                "text": "mit einem # beginnend im Attributnamen",
+                "isCorrect": false
+            },
+            {
+                "text": "innerhalb einer Map mit der Methode hidden()",
+                "isCorrect": false
+            },
+            {
+                "text": "als lokale Variable im Konstruktor",
+                "isCorrect": false
+            }
+        ]
+    }
+]

@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWie wird in JavaScript ein Datumsobjekt erzeugt?",
+        "options": [
+            {
+                "text": "new Date()",
+                "isCorrect": true
+            },
+            {
+                "text": "date.new()",
+                "isCorrect": false
+            },
+            {
+                "text": "document.createDate()",
+                "isCorrect": false
+            },
+            {
+                "text": "Date.create()",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWorauf muss beim Arbeiten mit Datum in JavaScript geachtet werden?",
+        "options": [
+            {
+                "text": "Monate beginnen bei 0. Jänner ist 0, Dezember ist 11.",
+                "isCorrect": true
+            },
+            {
+                "text": "Jahre vor 1970 können nicht erstellt werden.",
+                "isCorrect": false
+            },
+            {
+                "text": "Jahreszahlen dürfen nur zweistellig angegeben werden.",
+                "isCorrect": false
+            },
+            {
+                "text": "Schaltjahre werden nicht berücksichtigt.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas liefert der Befehl Date.now()?",
+        "options": [
+            {
+                "text": "Millisekunden seit dem 1.1.1970",
+                "isCorrect": true
+            },
+            {
+                "text": "das heutige Datum als JJJJ‐MM‐DD",
+                "isCorrect": false
+            },
+            {
+                "text": "das heutige Datum inkl. der Uhrzeit",
+                "isCorrect": false
+            },
+            {
+                "text": "Sekunden seit dem 1.1.2000",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie wird das Datum 12.Mai 2014 erzeugt?",
+        "options": [
+            {
+                "text": "new Date( 2014, 4, 12 );",
+                "isCorrect": true
+            },
+            {
+                "text": "new Date( 12, 5, 2014 );",
+                "isCorrect": false
+            },
+            {
+                "text": "new Date( 2014, 12, 5);",
+                "isCorrect": false
+            },
+            {
+                "text": "new Date( '12.5.2014' );",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nMit welcher Methode erhalten Sie den Wochentag eines bestimmten Datums?",
+        "options": [
+            {
+                "text": "getDay()",
+                "isCorrect": true
+            },
+            {
+                "text": "getDate()",
+                "isCorrect": false
+            },
+            {
+                "text": "getWeekDay()",
+                "isCorrect": false
+            },
+            {
+                "text": "getDayOfWeek()",
+                "isCorrect": false
+            }
+        ]
+    }
+]

@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWelche Syntax erstellt einen regulären Ausdruck in JavaScript?",
+        "options": [
+            {
+                "text": "let re = new RegExp( 'ab+c', 'i' );",
+                "isCorrect": true
+            },
+            {
+                "text": "let re = new RegExp( /ab+c/, 'i' );",
+                "isCorrect": true
+            },
+            {
+                "text": "let re = /ab+c/i;",
+                "isCorrect": true
+            },
+            {
+                "text": "let re = '/ab+b/i';",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWofür steht der reguläre Ausdruck /\\w+/?",
+        "options": [
+            {
+                "text": "beliebig viele Zeichen (aber mindestens eines) a‐z (Klein‐ und Großbuchstaben), Zahlen oder Unterstriche.",
+                "isCorrect": true
+            },
+            {
+                "text": "nach einem kleinen „w“ folgt mindestens ein Zeichen",
+                "isCorrect": false
+            },
+            {
+                "text": "nach einem \\ oder / folgen beliebig viele Worte",
+                "isCorrect": false
+            },
+            {
+                "text": "Es sind nur Buchstaben aber keine Zahlen erlaubt",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas ist der Unterschied zwischen den beiden regulären Ausdrücken /\\d/g und /[0‐9]/g?",
+        "options": [
+            {
+                "text": "es gibt keinen Unterschied",
+                "isCorrect": true
+            },
+            {
+                "text": "/\\d/g findet auch Kommazahlen, /[0‐9]/g erkennt nur ganze Zahlen",
+                "isCorrect": false
+            },
+            {
+                "text": "/\\d/g findet nur einstellige Zahlen, wobei /[0‐9]/g beliebig lange Zahlen erkennt",
+                "isCorrect": false
+            },
+            {
+                "text": "mit /[0‐9]/g werden Zahlen ausgewählt, /\\d/g findet Zahlen und Buchstaben",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas liefert folgender Javascript Code? let text = 'Mein Auto fährt mit 100km/h eine Strecke von 50km.'; let result = text.match(/[0‐9]+/g); console.log( result );",
+        "options": [
+            {
+                "text": "[100,50]",
+                "isCorrect": true
+            },
+            {
+                "text": "[1,0,0,5,0]",
+                "isCorrect": false
+            },
+            {
+                "text": "[10050]",
+                "isCorrect": false
+            },
+            {
+                "text": "[]",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nBei welchen Methoden kann ein regulärer Ausdruck als Parameter übergeben werden?",
+        "options": [
+            {
+                "text": "replace()",
+                "isCorrect": true
+            },
+            {
+                "text": "search()",
+                "isCorrect": true
+            },
+            {
+                "text": "exec()",
+                "isCorrect": false
+            },
+            {
+                "text": "test()",
+                "isCorrect": false
+            }
+        ]
+    }
+]

@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWelcher der folgenden Statements erzeugt asynchrones Scriptverhalten?",
+        "options": [
+            {
+                "text": "setInterval(() => { /*...*/ }, 1000);",
+                "isCorrect": true
+            },
+            {
+                "text": "fetch().then( /*...*/ );",
+                "isCorrect": true
+            },
+            {
+                "text": "document.getElementById( /*...*/ );",
+                "isCorrect": false
+            },
+            {
+                "text": "arrayDaten.sort((a,b)=>{ /*...*/ });",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche der folgenden Callback‐Funktionen werden nicht asynchron verarbeitet?",
+        "options": [
+            {
+                "text": "arrayDaten.map(()=>{ /*...*/ });",
+                "isCorrect": true
+            },
+            {
+                "text": "mySet.forEach(()=>{ /*...*/ });",
+                "isCorrect": true
+            },
+            {
+                "text": "domElement.addEventListener(‘click’,()=>{ /*...*/ });",
+                "isCorrect": false
+            },
+            {
+                "text": "window.setTimeout(() => { /*...*/ }, 1000);",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nBei welcher Funktion darf kein „return“ verwendet werden bzw. macht die Verwendung keinen Sinn?",
+        "options": [
+            {
+                "text": "Bei Funktionen, die asynchrones Script (ohne Promises) enthalten",
+                "isCorrect": true
+            },
+            {
+                "text": "Bei Funktionen, die sich selbst wieder aufrufen.",
+                "isCorrect": false
+            },
+            {
+                "text": "Bei Arrow‐Funktionen.",
+                "isCorrect": false
+            },
+            {
+                "text": "Jede Funktion die keinen definierten Parameter hat.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas bedeutet asynchrones Script bzw. was ist der Unterschied zu synchronem Script?",
+        "options": [
+            {
+                "text": "Bei synchronem Script werden Statements zeitlich der Reihe nach abgearbeitet. Bei asynchronem Script gibt es Script‐Blöcke, die zeitlich später abgearbeitet werden, das synchrone Script läuft „parallel“ aber weiter.",
+                "isCorrect": true
+            },
+            {
+                "text": "Bei synchronem Script wird das Script von oben nach unten (so wie im Quellcode) zeilenweise abgearbeitet, bei asynchronem Script kann von einer Zeile in eine beliebig andere Zeile gesprungen werden (z.B. mit einem Funktionsaufruf).",
+                "isCorrect": false
+            },
+            {
+                "text": "Asynchrones Script gibt es nur sobald man Request zum Server schickt und auf die Antwort warten muss.",
+                "isCorrect": false
+            },
+            {
+                "text": "Asynchrones Script muss mit dem Wort async eingeleitet werden. Das Abarbeiten des Scripts wird dann auf mehrere Prozessoren aufgeteilt und komplexe Berechnungen werden so schneller.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWarum sind XHR asynchron?",
+        "options": [
+            {
+                "text": "Vom Absenden eines XHR bis zu dem Zeitpunkt der Antwort vergeht Zeit. Damit während dieser Zeit nicht die ganze Seite blockiert ist, läuft dieser Vorgang parallel (asynchron) ab.",
+                "isCorrect": true
+            },
+            {
+                "text": "XHR sind asynchron, damit der Server nicht mit zu vielen Anfragen blockiert wird.",
+                "isCorrect": false
+            },
+            {
+                "text": "Weil XHR immer mit einem timeOut versehen werden, damit sie nicht sofort an den Server geschickt werden.",
+                "isCorrect": false
+            },
+            {
+                "text": "Weil nur bei asynchronem Script dem User der Mauszeiger als Sanduhr angezeigt wird und er so erkennt, dass Daten vom Server geladen werden.",
+                "isCorrect": false
+            }
+        ]
+    }
+]

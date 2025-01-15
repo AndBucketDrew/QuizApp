@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nKönnen in Javascript in Arrays Elemente unterschiedlichen Datentyps gespeichert werden?",
+        "options": [
+            {
+                "text": "ja",
+                "isCorrect": true
+            },
+            {
+                "text": "nein",
+                "isCorrect": false
+            },
+            {
+                "text": "nur bei assoziativen Arrays",
+                "isCorrect": false
+            },
+            {
+                "text": "nur wenn der Array typlos deklariert wurde",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie kann ein Array in JavaScript erzeugt werden?",
+        "options": [
+            {
+                "text": "let arr = new Array();",
+                "isCorrect": true
+            },
+            {
+                "text": "let arr = [];",
+                "isCorrect": true
+            },
+            {
+                "text": "let arr = JSON.parse(“[]”);",
+                "isCorrect": true
+            },
+            {
+                "text": "let arr = array();",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelches Statement fügt den Wert „neu“ in einen bestehenden Array arr ein?",
+        "options": [
+            {
+                "text": "arr.push('neu');",
+                "isCorrect": true
+            },
+            {
+                "text": "arr[arr.length] = 'neu';",
+                "isCorrect": true
+            },
+            {
+                "text": "arr.add('neu');",
+                "isCorrect": false
+            },
+            {
+                "text": "arr[] = 'neu';",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas ist keine Array Methode?",
+        "options": [
+            {
+                "text": "substring()",
+                "isCorrect": true
+            },
+            {
+                "text": "remove()",
+                "isCorrect": true
+            },
+            {
+                "text": "indexOf()",
+                "isCorrect": false
+            },
+            {
+                "text": "map()",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nMit welcher Methode kann ein Wert innerhalb eines Arrays gefunden werden?",
+        "options": [
+            {
+                "text": "find()",
+                "isCorrect": true
+            },
+            {
+                "text": "indexOf()",
+                "isCorrect": true
+            },
+            {
+                "text": "search()",
+                "isCorrect": false
+            },
+            {
+                "text": "isIncluded()",
+                "isCorrect": false
+            }
+        ]
+    }
+]

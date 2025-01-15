@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWelche Aussage trifft auf Eigenschaften eines Javascript Objektes bzw. auf ein Javascript Objekt im allgemeinen zu?",
+        "options": [
+            {
+                "text": "Ein Javascript Objekt ist eine Sammlung von Eigenschaften.",
+                "isCorrect": true
+            },
+            {
+                "text": "Objekt Eigenschaften können hinzugefügt, geändert und gelöscht werden.",
+                "isCorrect": true
+            },
+            {
+                "text": "Es ist möglich Objekt Eigenschaften als „readonly“ zu definieren.",
+                "isCorrect": true
+            },
+            {
+                "text": "Objekt Eigenschaften definieren, wie groß ein Objekt ist und welchen Typ das Objekt hat.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie kann der Wert der Eigenschaft “prop” von dem folgenden Objekt ausgelesen werden?",
+        "options": [
+            {
+                "text": "test.prop",
+                "isCorrect": true
+            },
+            {
+                "text": "test['prop']",
+                "isCorrect": true
+            },
+            {
+                "text": "test[prop]",
+                "isCorrect": false
+            },
+            {
+                "text": "prop in test",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nMit welcher Schleife können sie alle enumerierbaren Werte eines Objektes ansprechen?",
+        "options": [
+            {
+                "text": "for in",
+                "isCorrect": true
+            },
+            {
+                "text": "for",
+                "isCorrect": false
+            },
+            {
+                "text": "while",
+                "isCorrect": false
+            },
+            {
+                "text": "forEach",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie können Sie die Eigenschaft „prop2“ aus dem folgenden Objekt entfernen?",
+        "options": [
+            {
+                "text": "delete test['prop2']",
+                "isCorrect": true
+            },
+            {
+                "text": "test.removeAttribute( 'prop2' )",
+                "isCorrect": false
+            },
+            {
+                "text": "remove prop2 of test",
+                "isCorrect": false
+            },
+            {
+                "text": "test.delete( 'prop2' )",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche Attribute kann eine Objekt‐Eigenschaft besitzen?",
+        "options": [
+            {
+                "text": "enumerable",
+                "isCorrect": true
+            },
+            {
+                "text": "configurable",
+                "isCorrect": true
+            },
+            {
+                "text": "writeable",
+                "isCorrect": true
+            },
+            {
+                "text": "readable",
+                "isCorrect": false
+            }
+        ]
+    }
+]

@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWelche sort‐Funktion ordnet die Zahlen absteigend (also die größte zu Beginn)?",
+        "options": [
+            {
+                "text": "numberArray.sort( (a,b)=>b‐a );",
+                "isCorrect": true
+            },
+            {
+                "text": "numberArray.sort( (a,b)=>a>b?1:‐1 );",
+                "isCorrect": false
+            },
+            {
+                "text": "numberArray.sort( (a,b)=>a‐b );",
+                "isCorrect": false
+            },
+            {
+                "text": "numberArray.sort().reverse()",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie können Personen in folgendem Array alphabetisch sortiert werden?",
+        "options": [
+            {
+                "text": "p.sort((a,b)=>a.name>b.name?1:‐1);",
+                "isCorrect": true
+            },
+            {
+                "text": "p.sort();",
+                "isCorrect": false
+            },
+            {
+                "text": "p.sort((a,b)=>a.name>b.name);",
+                "isCorrect": false
+            },
+            {
+                "text": "p.sort((a,b)=>a>b?1:‐1);",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "Wie können Sie alle Zahlen aus einem Array ganz einfach kaufmännisch runden? \nDer Array \"z\" muss nach dem Aufruf einer der folgenden Codezeilen die Werte [2,2,1,8,0] enthalten. \nlet z = [1.5, 2.3, 0.765, 8.485, 0.2];",
+        "options": [
+            {
+                "text": "z = z.map( i => Math.round(i) );",
+                "isCorrect": true
+            },
+            {
+                "text": "z.forEach( (el,i)=>{ z[i] = Math.round(el); } );",
+                "isCorrect": true
+            },
+            {
+                "text": "z.map( i => { return Math.round(i); } );",
+                "isCorrect": false
+            },
+            {
+                "text": "z.forEach( (el,i)=>{ el = Math.round(el); } );",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie können Sie aus folgendem Array alle Zahlen, die kleiner sind als 1, entfernen? \nlet z = [1.5, 2.3, 0.765, 8.485, 0.2];",
+        "options": [
+            {
+                "text": "z = z.filter( (el)=>el>=1 );",
+                "isCorrect": true
+            },
+            {
+                "text": "z.sort().splice(0,1)",
+                "isCorrect": false
+            },
+            {
+                "text": "z = z.find( (el)=>el>=1 );",
+                "isCorrect": false
+            },
+            {
+                "text": "z.delete( (el)=>el<1 );",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie können Sie die Summe aller Zahlen aus dem folgenden Array berechnen?",
+        "options": [
+            {
+                "text": "let sum = z.reduce( (a,b)=>a+b );",
+                "isCorrect": true
+            },
+            {
+                "text": "let sum = 0; z.forEach( a => sum+=a );",
+                "isCorrect": true
+            },
+            {
+                "text": "let sum = z.map( a => { sum+= a; });",
+                "isCorrect": false
+            },
+            {
+                "text": "let sum = z.filter( a=> a );",
+                "isCorrect": false
+            }
+        ]
+    }
+]

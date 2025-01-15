@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWas trifft für einen Querystring zu?",
+        "options": [
+            {
+                "text": "Er wird mit einem ? eingeleitet.",
+                "isCorrect": true
+            },
+            {
+                "text": "Er endet mit einem # oder dem Ende des URLs.",
+                "isCorrect": true
+            },
+            {
+                "text": "Er enthält Schlüssel‐Wert‐Paare die mit einem ; getrennt sind.",
+                "isCorrect": false
+            },
+            {
+                "text": "Er wird mit JSON.parse umgewandelt.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche URL enthält einen oder mehrere Query‐Parameter?",
+        "options": [
+            {
+                "text": "http://www.example.org/page?p=F17CX35AF",
+                "isCorrect": true
+            },
+            {
+                "text": "http://www.example.org/page#F17CX35AF",
+                "isCorrect": false
+            },
+            {
+                "text": "http://api.example.org/page/F17CX35AF",
+                "isCorrect": false
+            },
+            {
+                "text": "http://api.example.org/page.html&p=F17CX35AF",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie werden Query‐Parameter in der URL kodiert?",
+        "options": [
+            {
+                "text": "urlencoded",
+                "isCorrect": true
+            },
+            {
+                "text": "utf‐8",
+                "isCorrect": false
+            },
+            {
+                "text": "iso8859‐1",
+                "isCorrect": false
+            },
+            {
+                "text": "ansi",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nMit welcher Javascript‐Klasse lassen sich Werte aus einem Querystring einfach auslesen?",
+        "options": [
+            {
+                "text": "URLSearchParams",
+                "isCorrect": true
+            },
+            {
+                "text": "QueryStringParser",
+                "isCorrect": false
+            },
+            {
+                "text": "Object",
+                "isCorrect": false
+            },
+            {
+                "text": "JSON",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas ist der Unterschied zwischen url.search und url.searchParams?\nlet url = new URL( document.location );",
+        "options": [
+            {
+                "text": "url.search liefert den Querystring beginnend mit ? und url.searchParams liefert ein Queryparameter‐Objekt aus dem die Werte mittels Methoden ausgelesen werden können.",
+                "isCorrect": true
+            },
+            {
+                "text": "url.searchParams ist ECMAScript6, die alte Schreibweise (ECMAScript5) war url.search.",
+                "isCorrect": false
+            },
+            {
+                "text": "Mit url.search kann innerhalb eines URL nach beliebigen Werten gesucht werden, url.searchParams lässt nur definierte Werte bei der Suche zu.",
+                "isCorrect": false
+            },
+            {
+                "text": "url.search ist clientseitig im Browser zu verwenden, url.searchParams wird mit dem url‐Module in NodeJS verwendet.",
+                "isCorrect": false
+            }
+        ]
+    }
+]

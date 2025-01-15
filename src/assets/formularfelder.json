@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nMit welchem Befehl können alle Form‐Elemente im aktuellen Dokument angesprochen werden?",
+        "options": [
+            {
+                "text": "document.forms",
+                "isCorrect": true
+            },
+            {
+                "text": "document.getElementsByTagName( 'form' )",
+                "isCorrect": true
+            },
+            {
+                "text": "document.querySelectorAll( 'form' )",
+                "isCorrect": true
+            },
+            {
+                "text": "document.querySelector( 'form' )",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche HTML Tags erzeugen Formular‐Elemente (HTMLFormElement.elements)?",
+        "options": [
+            {
+                "text": "input, button, select",
+                "isCorrect": true
+            },
+            {
+                "text": "fieldset, textarea, output",
+                "isCorrect": false
+            },
+            {
+                "text": "radio, checkbox, password",
+                "isCorrect": false
+            },
+            {
+                "text": "form, a, img",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie erkenne Sie bei Radiobutton‐Elementen welche zusammengehören, und folglich nur eine Option aktiv sein kann?",
+        "options": [
+            {
+                "text": "anhand des name‐Attributes",
+                "isCorrect": true
+            },
+            {
+                "text": "auf Grund der Id des input‐Elementes",
+                "isCorrect": false
+            },
+            {
+                "text": "mittels der Werte im Attribut value",
+                "isCorrect": false
+            },
+            {
+                "text": "sobald die Elemente Kind‐Elemente desselben Eltern‐Elementes sind",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie ändern Sie den Text, der in einem Eingabefeld (id='eingabe') zu sehen ist?",
+        "options": [
+            {
+                "text": "document.getElementById( 'eingabe' ).value = 'neuer Text';",
+                "isCorrect": true
+            },
+            {
+                "text": "document.querySelector( '#eingabe' ).val('neuer Text' );",
+                "isCorrect": false
+            },
+            {
+                "text": "document.getElementById( 'eingabe' ).innerHTML = 'neuer Text';",
+                "isCorrect": false
+            },
+            {
+                "text": "document.querySelector( '#eingabe' ).text = 'neuer Text';",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie ermitteln Sie den Wert einer ausgewählten Option in einem Select‐Element?\n<select id=“auswahl“>\n  <option1></option><option>2</option><option>3</option>\n</select>\n<script>\n  let mySelect = document.getElementById( 'auswahl' );\n</script>",
+        "options": [
+            {
+                "text": "mySelect.value",
+                "isCorrect": true
+            },
+            {
+                "text": "mySelect.options[ mySelect.options.selectedIndex ].value",
+                "isCorrect": true
+            },
+            {
+                "text": "mySelect.selectedOption.value",
+                "isCorrect": false
+            },
+            {
+                "text": "mySelect.option.isSelected.value",
+                "isCorrect": false
+            }
+        ]
+    }
+]

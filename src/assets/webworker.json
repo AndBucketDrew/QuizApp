@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWas ist ein Webworker?",
+        "options": [
+            {
+                "text": "Einzelne Scripte lassen sich mit der Web Worker API in separaten Threads ausführen.",
+                "isCorrect": true
+            },
+            {
+                "text": "Webworker sind Webentwickler, die nur remote arbeiten.",
+                "isCorrect": false
+            },
+            {
+                "text": "Webworker sind Webservices die ausschließlich im Web verfügbar sind.",
+                "isCorrect": false
+            },
+            {
+                "text": "Durch Webworker werden Webseiten gescannt und in den Index von Suchmaschinen aufgenommen.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie wird ein Script (test.js) mit einem Webworker geladen?",
+        "options": [
+            {
+                "text": "<script>let myWorker = new Worker( 'test.js' );</script>",
+                "isCorrect": true
+            },
+            {
+                "text": "<script src='test.js'></script>",
+                "isCorrect": false
+            },
+            {
+                "text": "<script src='test.js' type='worker/script'></script>",
+                "isCorrect": false
+            },
+            {
+                "text": "<script>let myWorker = document.createElement( 'script' ).setAttribute( 'worker', 'test.js');</script>",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie können Daten zwischen Worker-Thread und Main-Thread ausgetauscht werden?",
+        "options": [
+            {
+                "text": "mittels Methode postMessage() und Eventhandler onmessage",
+                "isCorrect": true
+            },
+            {
+                "text": "beide Scripts haben den selben globalen Kontext, somit können beide auf globale Variablen und Funktionen zugreifen",
+                "isCorrect": false
+            },
+            {
+                "text": "Es können nur Daten vom Main-Thread an den Worker-Thread übermittelt werden, über das Worker-Objekt",
+                "isCorrect": false
+            },
+            {
+                "text": "Es können ausschließlich Daten (=Ergebnis) vom Worker-Thread an den Main-Thread am Ende des Scripts mittels return zurückgegeben werden.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche Aussage stimmt für die Beschreibung eines Service Workers?",
+        "options": [
+            {
+                "text": "Ein Service Worker läuft wie ein Web Worker im Hintergrund. Er dient als Middleware für Netzwerk-Requests zwischen Browser und Server sowie in offline Anwendungen.",
+                "isCorrect": true
+            },
+            {
+                "text": "Service Worker und Web Worker sind das Gleiche, der Begriff Service Worker wird in Zusammenhang mit Webservices verwendet.",
+                "isCorrect": false
+            },
+            {
+                "text": "Ein Service Worker erlaubt es Scripts im Hintergrund in unterschiedliche Threads aufzuteilen und verhindert, dass einzelne Scripts sich gegenseitig blockieren.",
+                "isCorrect": false
+            },
+            {
+                "text": "Ein Service Worker ist ein serverseitiges Script mit NodeJS, welches ein fertiges Restful Webservice anbietet.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas ist der Unterschied zwischen \"new SharedWorker()\" und \"new Worker()\"?",
+        "options": [
+            {
+                "text": "Ein Shared Worker Script kann von unterschiedlichen Scripts angesprochen und verwendet werden, ein \"normaler\" Worker nur von dem Script welches ihn ausführt.",
+                "isCorrect": true
+            },
+            {
+                "text": "SharedWorker sind nicht nur im Web sondern auch bei lokalen Desktop Applikationen verfügbar.",
+                "isCorrect": false
+            },
+            {
+                "text": "Shared Worker dienen nur zur Behandlung von Netzwerk-Requests, mit \"normalen\" Workern werden Berechnungen abgearbeitet.",
+                "isCorrect": false
+            },
+            {
+                "text": "Shared Worker werden nur in Java und Python verwendet und sind in Javascript derzeit nicht verfügbar.",
+                "isCorrect": false
+            }
+        ]
+    }
+]

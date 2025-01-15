@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWelche Eventlistener werden in Zusammenhang mit Tastatureingabe verwendet?",
+        "options": [
+            {
+                "text": "onkeyup",
+                "isCorrect": true
+            },
+            {
+                "text": "ontouch",
+                "isCorrect": false
+            },
+            {
+                "text": "onclick",
+                "isCorrect": false
+            },
+            {
+                "text": "onkeytouch",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche Eventlistener werden in Zusammenhang mit Tastatureingabe verwendet?",
+        "options": [
+            {
+                "text": "onkeydown",
+                "isCorrect": true
+            },
+            {
+                "text": "onkeyup",
+                "isCorrect": true
+            },
+            {
+                "text": "onkeyclick",
+                "isCorrect": false
+            },
+            {
+                "text": "onkeyenter",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nMit welchem Eventlistener können sie auf einen Tastendruck in einem Formularfeld reagieren?",
+        "options": [
+            {
+                "text": "onkeyup",
+                "isCorrect": true
+            },
+            {
+                "text": "onchange",
+                "isCorrect": false
+            },
+            {
+                "text": "onsubmit",
+                "isCorrect": false
+            },
+            {
+                "text": "onfocus",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWarum ist “onkeypress” deprecated?",
+        "options": [
+            {
+                "text": "Weil er nicht bei allen Tasten in allen Browsern funktioniert (z‐B ALT, CTRL, etc.)",
+                "isCorrect": true
+            },
+            {
+                "text": "Weil er nicht auf mobilen Endgeräten funktioniert",
+                "isCorrect": false
+            },
+            {
+                "text": "Weil er den Tastaturcode als Unicode und nicht ANSI‐Code liefert",
+                "isCorrect": false
+            },
+            {
+                "text": "Weil er nur bei Formularelementen funktioniert.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie können Tastatureingaben in Formularfeldern verhindert werden?",
+        "options": [
+            {
+                "text": "Im Eventhandler von onkeydown mittels preventDefault()",
+                "isCorrect": true
+            },
+            {
+                "text": "Wenn das Formularfeld das Attribut readonly besitzt",
+                "isCorrect": true
+            },
+            {
+                "text": "Wenn ein Formularfeld absolut positioniert wird",
+                "isCorrect": false
+            },
+            {
+                "text": "Wenn im Javascript der Wert mobileonly gesetzt wird.",
+                "isCorrect": false
+            }
+        ]
+    }
+]

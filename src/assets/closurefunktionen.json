@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWas ist eine Closure‐Funktion?",
+        "options": [
+            {
+                "text": "Eine Funktion die im Scope einer anderen Funktion erstellt wurde und so auf die Variablen der äußeren Funktion zugreifen kann.",
+                "isCorrect": true
+            },
+            {
+                "text": "Eine Funktion die von einer anderen Funktion aufgerufen wird und so Zugriff auf lokale Variablen erhält.",
+                "isCorrect": false
+            },
+            {
+                "text": "Eine Funktion die nicht im globalen Geltungsbereich erstellt wurde.",
+                "isCorrect": false
+            },
+            {
+                "text": "Eine Funktion die sich selbst aufruft und den Rückgabewert weitergibt.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie kann das Ergebnis eines asynchronen Prozesses weiterverarbeitet werden?",
+        "options": [
+            {
+                "text": "mit einer Callback‐Funktion",
+                "isCorrect": true
+            },
+            {
+                "text": "mit einer Closure‐Funktion",
+                "isCorrect": false
+            },
+            {
+                "text": "mit einer rekursiven Funktion",
+                "isCorrect": false
+            },
+            {
+                "text": "mit einer Konstruktor‐Funktion",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas ist in dem folgenden Programmcode die Callbackfunktion? let enter = function( val, sep) {\n let calls = val || 0;\n setTimeout(()=>{\n for (let i=1; i<=10; i++) { calls += i*i; }\n sep( calls );\n }, 1000 );\n return calls;\n }",
+        "options": [
+            {
+                "text": "sep",
+                "isCorrect": true
+            },
+            {
+                "text": "calls",
+                "isCorrect": false
+            },
+            {
+                "text": "enter",
+                "isCorrect": false
+            },
+            {
+                "text": "val",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche dieser Funktionen nutzt keine Callback‐Funktion?",
+        "options": [
+            {
+                "text": "Math.random()",
+                "isCorrect": true
+            },
+            {
+                "text": "Array.map()",
+                "isCorrect": false
+            },
+            {
+                "text": "window.setTimeout()",
+                "isCorrect": false
+            },
+            {
+                "text": "Array.sort()",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas ist eine Callback‐Funktion?",
+        "options": [
+            {
+                "text": "Eine Funktion, die einer anderen Funktion als Parameter übergeben wird.",
+                "isCorrect": true
+            },
+            {
+                "text": "Eine Funktion, die eine andere Funktion zurückliefert.",
+                "isCorrect": false
+            },
+            {
+                "text": "Eine Funktion, die sich selbst wieder aufruft.",
+                "isCorrect": false
+            },
+            {
+                "text": "Eine Funktion, die darauf wartet zu einem späteren Zeitpunkt aufgerufen zu werden.",
+                "isCorrect": false
+            }
+        ]
+    }
+]

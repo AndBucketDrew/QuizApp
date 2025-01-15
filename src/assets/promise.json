@@ -1,0 +1,149 @@
+[
+    {
+        "questionText": "\nWelche Zustände kann ein Promise in Javascript haben?",
+        "options": [
+            {
+                "text": "pending",
+                "isCorrect": true
+            },
+            {
+                "text": "fulfilled",
+                "isCorrect": true
+            },
+            {
+                "text": "rejected",
+                "isCorrect": true
+            },
+            {
+                "text": "started",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche Methoden kennt das Promise‐Objekt?",
+        "options": [
+            {
+                "text": "then()",
+                "isCorrect": true
+            },
+            {
+                "text": "catch()",
+                "isCorrect": true
+            },
+            {
+                "text": "try()",
+                "isCorrect": false
+            },
+            {
+                "text": "call()",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas muss dem Konstruktor Promise übergeben werden?",
+        "options": [
+            {
+                "text": "Eine Funktion mit den Parametern resolve und reject.",
+                "isCorrect": true
+            },
+            {
+                "text": "Die beiden Funktionen resolve() und reject().",
+                "isCorrect": false
+            },
+            {
+                "text": "Ein Array mit allen asynchronen Funktionen.",
+                "isCorrect": false
+            },
+            {
+                "text": "Parameter sind optional, der Promise funktioniert auch ohne.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas passiert, wenn man async einer Funktion voranstellt?",
+        "options": [
+            {
+                "text": "Die Funktion liefert automatisch einen Promise, der return‐Wert wird über die resolve‐Methode ausgegeben.",
+                "isCorrect": true
+            },
+            {
+                "text": "Die Funktion benötigt eine Callback‐Funktion und darf kein return haben.",
+                "isCorrect": false
+            },
+            {
+                "text": "Es ändert sich nichts an der Funktion, der Hinweis ist nur für die bessere Codedokumentation und zeigt, dass innerhalb der Funktion etwas „Asynchrones“ passiert.",
+                "isCorrect": false
+            },
+            {
+                "text": "Die Funktion sendet einen asynchronen Request an die übermittelte URL.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas ist bei der Verwendung von await im Code zu beachten?",
+        "options": [
+            {
+                "text": "await darf nur innerhalb von Funktionen, die mit async eingeleitet wurden, verwendet werden.",
+                "isCorrect": true
+            },
+            {
+                "text": "nach await muss verpflichtend ein Promise kommen.",
+                "isCorrect": false
+            },
+            {
+                "text": "nach await muss ein Funktionsaufruf einer async‐Funktion kommen.",
+                "isCorrect": false
+            },
+            {
+                "text": "Funktionen, die nach await kommen, dürfen kein return haben.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche Syntax zum Erstellen einer async‐Funktion ist korrekt?",
+        "options": [
+            {
+                "text": "const f = async () => { /*...*/ }",
+                "isCorrect": true
+            },
+            {
+                "text": "async f = () => { /*...*/ }",
+                "isCorrect": false
+            },
+            {
+                "text": "const async f = () => { /*...*/ }",
+                "isCorrect": false
+            },
+            {
+                "text": "const f = () => async { /*.. */ }",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche beiden Codezeilen machen genau das Gleiche?",
+        "options": [
+            {
+                "text": "const f = async () => { return 1; }",
+                "isCorrect": true
+            },
+            {
+                "text": "const f = () => { return new Promise( (res,rej)=>{ res(1); } ); }",
+                "isCorrect": true
+            },
+            {
+                "text": "const f = () => { return 1; }",
+                "isCorrect": false
+            },
+            {
+                "text": "const f = () => { return new Promise( (res,rej)=>{ return 1; } ); }",
+                "isCorrect": false
+            }
+        ]
+    }
+]

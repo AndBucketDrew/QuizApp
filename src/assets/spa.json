@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWie wird der Inhalt (Content) einer Single Page Applikation verändert?",
+        "options": [
+            {
+                "text": "mit JavaScript und XHR/Fetch",
+                "isCorrect": true
+            },
+            {
+                "text": "gar nicht",
+                "isCorrect": false
+            },
+            {
+                "text": "durch Klick auf Hyperlinks",
+                "isCorrect": false
+            },
+            {
+                "text": "durch einen neuen Build per npm Startscript",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche Aussage zu Single Page Applikationen trifft zu?",
+        "options": [
+            {
+                "text": "Single Page Applikation laden nach dem initialen Download viel schneller als Multi Page Applikationen.",
+                "isCorrect": true
+            },
+            {
+                "text": "Javascript ist optimiert für Single Page Applikationen und bietet mehr Funktionen als bei Multi Page Applikationen.",
+                "isCorrect": false
+            },
+            {
+                "text": "Single Page Applikationen haben ein viel besseres SEO ranking als Multi Page Applikationen.",
+                "isCorrect": false
+            },
+            {
+                "text": "Die Erstellung von Single Page Applikationen ist viel schneller und dadurch kostengünstiger als Multi Page Applikationen.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie funktioniert eine Single Page Applikation?",
+        "options": [
+            {
+                "text": "Der Server liefert das initiale HTML Dokument. Mittels Javascript wird die komplette Präsentationslogik der Applikation erzeugt und Daten im Hintergrund vom Server nachgeladen.",
+                "isCorrect": true
+            },
+            {
+                "text": "Nach dem Öffnen des initialen HTML Dokumentes, liefert der Server weitere HTML Dokumente nur, wenn diese per Javascript angefordert werden, normale Hyperlinks auf weitere Seiten werden blockiert.",
+                "isCorrect": false
+            },
+            {
+                "text": "Der Server liefert ausschließlich Daten über eine WebAPI. Die Single Page Applikation muss lokal gestartet und kann nicht per URL aufgerufen werden.",
+                "isCorrect": false
+            },
+            {
+                "text": "Die komplette Applikation ist in einem HTML Dokument verpackt. Nach dem initialen Öffnen der Seite ist keine weitere Kommunikation mit dem Server möglich.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche JS Frameworks/Libraries werden sehr häufig zur Entwicklung von Single Page Applikationen verwendet?",
+        "options": [
+            {
+                "text": "ReactJS",
+                "isCorrect": true
+            },
+            {
+                "text": "VueJS",
+                "isCorrect": true
+            },
+            {
+                "text": "jQuery UI",
+                "isCorrect": false
+            },
+            {
+                "text": "EJS",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nIn welcher Programmiersprache werden Single Page Applikationen üblicherweise erstellt?",
+        "options": [
+            {
+                "text": "Javascript",
+                "isCorrect": true
+            },
+            {
+                "text": "Java",
+                "isCorrect": false
+            },
+            {
+                "text": "PHP",
+                "isCorrect": false
+            },
+            {
+                "text": "NodeJS",
+                "isCorrect": false
+            }
+        ]
+    }
+]

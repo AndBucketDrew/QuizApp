@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nMit welcher Stringmethode können Sie Leerzeichen am Beginn und Ende einer Zeichenkette entfernen?",
+        "options": [
+            {
+                "text": "trim()",
+                "isCorrect": true
+            },
+            {
+                "text": "removeSpaces()",
+                "isCorrect": false
+            },
+            {
+                "text": "split(' ')",
+                "isCorrect": false
+            },
+            {
+                "text": "startsWith(' ')",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nMit welchem Statement können Sie herausfinden ob ein „@“ in dem String „str“ vorkommt?",
+        "options": [
+            {
+                "text": "str.indexOf('@') > ‐1",
+                "isCorrect": true
+            },
+            {
+                "text": "str.split('@').length > 1",
+                "isCorrect": true
+            },
+            {
+                "text": "str.find('@') == true",
+                "isCorrect": false
+            },
+            {
+                "text": "str.charAt('@') !== false",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie können Sie in einer Zeichenkette „str“ alle „a“ durch „b“ ersetzen?",
+        "options": [
+            {
+                "text": "str = str.replace(/a/g, \"b\");",
+                "isCorrect": true
+            },
+            {
+                "text": "str = str.replaceAll(\"a\", \"b\");",
+                "isCorrect": true
+            },
+            {
+                "text": "str = str.replace(/a/,\"b\");",
+                "isCorrect": false
+            },
+            {
+                "text": "str = str.replaceAll(/a/, \"b\");",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas liefert der folgende Code? \nlet str = \"Hallo Welt!\"; \nlet result = str.split(\" \");",
+        "options": [
+            {
+                "text": "result ist ein Array",
+                "isCorrect": true
+            },
+            {
+                "text": "result ist true",
+                "isCorrect": false
+            },
+            {
+                "text": "result ist ein String ohne Leerzeichen",
+                "isCorrect": false
+            },
+            {
+                "text": "result ist ein Objekt",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie ermitteln Sie die Anzahl der Zeichen in einem String?",
+        "options": [
+            {
+                "text": "mit der Eigenschaft length",
+                "isCorrect": true
+            },
+            {
+                "text": "mit einer for Schleife",
+                "isCorrect": false
+            },
+            {
+                "text": "mit der Methode count()",
+                "isCorrect": false
+            },
+            {
+                "text": "das ist in JavaScript nicht möglich",
+                "isCorrect": false
+            }
+        ]
+    }
+]

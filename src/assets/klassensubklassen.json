@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWas muss bei der Subklasse \"Fisch\" aus dem folgenden Codebeispiel beachtet werden?\nclass Tier {\n   constructor(name) { /*...*/ }\n   testFunktion() { /*...*/ }\n}\n\nclass Fisch extends Tier {\n   constructor() { /*...*/ }\n}",
+        "options": [
+            {
+                "text": "Die Konstruktor‐Funktion in Fisch muss den Konstruktor von Tier mit super() aufrufen.",
+                "isCorrect": true
+            },
+            {
+                "text": "Die Konstruktor‐Funktion in Fisch muss wie die Konstruktor‐Funktion in der Klasse Tier den Parameter \"name\" enthalten.",
+                "isCorrect": false
+            },
+            {
+                "text": "Die Subklasse Fisch muss auch die Funktion testFunktion enthalten im Code.",
+                "isCorrect": false
+            },
+            {
+                "text": "Bei der Angabe der Subklasse muss die Elternklasse mit () aufgerufen werden, also class Fisch extends Tier() { ... }",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie können private Werte innerhalb einer Klasse definiert werden?\nclass Tier {\n   constructor() { /*...*/ }\n   meinePrivateVar = 1; }",
+        "options": [
+            {
+                "text": "der Name muss mit einem # beginnen, also #meinePrivateVar = 1;",
+                "isCorrect": true
+            },
+            {
+                "text": "der Name muss mit einem _ beginnen, also _meinePrivateVar = 1;",
+                "isCorrect": false
+            },
+            {
+                "text": "alle Werte, die innerhalb der Klasse definiert sind, können auch von außen angesprochen werden, in Javascript gibt es keine privaten Werte",
+                "isCorrect": false
+            },
+            {
+                "text": "vor dem Namen wird „private“ gesetzt, also private meinePrivateVar = 1;",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie lautet die korrekte Syntax um die Methode „test“ in der Klasse „Tier“ anzulegen?\nclass Tier {\n   constructor() { /*...*/ }\n   test() { } }",
+        "options": [
+            {
+                "text": "class Tier { \nconstructor() { /*...*/ } \ntest() { } }",
+                "isCorrect": true
+            },
+            {
+                "text": "class Tier { \nconstructor() { /*...*/ } \nfunction test() { } }",
+                "isCorrect": false
+            },
+            {
+                "text": "class Tier { \nconstructor() { /*...*/ } \ntest() => { } }",
+                "isCorrect": false
+            },
+            {
+                "text": "class Tier { \nconstructor() { \nconst test = () => { } } }",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie wird eine statische Methode einer Klasse in Javascript erstellt?",
+        "options": [
+            {
+                "text": "mit dem Schlüsselwort static",
+                "isCorrect": true
+            },
+            {
+                "text": "in dem die Funktion direkt in der Konstruktor‐Funktion angelegt wird",
+                "isCorrect": false
+            },
+            {
+                "text": "wenn der Funktion „get“ vor gestellt wird",
+                "isCorrect": false
+            },
+            {
+                "text": "in dem beim Aufruf der Funktion await verwendet wird.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWo liegt der Unterschied zwischen p1 und p2 in folgendem Code?\nconst P1 = function() { this.x = 1;}\nclass P2 {  x = 1;  constructor() {} }\nlet p1 = new P1();\nlet p2 = new P2();",
+        "options": [
+            {
+                "text": "Es gibt zwischen den beiden Objekten p1 und p2 keinen Unterschied (ausgenommen der Eigenschaft constructor).",
+                "isCorrect": true
+            },
+            {
+                "text": "p1 und p2 sind beides Objekte, jedoch hat nur p1 ein Prototype‐Objekt.",
+                "isCorrect": false
+            },
+            {
+                "text": "in p2 kann nur innerhalb von Methoden auf den Wert x zugegriffen werden, bei p1 ist es auf über p1.x ansprechbar.",
+                "isCorrect": false
+            },
+            {
+                "text": "p1 ist eine Funktion und p2 ist ein Objekt.",
+                "isCorrect": false
+            }
+        ]
+    }
+]

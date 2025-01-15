@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWelcher Event wird ausgelöst, wenn auf ein HTML Element geklickt wird?",
+        "options": [
+            {
+                "text": "click",
+                "isCorrect": true
+            },
+            {
+                "text": "mousedown",
+                "isCorrect": true
+            },
+            {
+                "text": "tap",
+                "isCorrect": false
+            },
+            {
+                "text": "mouseclick",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelcher Event wird ausgelöst, wenn die HTML Seite vollständig geladen wurde?",
+        "options": [
+            {
+                "text": "load",
+                "isCorrect": true
+            },
+            {
+                "text": "ready",
+                "isCorrect": false
+            },
+            {
+                "text": "loaded",
+                "isCorrect": false
+            },
+            {
+                "text": "done",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nMit welcher Methode des Event‐Objektes kann Eventbubbling unterbunden werden?",
+        "options": [
+            {
+                "text": "stopPropagation()",
+                "isCorrect": true
+            },
+            {
+                "text": "preventDefault()",
+                "isCorrect": false
+            },
+            {
+                "text": "preventPropagation()",
+                "isCorrect": false
+            },
+            {
+                "text": "stopBubbling()",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie kann in Vanilla Javascript beim Element <button id='btn'> mit einem Mausklick‐die Funktion „handlerFunktion“ aufgerufen werden?",
+        "options": [
+            {
+                "text": "document.getElementById( 'btn' ).onclick = handlerFunktion",
+                "isCorrect": true
+            },
+            {
+                "text": "document.getElementById( 'btn' ).addEventListener( 'click', handlerFunktion )",
+                "isCorrect": true
+            },
+            {
+                "text": "document.getElementById( 'btn' ).on( 'click', handlerFunktion );",
+                "isCorrect": false
+            },
+            {
+                "text": "document.getElementById( 'btn' ).add( 'onclick', handlerFunktion );",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelcher Javascript Code ist richtig und ermöglicht Zugriff auf das Event‐Objekt? Annahme: meinElement ist ein HTML‐Node‐Element",
+        "options": [
+            {
+                "text": "meinElement.addEventListener( 'click', (e)=>{ /* e ist das Event‐Objekt */ } )",
+                "isCorrect": true
+            },
+            {
+                "text": "meinElement.addEventListener( 'click', e, ()=>{ /*e ist das Event‐Objekt*/ } )",
+                "isCorrect": false
+            },
+            {
+                "text": "meinElement.addEventListener( 'click', ()=>{ /*e ist das Event‐Objekt */}.bind(e) );",
+                "isCorrect": false
+            },
+            {
+                "text": "meinElement.addEventListener( 'click', ()=>{ e = this; /* e ist das Event‐Objekt */ } )",
+                "isCorrect": false
+            }
+        ]
+    }
+]

@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWas bedeutet Method‐Chaining?",
+        "options": [
+            {
+                "text": "Eine Methode eines Objektes gibt ein Objekt zurück (return), wodurch in einem Statement mehrere Methoden aneinander gehängt werden können.",
+                "isCorrect": true
+            },
+            {
+                "text": "Methoden werden eingeschlossen (chain) und können keine Werte zurückliefern.",
+                "isCorrect": false
+            },
+            {
+                "text": "Objekte die mehrere Methoden besitzen, können diese gleichzeitig ausführen.",
+                "isCorrect": false
+            },
+            {
+                "text": "Mehrere asynchrone Methoden können so synchron abgearbeitet werden.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelches der folgenden Codebeispiele nutzt Method‐Chaining?",
+        "options": [
+            {
+                "text": "$( 'div' ).html( 'neuer Text' ).attr( 'data‐x', 1).css( 'color', 'red' );",
+                "isCorrect": true
+            },
+            {
+                "text": "document.getElementById( 'id' ).setAttribute( 'data‐x', 1);",
+                "isCorrect": false
+            },
+            {
+                "text": "let text = 'Hallo Welt'; \ntext.toUpperCase().indexOf( 'L' );",
+                "isCorrect": false
+            },
+            {
+                "text": "fetch( url, {method: 'GET'} ).then( resp => resp.json() ).then( data => { /*...*/ );",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nLässt sich Method‐Chaining auch auf primitiven Datentypen anwenden?",
+        "options": [
+            {
+                "text": "ja",
+                "isCorrect": true
+            },
+            {
+                "text": "nein",
+                "isCorrect": false
+            },
+            {
+                "text": "nur bei String",
+                "isCorrect": false
+            },
+            {
+                "text": "nur im Strict‐Mode",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nKann beim Method‐Chaining die gleiche Methode mehrmals hintereinander vorkommen?",
+        "options": [
+            {
+                "text": "ja, wenn die Methode das gleiche Objekt od. den gleichen Datentyp zurückliefert",
+                "isCorrect": true
+            },
+            {
+                "text": "ja, aber nur wenn die Methode Objekte und keine primitiven Datentypen zurückliefert.",
+                "isCorrect": false
+            },
+            {
+                "text": "ja, aber nur wenn nicht im Strict Mode programmiert wurde.",
+                "isCorrect": false
+            },
+            {
+                "text": "nein, das ist technisch nicht möglich",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche Einschränkungen sind bei Method‐Chaining zu beachten?",
+        "options": [
+            {
+                "text": "keine",
+                "isCorrect": true
+            },
+            {
+                "text": "pro Statement dürfen maximal 3 Methoden aneinander gereiht werden",
+                "isCorrect": false
+            },
+            {
+                "text": "Method‐Chaining bei DOM Elementen führt zu langsameren Rendering",
+                "isCorrect": false
+            },
+            {
+                "text": "Method‐Chaining innerhalb von Callbacks sollte vermieden werden",
+                "isCorrect": false
+            }
+        ]
+    }
+]
