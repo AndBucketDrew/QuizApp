@@ -1,6 +1,6 @@
 [
     {
-        "questionText": "\nWas muss bei der Subklasse \"Fisch\" aus dem folgenden Codebeispiel beachtet werden?\nclass Tier {\n   constructor(name) { /*...*/ }\n   testFunktion() { /*...*/ }\n}\n\nclass Fisch extends Tier {\n   constructor() { /*...*/ }\n}",
+        "questionText": "\nWas muss bei der Subklasse \"Fisch\" aus dem folgenden Codebeispiel beachtet werden?\n class Tier {\n   constructor(name) { /*...*/ }\n   testFunktion() { /*...*/ }\n }\nclass Fisch extends Tier {\n   constructor() { /*...*/ }\n}",
         "options": [
             {
                 "text": "Die Konstruktor‐Funktion in Fisch muss den Konstruktor von Tier mit super() aufrufen.",

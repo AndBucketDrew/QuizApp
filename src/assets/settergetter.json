@@ -63,7 +63,7 @@
         ]
     },
     {
-        "questionText": "\nWie rufen Sie die Setter‐Methode msg() aus dem folgenden Codebeispiel auf? class meineKlasse { \n#text = 'Hello World'; \nconstructor() { \n} \nset msg( x ) { \nthis.#msg = x; \n} \n} \nlet o = new meineKlasse();",
+        "questionText": "\nWie rufen Sie die Setter‐Methode msg() aus dem folgenden Codebeispiel auf? \n class meineKlasse { \n #text = 'Hello World'; \n constructor() { \n } \n   set msg( x ) { \n     this.#msg = x; \n   } \n} \nlet o = new meineKlasse();",
         "options": [
             {
                 "text": "o.msg = 'neuer Text';",

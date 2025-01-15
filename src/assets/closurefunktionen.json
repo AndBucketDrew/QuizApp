@@ -42,7 +42,7 @@
         ]
     },
     {
-        "questionText": "\nWas ist in dem folgenden Programmcode die Callbackfunktion? let enter = function( val, sep) {\n let calls = val || 0;\n setTimeout(()=>{\n for (let i=1; i<=10; i++) { calls += i*i; }\n sep( calls );\n }, 1000 );\n return calls;\n }",
+        "questionText": "\nWas ist in dem folgenden Programmcode die Callbackfunktion? \nlet enter = function( val, sep) {\n  let calls = val || 0;\n    setTimeout(()=>{\n      for (let i=1; i<=10; i++) { calls += i*i; }\n      sep( calls );\n    }, 1000 );\n   return calls;\n  }",
         "options": [
             {
                 "text": "sep",
