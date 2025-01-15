@@ -1,6 +1,6 @@
 # QuizApp
 
-This project requires [Node.js](https://nodejs.org/) and npm, as well as the latest version of [Angular CLI](npm install -g @angular/cli). Ensure they are installed before proceeding.
+This project requires [Node.js](https://nodejs.org/) and npm, as well as the latest version of [Angular CLI](`npm install -g @angular/cli`). Ensure they are installed before proceeding.
 
 ## Development server
 
