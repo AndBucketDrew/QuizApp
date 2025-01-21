@@ -1,0 +1,170 @@
+[
+    {
+        "questionText": "\nWas ist ein State in einer React‐Komponente?",
+        "options": [
+            {
+                "text": "Jede Klassen‐Komponente hat ein state‐Objekt, wird dieses geändert kommt es zu einem erneuten Rendern (Update) der Komponente.",
+                "isCorrect": true
+            },
+            {
+                "text": "Jede Komponente hat einen Status (state). Der Status zeigt an ob die Komponente fertig erzeugt (didmount) wurde, das erneute Rendern \n abgeschlossen wurde (didupdate) oder eine Komponente entfernt wurde (didunmount).",
+                "isCorrect": false
+            },
+            {
+                "text": "State nennt man lokale Variablen innerhalb einer Komponente. Die Werte können in der Ausgabe (rendern) verwendet werden.",
+                "isCorrect": false
+            },
+            {
+                "text": "Alle Werte, die über Attribute an eine Komponente übergeben wurden, nennt man State.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie kann der Wert eines State (Beispiel mystate) in React verändert werden?",
+        "options": [
+            {
+                "text": "setState({mystate:1});",
+                "isCorrect": true
+            },
+            {
+                "text": "this.state.mystate = 1;",
+                "isCorrect": false
+            },
+            {
+                "text": "mystate = setState(1);",
+                "isCorrect": false
+            },
+            {
+                "text": "mystate = 1;",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWorauf ist beim Ändern von Werten im State zu achten?",
+        "options": [
+            {
+                "text": "die Werteänderung findet asynchron statt",
+                "isCorrect": true
+            },
+            {
+                "text": "es darf der Datentyp der Variable nicht geändert werden",
+                "isCorrect": false
+            },
+            {
+                "text": "es darf immer nur ein State pro Rendering verändert werden",
+                "isCorrect": false
+            },
+            {
+                "text": "es darf nie derselbe Wert zugewiesen werden, der bereits gespeichert ist.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie kann ein State einer Komponente1 von einer anderen Komponente2 verändert werden?\n  Vorausgesetzt Komponente2 ist innerhalb der Komponente1 eingebettet.",
+        "options": [
+            {
+                "text": "\n  Eine Methode zum Ändern muss in der Komponente1 erstellt werden, die z.B. über Properties an \neine untergeordnete Komponente2 übergeben und dort aufgerufen wird.",
+                "isCorrect": true
+            },
+            {
+                "text": "Der State wird als Property an die Kompenente2 übergeben, durch Änderung des Wertes in Komponente2 wird automatisch der State verändert.",
+                "isCorrect": false
+            },
+            {
+                "text": "\n  Dies ist in React nicht möglich, es kann nur der State einer untergeordneten Komponente \n  geändert werden. D.h. Komponente1 ändert State in Komponente2 aber nicht umgekehrt.",
+                "isCorrect": false
+            },
+            {
+                "text": "Eine Komponente darf nur State der eigenen Komponente verändern, ausgenommen Context Komponenten oder Werte in einem Store.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelchen Wert sieht der User bei der Ausgabe der folgenden Komponente?\nclass MyTest extends Component {\n    state = {x:1}\n    constructor() {\n        state = {x:2}\n    }\n    state() { return {x:3} }\n    componentDidMount() {\n        this.setState({x:4})\n    }\n    render() {\n        return <p>{this.state.x}</p>\n    }\n}",
+        "options": [
+            {
+                "text": "4",
+                "isCorrect": true
+            },
+            {
+                "text": "1",
+                "isCorrect": false
+            },
+            {
+                "text": "2",
+                "isCorrect": false
+            },
+            {
+                "text": "3",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie wird einem Array in einem State ein neuer Wert hinzugefügt?\nconst [arr, setArr] = useState([]);",
+        "options": [
+            {
+                "text": "setArr( [...arr, 'neuerWert' ] );",
+                "isCorrect": true
+            },
+            {
+                "text": "arr.push( 'neuer Wert' );",
+                "isCorrect": false
+            },
+            {
+                "text": "setArr( { arr: 'neuer Wert' } );",
+                "isCorrect": false
+            },
+            {
+                "text": "setArr( ()=>{ arr[arr.length] = 'neuer Wert' } );",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie kann ein Array in einem sortiert werden?\nconst [arr, setArr] = useState([2,4,3]);",
+        "options": [
+            {
+                "text": "setArr( [...arr].sort() );",
+                "isCorrect": true
+            },
+            {
+                "text": "arr.sort();",
+                "isCorrect": false
+            },
+            {
+                "text": "[...arr].sort();",
+                "isCorrect": false
+            },
+            {
+                "text": "useSort( arr, 'DESC' );",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas passiert wenn man Setter‐Methode eines State eine Funktion anstelle eines Wertes übergibt?\nconst [number, setNumber] = useState( 0 ); \nsetNumber( x => x + 1 );",
+        "options": [
+            {
+                "text": "Diese updater‐Funktionen werden in einer Queue abgearbeitet und greifen immer auf den aktuellen Wert des State zu.",
+                "isCorrect": true
+            },
+            {
+                "text": "Diese Funktionen führen immer zu einem Rerendern der Komponente, auch wenn sich der Wert nicht ändert.",
+                "isCorrect": false
+            },
+            {
+                "text": "Diese Funktionen werden automatisch nach dem Ändern eines Wertes im State ausgeführt.",
+                "isCorrect": false
+            },
+            {
+                "text": "Es wird eine Funktion im State gespeichert und könnte in diesem Fall mit number() wieder aufgerufen werden.",
+                "isCorrect": false
+            }
+        ]
+    }
+]

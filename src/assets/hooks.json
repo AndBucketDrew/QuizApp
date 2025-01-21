@@ -1,0 +1,191 @@
+[
+    {
+        "questionText": "\nWelche Hooks sind standardmäßig in React vorhanden?",
+        "options": [
+            {
+                "text": "useState",
+                "isCorrect": true
+            },
+            {
+                "text": "useEffect",
+                "isCorrect": true
+            },
+            {
+                "text": "useInput",
+                "isCorrect": false
+            },
+            {
+                "text": "useClick",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche Hooks sind standardmäßig in React vorhanden?",
+        "options": [
+            {
+                "text": "useRef",
+                "isCorrect": true
+            },
+            {
+                "text": "useMemo",
+                "isCorrect": true
+            },
+            {
+                "text": "useParams",
+                "isCorrect": false
+            },
+            {
+                "text": "useNavigation",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWofür wird der Hook useState verwendet?",
+        "options": [
+            {
+                "text": "um den Zustand einer Komponente zu verwalten",
+                "isCorrect": true
+            },
+            {
+                "text": "um Nebeneffekte in einer Komponente auszulösen",
+                "isCorrect": false
+            },
+            {
+                "text": "um eine Referenz auf ein DOM‐Element oder einen Wert in einer Komponente zu speichern",
+                "isCorrect": false
+            },
+            {
+                "text": "um eine Callback‐Funktion zu speichern, damit sie bei jeder Rerendering der Komponente nicht neu erstellt wird",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelchen Hook müssen sie verwenden um Nebeneffekte (z.B. asynchrones Laden von Inhalten vom Server) auszulösen?",
+        "options": [
+            {
+                "text": "useEffect",
+                "isCorrect": true
+            },
+            {
+                "text": "useFetch",
+                "isCorrect": false
+            },
+            {
+                "text": "useXHR",
+                "isCorrect": false
+            },
+            {
+                "text": "useAsync",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas wird dem Hook useState übergeben?",
+        "options": [
+            {
+                "text": "der Initialwert",
+                "isCorrect": true
+            },
+            {
+                "text": "der Name des State",
+                "isCorrect": false
+            },
+            {
+                "text": "die Funktion, die zum Ändern des State aufgerufen werden muss",
+                "isCorrect": false
+            },
+            {
+                "text": "ein Array mit Name des State und dessen Setter‐Funktion",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas wird dem Hook useEffect übergeben?",
+        "options": [
+            {
+                "text": "Eine Funktion die ausgelöst wird",
+                "isCorrect": true
+            },
+            {
+                "text": "Ein Array mit Variablen, um erneutes Ausführen zu steuern",
+                "isCorrect": true
+            },
+            {
+                "text": "Der Name der Funktion, die beim Laden der Komponente aufgerufen wird",
+                "isCorrect": false
+            },
+            {
+                "text": "useEffect hat keine Parameter, es liefert eine Funktion als Rückgabewert",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas liefert der Hook useState?",
+        "options": [
+            {
+                "text": "Einen Array mit dem State und der setter‐Funktion zum Ändern des State",
+                "isCorrect": true
+            },
+            {
+                "text": "Den Wert des State",
+                "isCorrect": false
+            },
+            {
+                "text": "Eine Funktion, mit der man den State verändern kann",
+                "isCorrect": false
+            },
+            {
+                "text": "Eine Komponente, die man zur Ausgabe des State verwenden kann",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWofür dient der Hook useCallback?",
+        "options": [
+            {
+                "text": "um eine Callback‐Funktion zu memoisieren, um unnötige Neuerstellungen beim Re‐Rendering zu vermeiden.",
+                "isCorrect": true
+            },
+            {
+                "text": "um Callback‐Funktionen für asynchrone Scripts vorzubereiten",
+                "isCorrect": false
+            },
+            {
+                "text": "um Funktionen zu erstellen, die als prop an andere Komponenten weitergegeben werden können, da man in Funktionskomponenten kein this verwenden kann",
+                "isCorrect": false
+            },
+            {
+                "text": "damit Komponenten auf State von übergeordneten Komponenten Zugriff erhalten",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWofür wird der Hook useRef verwendet?",
+        "options": [
+            {
+                "text": "zur Herstellung einer Referenz auf ein HTML‐Element",
+                "isCorrect": true
+            },
+            {
+                "text": "damit der Referer aus der Location‐History ausgelesen werden kann",
+                "isCorrect": false
+            },
+            {
+                "text": "zur Erstellung einer Referenz eines Objektes (od. Arrays)",
+                "isCorrect": false
+            },
+            {
+                "text": "damit Komponenten gecacht werden können",
+                "isCorrect": false
+            }
+        ]
+    }
+]

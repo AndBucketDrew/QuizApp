@@ -61,6 +61,26 @@ export enum Segments {
   THIS = 'this.json',
   WEBWORKER = 'webworker.json',
   ZEITFUNKTIONEN = 'zeitfunktionen.json',
+  REACT_GRUNDLAGEN = 'reactGrundlagen.json',
+  REACT_KOMPONENTEN = 'reactKomponenten.json',
+  REACT_KOMPONENTEN_EIGENSCHAFEN = 'reactKomponentenEigenschaften.json',
+  REACT_LEBENZYKLUS_METHODEN = 'reactLebenzyklusMethoden.json',
+  REACT_ROUTER = 'reactRouter.json',
+  REACT_UNITESTING = 'reactUnitesting.json',
+  REFERENZEN = 'referenzen.json',
+  JSX = 'jsx.json',
+  HOOKS = 'hooks.json',
+  FORMULARE = 'formulare.json',
+  CONTEXT = 'context.json',
+  HIGHER_ORDER_KOMPONENTEN = 'higherOrderKomponenten.json',
+  STATE_LOKALER_STATUS = 'stateLokalerStatus.json',
+  STATE_MNG_REDUX_MIDDLEWARE = 'stateMngReduxMiddleware.json',
+  UMGEBUNGSVARIABLEN_DEV_PROD = 'umgebungsvariablenDevPro.json',
+  KOMPONENTEN_STYLING_CSS_MODULE = 'komponentenStylingCssModule.json',
+  BEHANDLUNG_EVENTS = 'behandlungEvents.json',
+  BEDINGTES_RENDERING = 'bedingtesRendering.json',
+  ASYNCHRONE_DATEN_IN_REACT = 'asynchroneDatenInReact.json',
+  ARRAY_RENDERING_AUFLISTUNGEN = 'arrayRenderingAuflistungen.json'
 }
 
 export const ALL_SEGMENTS = [
@@ -124,4 +144,28 @@ export const ALL_SEGMENTS = [
   Segments.UIUX,
   Segments.WIREFRAMES,
   Segments.HTTP_REQHEAD,
+  Segments.REACT_GRUNDLAGEN,
+  Segments.REACT_KOMPONENTEN,
+  Segments.REACT_KOMPONENTEN_EIGENSCHAFEN,
+  Segments.REACT_LEBENZYKLUS_METHODEN,
+  Segments.REACT_ROUTER,
+  Segments.REACT_UNITESTING,
+  Segments.REFERENZEN,
+  Segments.JSX,
+  Segments.HOOKS,
+  Segments.FORMULARE,
+  Segments.CONTEXT,
+  Segments.HIGHER_ORDER_KOMPONENTEN,
+  Segments.STATE_LOKALER_STATUS,
+  Segments.STATE_MNG_REDUX_MIDDLEWARE,
+  Segments.UMGEBUNGSVARIABLEN_DEV_PROD,
+  Segments.KOMPONENTEN_STYLING_CSS_MODULE,
+  Segments.BEHANDLUNG_EVENTS,
+  Segments.BEDINGTES_RENDERING,
+  Segments.ASYNCHRONE_DATEN_IN_REACT,
+  Segments.ARRAY_RENDERING_AUFLISTUNGEN
 ];
+
+
+
+

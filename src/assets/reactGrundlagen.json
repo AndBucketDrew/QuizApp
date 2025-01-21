@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWas sind die Vorteile von React?",
+        "options": [
+            {
+                "text": "Verbessert Performance von Applikationen mit Hilfe des Virtuellen DOMs",
+                "isCorrect": true
+            },
+            {
+                "text": "JSX macht Code einfacher les‐ und schreibar",
+                "isCorrect": true
+            },
+            {
+                "text": "Die Funktionalität wird auf kleinere Einheiten (Komponenten) aufgeteilt",
+                "isCorrect": true
+            },
+            {
+                "text": "Man kann nur mit HTML und CSS komplexe Applikationen und Anforderungen umsetzen",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nIn welchen Schritten funktioniert der Virtuelle DOM?",
+        "options": [
+            {
+                "text": "Bei Änderung von Daten wird der Virtuelle DOM verändert.",
+                "isCorrect": true
+            },
+            {
+                "text": "Nachdem der Virtuelle DOM gerendert wurde, wird er mit dem echten DOM verglichen und nur die Änderungen werden im echten DOM durchgeführt.",
+                "isCorrect": true
+            },
+            {
+                "text": "Sobald sich etwas im virtuellen DOM ändert, wird der DOM mit dem neuen virtuellen DOM komplett überschrieben.",
+                "isCorrect": false
+            },
+            {
+                "text": "Nachdem es Änderungen im DOM gibt, werden die Daten angepasst und der virtuelle DOM neu generiert.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nMit welchem Befehl erstellt man eine SPA (single page application) mit ReactJS? Beispiel: myapp",
+        "options": [
+            {
+                "text": "npx create‐react‐app myapp",
+                "isCorrect": true
+            },
+            {
+                "text": "mkdir myapp",
+                "isCorrect": false
+            },
+            {
+                "text": "node create‐react myapp",
+                "isCorrect": false
+            },
+            {
+                "text": "npm create myapp ‐‐react",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas versteht man unter “Thinking in React”?",
+        "options": [
+            {
+                "text": "Das Userinterface einer Applikation wird in verschachtelte Komponenten unterteilt.",
+                "isCorrect": true
+            },
+            {
+                "text": "Alle HTML‐Seiten einer Applikation werden in eine Seite zusammengeführt.",
+                "isCorrect": false
+            },
+            {
+                "text": "Jedes HTML‐Element einer Applikation wird als Javascript‐Funktion betrachtet.",
+                "isCorrect": false
+            },
+            {
+                "text": "Das Userinterface wird in dynamische und statische Bereiche unterteilt.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche Dateiendung (extension) hat eine erstellte React‐Komponente normalerweise?",
+        "options": [
+            {
+                "text": ".js",
+                "isCorrect": true
+            },
+            {
+                "text": ".jsx",
+                "isCorrect": true
+            },
+            {
+                "text": ".react",
+                "isCorrect": false
+            },
+            {
+                "text": ".comp",
+                "isCorrect": false
+            }
+        ]
+    }
+]

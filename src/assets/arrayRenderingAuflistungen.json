@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWie werden Schleifen in JSX üblicherweise umgesetzt?",
+        "options": [
+            {
+                "text": "mit der Array‐Methode map()",
+                "isCorrect": true
+            },
+            {
+                "text": "mit do while()",
+                "isCorrect": false
+            },
+            {
+                "text": "mit Object.forEach()",
+                "isCorrect": false
+            },
+            {
+                "text": "mit rekursiven Funktionen",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWorauf ist bei der Verwendung von arr.map() zum Generieren von HTML‐Elementen in React zu achten?",
+        "options": [
+            {
+                "text": "das erstellte HTML‐Element muss das Attribut key erhalten",
+                "isCorrect": true
+            },
+            {
+                "text": "die erstellen HTML‐Elemente dürfen keine Higher Order Komponente beinhalten",
+                "isCorrect": false
+            },
+            {
+                "text": "die erstellten Elemente müssen React‐Komponenten oder ein Fragment sein und dürfen nicht direkt HTML‐Tags an oberster Stelle haben",
+                "isCorrect": false
+            },
+            {
+                "text": "pro Komponente darf nur einmal arr.map() verwendet werden",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas ist an dem folgenden Code falsch? \nconst tiere = ['Affe', 'Hund', 'Zebra']; \nfunction Tiere() { \n    return ( <ul>{ tiere.map( tier => <li>{tier}</li> ) }</ul> ); \n}",
+        "options": [
+            {
+                "text": "das <li> benötigt das Attribute key",
+                "isCorrect": true
+            },
+            {
+                "text": "der Array und die Funktion dürfen nicht gleiche Bezeichnung haben (Groß/Kleinschreibung egal)",
+                "isCorrect": false
+            },
+            {
+                "text": "die map‐Methode benötige ein return",
+                "isCorrect": false
+            },
+            {
+                "text": "tiere muss ein Objekt sein, da sonst die Methode map nicht funktioniert",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWarum wird zum Rendering von Arrays die Methode map() anstelle von forEach() verwendet?",
+        "options": [
+            {
+                "text": "forEach gibt keine neue Liste zurück, daher kommt es zu keinem erneuten Rendering bei Änderungen im Array.",
+                "isCorrect": true
+            },
+            {
+                "text": "forEach gibt auch nicht enummerierbare Werte des Arrays aus, was normalerweise vermieden wird um erneutes Rendering zu vermeiden",
+                "isCorrect": false
+            },
+            {
+                "text": "beide Methoden liefern dasselbe Ergebnis, da map() kürzere Syntax hat, wird es bevorzugt",
+                "isCorrect": false
+            },
+            {
+                "text": "im JSX wird forEach nicht erkannt, da dies wie class oder for ein reservierter Begriff ist",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWozu wird das key‐prop beim Erzeugen von Array‐Elementen benötigt?",
+        "options": [
+            {
+                "text": "zur Performance‐Verbesserung, da React das Element eindeutig identifizieren kann",
+                "isCorrect": true
+            },
+            {
+                "text": "damit jedes Element im HTML eine eindeutige Id bekommt",
+                "isCorrect": false
+            },
+            {
+                "text": "damit React immer weiss, welches Element im Array mit der Komponente verknüpft ist",
+                "isCorrect": false
+            },
+            {
+                "text": "um beim Debuggen das Element schneller zu finden",
+                "isCorrect": false
+            }
+        ]
+    }
+]

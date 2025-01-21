@@ -1,0 +1,86 @@
+[
+    {
+        "questionText": "\nEine Higher Order Component (HOC) in React ist eine Funktion, die eine Komponente als Eingabe erhält und eine neue Komponente zurückgibt. \nWelche der folgenden Aussagen über HOCs ist falsch?",
+        "options": [
+            {
+                "text": "HOCs können verwendet werden, um Code‐Wiederholung zu vermeiden.",
+                "isCorrect": true
+            },
+            {
+                "text": "HOCs können nur als Klassenkomponenten implementiert werden.",
+                "isCorrect": true
+            },
+            {
+                "text": "HOCs können verwendet werden, um Komponenten um zusätzliches Verhalten zu erweitern.",
+                "isCorrect": false
+            },
+            {
+                "text": "HOCs können verwendet werden, um Hooks für Klassenkomponenten zur Verfügung zu stellen.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie können Sie in ReactJS eine Komponente in eine HOC (Higher Order Component) umwandeln?",
+        "options": [
+            {
+                "text": "Durch die Verwendung von HOC‐Funktionen",
+                "isCorrect": true
+            },
+            {
+                "text": "Durch die Verwendung von render props",
+                "isCorrect": false
+            },
+            {
+                "text": "Durch die Verwendung von Kontext (Context API)",
+                "isCorrect": false
+            },
+            {
+                "text": "Durch die Verwendung von Lifecycle‐Methoden",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWofür kann eine Higher Order Komponente (HOC) verwendet werden?",
+        "options": [
+            {
+                "text": "Um einer Komponente zusätzliche Funktion zu geben.",
+                "isCorrect": true
+            },
+            {
+                "text": "Um Authentifizierungsfunktion zu implementieren.",
+                "isCorrect": true
+            },
+            {
+                "text": "Um Funktionalität zum Caching von Daten hinzuzufügen.",
+                "isCorrect": true
+            },
+            {
+                "text": "Um die Anzahl der Komponenten zu reduzieren.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas ist im folgenden Codebeispiel die Higher Order Komponente? \n\nfunction Komp1(props) { return (<p {...props}>K1</p>); }\nfunction Komp2() { return (<>K2</>); } \nfunction Komp4(Komp3) { return props=><Komp3 {...props} />); } ",
+        "options": [
+            {
+                "text": "Komp4",
+                "isCorrect": true
+            },
+            {
+                "text": "Komp1",
+                "isCorrect": false
+            },
+            {
+                "text": "Komp2",
+                "isCorrect": false
+            },
+            {
+                "text": "Komp3",
+                "isCorrect": false
+            }
+        ]
+    }
+]

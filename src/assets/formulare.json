@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWie wird bei Formular‐Eingabfeldern der eingegebene Wert in React abgefragt?",
+        "options": [
+            {
+                "text": "mit einem State und einem onChange‐Handler",
+                "isCorrect": true
+            },
+            {
+                "text": "mit HTMLNodeElement.value",
+                "isCorrect": false
+            },
+            {
+                "text": "mit der Methode val()",
+                "isCorrect": false
+            },
+            {
+                "text": "über eine Referenz auf das Eingabefeld mit createRef()",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas ist Formik und wozu wird es in einer React‐App genutzt?",
+        "options": [
+            {
+                "text": "Es ist eine Opensource Library zum Verarbeiten von HTML‐Formulareingaben.",
+                "isCorrect": true
+            },
+            {
+                "text": "Es ist eine Komponente zum einfacheren Stylen von HTML‐Formularen.",
+                "isCorrect": false
+            },
+            {
+                "text": "Es ist Sammlung von Hooks um Formulardaten zu validieren.",
+                "isCorrect": false
+            },
+            {
+                "text": "Es ist eine Javascript‐Library um dynamische Formularelemente zu erzeugen.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas wird im State gespeichert um mit <select>‐Elementen in React zu arbeiten?",
+        "options": [
+            {
+                "text": "value des select‐Elements",
+                "isCorrect": true
+            },
+            {
+                "text": "alle values der Optionen des select‐Elements",
+                "isCorrect": false
+            },
+            {
+                "text": "der selectedIndex des select‐Elements",
+                "isCorrect": false
+            },
+            {
+                "text": "der Zustand selected aller Optionen des select‐Elements",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas ist das besondere an einem <input type=\"file\">‐Element in React?",
+        "options": [
+            {
+                "text": "Es ist eine unkontrollierbare Komponente und man muss auf den DOM zugreifen um den Wert abrufen zu können (mit onChange oder einer Referenz).",
+                "isCorrect": true
+            },
+            {
+                "text": "Zum Weiterverarbeiten der Datei, muss der enctype im form‐Element auf react/file gesetzt werden.",
+                "isCorrect": false
+            },
+            {
+                "text": "Es dürfen keine anderen input‐Element in dem Formular verwendet werden.",
+                "isCorrect": false
+            },
+            {
+                "text": "Es muss die Erweiterung react‐file‐input installiert werden.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche Eingabefelder können in React mit State verwaltet werden?",
+        "options": [
+            {
+                "text": "<input type=\"text\">",
+                "isCorrect": true
+            },
+            {
+                "text": "<textarea>",
+                "isCorrect": true
+            },
+            {
+                "text": "<input type=\"checkbox\">",
+                "isCorrect": true
+            },
+            {
+                "text": "<input type=\"file\">",
+                "isCorrect": false
+            }
+        ]
+    }
+]

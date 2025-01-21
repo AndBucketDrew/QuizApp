@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWie können Datentypen von Properties von React‐Komponenten validiert werden?",
+        "options": [
+            {
+                "text": "mit Hilfe des Modules prop‐types",
+                "isCorrect": true
+            },
+            {
+                "text": "mit Hilfe des &&‐Operators",
+                "isCorrect": false
+            },
+            {
+                "text": "mit Hilfe des ||‐Operators",
+                "isCorrect": false
+            },
+            {
+                "text": "gar nicht, da Eigenschaften immer typlos sind",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie können alle Eigenschaften einer React‐Komponente an eine Kind‐Komponente weitergegeben werden? Beispielcode einer Funktionskomponente:\nfunction ElternKomp( props ) {\n    return ( /*...Antwort...*/ );\n}",
+        "options": [
+            {
+                "text": "<KindKomp {...props} />",
+                "isCorrect": true
+            },
+            {
+                "text": "<KindKomp {props.forEach( prop => return prop ) } />",
+                "isCorrect": false
+            },
+            {
+                "text": "<KindKomp {props} />",
+                "isCorrect": false
+            },
+            {
+                "text": "<KindKomp {props.join(‘’)} />",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche Codezeile ist richtig um Werte in einem Attribute auszugeben?",
+        "options": [
+            {
+                "text": "<img src={`images/${filename}`} />",
+                "isCorrect": true
+            },
+            {
+                "text": "<img src={'images/'+filename} />",
+                "isCorrect": true
+            },
+            {
+                "text": "<img src={['images/', filename].join('')} />",
+                "isCorrect": true
+            },
+            {
+                "text": "<img src=\"images/{filename}\" />",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas ist das \"children\"‐Property?",
+        "options": [
+            {
+                "text": "Komponenten die als Daten (Inhalt) an eine Komponente übergeben werden",
+                "isCorrect": true
+            },
+            {
+                "text": "alle HTML Elemente einer Komponente",
+                "isCorrect": false
+            },
+            {
+                "text": "ein Attribut mit der Bezeichnung children, welches von React standardmäßig gesetzt wird",
+                "isCorrect": false
+            },
+            {
+                "text": "alle Komponenten, die innerhalb einer JSX‐Datei angelegt werden, aber nicht exportiert werden",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie kann eine Funktion an eine React‐Komponente als Property übergeben werden?\nconst doHandler = ()=>{ /*...*/ }",
+        "options": [
+            {
+                "text": "<UnterKomponente doHandler={doHandler} />",
+                "isCorrect": true
+            },
+            {
+                "text": "<UnterKomponente doHandler />",
+                "isCorrect": false
+            },
+            {
+                "text": "<UnterKomponente doHandler={doHandler()} />",
+                "isCorrect": false
+            },
+            {
+                "text": "<UnterKomponente doHandler ='doHandler' />",
+                "isCorrect": false
+            }
+        ]
+    }
+]

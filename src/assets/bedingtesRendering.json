@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWie sieht bedingtes Rendering mit der Ternary‐Operator‐Syntax aus?",
+        "options": [
+            {
+                "text": "<div>{ isOK ? 'Alles OK' : 'Leider nicht OK' }</div>",
+                "isCorrect": true
+            },
+            {
+                "text": "<div>{ isOK && <span>Alles OK</span> }</div>",
+                "isCorrect": false
+            },
+            {
+                "text": "if ( isOK ) { return <span>Alles OK</span> } else { return <span>Leider nicht OK</span> }",
+                "isCorrect": false
+            },
+            {
+                "text": "<div>{ isOK.filter( ()=><span>Alles OK</span> }</div>",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie kann eine Komponente abhängig von einer Bedingung gerendert oder nicht gerendert werden?",
+        "options": [
+            {
+                "text": "<div>{ isOK && <MeineKomponente />}</div>",
+                "isCorrect": true
+            },
+            {
+                "text": "<div>{ isOK ? <MeineKompontente />}</div>",
+                "isCorrect": false
+            },
+            {
+                "text": "<div>{ isOK => <MeineKompontente />}</div>",
+                "isCorrect": false
+            },
+            {
+                "text": "<div>{ isOK.then( <MeineKompontente />) }</div>",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie kann im JSX ein bedingtes Rendering mit if umgesetzt werden?",
+        "options": [
+            {
+                "text": "Gar nicht, das if muss außerhalb vom JSX Code stehen.",
+                "isCorrect": true
+            },
+            {
+                "text": "<div>{ if ( isOK ) {/*....*/ } }</div>",
+                "isCorrect": false
+            },
+            {
+                "text": "<div>{ return ( if(isOK) { /*...*/ } ) }</div>",
+                "isCorrect": false
+            },
+            {
+                "text": "<div>{ ()=>{ if( isOK ) { /*...*/ } } }</div>",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWofür wird der &&‐Operator in JSX verwendet?",
+        "options": [
+            {
+                "text": "Für bedingtes Rendering, falls nur bei Erfüllung einer Bedingung eine Komponente ausgegeben werden soll.",
+                "isCorrect": true
+            },
+            {
+                "text": "Für bedingtes Rendering, damit für true und false etwas Unterschiedliches ausgegeben werden kann.",
+                "isCorrect": false
+            },
+            {
+                "text": "Für das Setzen von Initialwerden eines State.",
+                "isCorrect": false
+            },
+            {
+                "text": "Als Rechenoperator bei binären Rechenaufgaben",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche Hooks werden für bedingtes Rendering benötigt?",
+        "options": [
+            {
+                "text": "Für bedingtes Rendering werden keine Hooks benötigt.",
+                "isCorrect": true
+            },
+            {
+                "text": "useState und useEffect",
+                "isCorrect": false
+            },
+            {
+                "text": "useState und useProps",
+                "isCorrect": false
+            },
+            {
+                "text": "es reicht useCondition",
+                "isCorrect": false
+            }
+        ]
+    }
+]

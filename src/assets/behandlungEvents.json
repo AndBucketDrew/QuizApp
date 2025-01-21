@@ -1,0 +1,86 @@
+[
+    {
+        "questionText": "\nWie wird ein Klick‐Eventhandler einer React Komponenten hinzugefügt?",
+        "options": [
+            {
+                "text": "<MyComp onClick={()=>{/*..*/}} />",
+                "isCorrect": true
+            },
+            {
+                "text": "class MyComp extends Component {\n    onclick() { /*...*/ } \n    render() { return <button>Klick</button>; } \n}",
+                "isCorrect": false
+            },
+            {
+                "text": "<MyComp id=\"x\" />\n  document.getElementById( 'x' ).onclick = ()=>{ /*...*/ }",
+                "isCorrect": false
+            },
+            {
+                "text": "class MyComp extends Component {\n  constructor() \n    { this.events = { \n        click:()=>{ /*...*/ } \n        } \n    } \n    render() { return <button>Klick</button>; } \n}",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche Syntax ist richtig, damit die Funktion doit() beim Klick auf den Button innerhalb einer React Komponente ausgeführt wird?",
+        "options": [
+            {
+                "text": "<button onClick={doit}>Klick</button>",
+                "isCorrect": true
+            },
+            {
+                "text": "<button onClick=”doit();”>Klick</button>",
+                "isCorrect": false
+            },
+            {
+                "text": "<button onClick={()=>doit}>Klick</button>",
+                "isCorrect": false
+            },
+            {
+                "text": "<button onClick={doit()}>Klick</button>",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie kann auf geklickte Element im Eventhandler zugegriffen werden?\nclickHandler(event) { /*...?...*/ }\n<button onClick={clickHandler}>Klick</button>",
+        "options": [
+            {
+                "text": "event.target",
+                "isCorrect": true
+            },
+            {
+                "text": "this",
+                "isCorrect": false
+            },
+            {
+                "text": "this.element",
+                "isCorrect": false
+            },
+            {
+                "text": "this.event",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche Events sind in React‐Komponenten erlaubt?",
+        "options": [
+            {
+                "text": "onClick",
+                "isCorrect": true
+            },
+            {
+                "text": "onSubmit",
+                "isCorrect": true
+            },
+            {
+                "text": "onFocus",
+                "isCorrect": true
+            },
+            {
+                "text": "onError",
+                "isCorrect": true
+            }
+        ]
+    }
+]

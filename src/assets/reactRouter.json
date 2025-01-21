@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWas ist React Router?",
+        "options": [
+            {
+                "text": "Eine Bibliothek für das Erstellen von Single‐Page‐Applications in React",
+                "isCorrect": true
+            },
+            {
+                "text": "Eine Datenbank‐Engine für React",
+                "isCorrect": false
+            },
+            {
+                "text": "Eine Bibliothek für das Erstellen von Server‐seitigen React‐Anwendungen",
+                "isCorrect": false
+            },
+            {
+                "text": "Eine Bibliothek für das Erstellen von React‐Formularen",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche Komponente wird verwendet, um eine Route in React Router zu definieren?",
+        "options": [
+            {
+                "text": "<Route>",
+                "isCorrect": true
+            },
+            {
+                "text": "<Link>",
+                "isCorrect": false
+            },
+            {
+                "text": "<Switch>",
+                "isCorrect": false
+            },
+            {
+                "text": "<Router>",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas ist der Zweck von <Link> in React Router?",
+        "options": [
+            {
+                "text": "Es ermöglicht das Navigieren zwischen verschiedenen Routen in einer React‐Anwendung.",
+                "isCorrect": true
+            },
+            {
+                "text": "Es definiert eine neue Route in einer React‐Anwendung.",
+                "isCorrect": false
+            },
+            {
+                "text": "Es stellt einen Verweis auf eine externe Webseite dar.",
+                "isCorrect": false
+            },
+            {
+                "text": "Es wird verwendet, um Daten von einem Formular an den Server zu senden.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas ist der Unterschied bei den Elementen <Link> und <NavLink> des React Router?",
+        "options": [
+            {
+                "text": "Der NavLink ist ein Link, der zusätzlich den Zustand active kennt.",
+                "isCorrect": true
+            },
+            {
+                "text": "Das Element NavLink darf nur innerhalb eines nav‐Elements verwendet werden.",
+                "isCorrect": false
+            },
+            {
+                "text": "Der NavLink erzeugt zusätzlich eine Unordered‐List.",
+                "isCorrect": false
+            },
+            {
+                "text": "NavLink wird für Links innerhalb der Applikation und Link für Links zu externen Ressourcen verwendet.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWofür wird das Element <Navigate> des React Routers verwendet?",
+        "options": [
+            {
+                "text": "Um Weiterleitungen auf andere Routes innerhalb der Applikation umzusetzen.",
+                "isCorrect": true
+            },
+            {
+                "text": "Um Navigationselemente (Menüs) in der Applikation zu erstellen.",
+                "isCorrect": false
+            },
+            {
+                "text": "Um Informationen zum Navigator (=Browser) in der Applikation abzurufen.",
+                "isCorrect": false
+            },
+            {
+                "text": "Es ist ein Wrapperelement und umschließt alle <Route>‐Elemente.",
+                "isCorrect": false
+            }
+        ]
+    }
+]

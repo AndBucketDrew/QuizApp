@@ -1,0 +1,65 @@
+[
+    {
+        "questionText": "\nWelche ist die am häufigsten verwendete 'React Testing Library'?",
+        "options": [
+            {
+                "text": "Jest",
+                "isCorrect": true
+            },
+            {
+                "text": "Enzyme",
+                "isCorrect": false
+            },
+            {
+                "text": "Mocha",
+                "isCorrect": false
+            },
+            {
+                "text": "Jasmine",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche Methode von Jest wird verwendet, um eine React‐Komponente zu rendern?",
+        "options": [
+            {
+                "text": "render()",
+                "isCorrect": true
+            },
+            {
+                "text": "expect()",
+                "isCorrect": false
+            },
+            {
+                "text": "mount()",
+                "isCorrect": false
+            },
+            {
+                "text": "snapshot()",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelches ist die empfohlene Jest‐Methode, um zu überprüfen, ob eine React‐Komponente ein bestimmtes Element enthält?",
+        "options": [
+            {
+                "text": "toContain()",
+                "isCorrect": true
+            },
+            {
+                "text": "toMatch()",
+                "isCorrect": false
+            },
+            {
+                "text": "toBe()",
+                "isCorrect": false
+            },
+            {
+                "text": "toHaveClass()",
+                "isCorrect": false
+            }
+        ]
+    }
+]

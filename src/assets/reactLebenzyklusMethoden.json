@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWelche Reihenfolge der Lifecycle‐Methoden wird beim „Mounting“ in React eingehalten?",
+        "options": [
+            {
+                "text": "constructor > getDerivedStateFromProps > render > componentDidMount",
+                "isCorrect": true
+            },
+            {
+                "text": "useEffect > render > componentDidMount",
+                "isCorrect": false
+            },
+            {
+                "text": "getDerivedStateFromProps > constuctor > render > componentWillUpdate",
+                "isCorrect": false
+            },
+            {
+                "text": "getSnapshotBeforeMount > componentWillMount > render",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nKann man eine React‐Komponente zum Re‐rendern zwingen ohne einen State zu verändern?",
+        "options": [
+            {
+                "text": "Ja, mit Hilfe der Methode forceUpdate()",
+                "isCorrect": true
+            },
+            {
+                "text": "Nein, es muss immer ein State geändert werden",
+                "isCorrect": false
+            },
+            {
+                "text": "Ja, das funktioniert aber nur in Higher Order Komponenten",
+                "isCorrect": false
+            },
+            {
+                "text": "Ja, Funktionskomponenten haben den Hook useRender()",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche drei Phasen gibt es im React‐Komponenten Lebenszyklus?",
+        "options": [
+            {
+                "text": "Mounting, Updating, Unmounting",
+                "isCorrect": true
+            },
+            {
+                "text": "Konstruktor, Render, DOM Updating",
+                "isCorrect": false
+            },
+            {
+                "text": "getProps, setProps, updateComponent",
+                "isCorrect": false
+            },
+            {
+                "text": "useState, useEffect, useRender",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche Aussage ist bzw. Aussagen sind in Bezug auf React richtig?",
+        "options": [
+            {
+                "text": "Funktionskomponenten haben keine Lifecycle‐Methoden.",
+                "isCorrect": true
+            },
+            {
+                "text": "Mit dem Hook useEffect können Verhalten einiger Lifecycle‐Methoden nachgestellt werden.",
+                "isCorrect": true
+            },
+            {
+                "text": "Jede Komponente hat drei Lifecycle‐Methoden, jeweils eine pro Lifecycle‐Phase.",
+                "isCorrect": false
+            },
+            {
+                "text": "Alle Lifecycle‐Methoden können mit dem Hook useLifecycle aufgerufen werden.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche Aussage zur der Reihenfolge von Methoden im Quellcode innerhalb einer React Klassenkomponente ist richtig?",
+        "options": [
+            {
+                "text": "Die Reihenfolge der Methoden ist egal.",
+                "isCorrect": true
+            },
+            {
+                "text": "Die Reihung der Methoden muss nach den drei Phasen (Mounting, Updating, UnMounting) gemacht werden.",
+                "isCorrect": false
+            },
+            {
+                "text": "Die Reihenfolge wird alphabetisch gemacht, nur der constructor steht immer als erste Methode in der Klasse.",
+                "isCorrect": false
+            },
+            {
+                "text": "Die Reihenfolge der Methoden muss immer exakt der Vorgabe von React entsprechen.",
+                "isCorrect": false
+            }
+        ]
+    }
+]

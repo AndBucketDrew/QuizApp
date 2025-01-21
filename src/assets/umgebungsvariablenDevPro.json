@@ -1,0 +1,86 @@
+[
+    {
+        "questionText": "\nWo werden Werte für Umgebungsvariablen in einer React‐App gesetzt?",
+        "options": [
+            {
+                "text": ".env",
+                "isCorrect": true
+            },
+            {
+                "text": ".htaccess",
+                "isCorrect": false
+            },
+            {
+                "text": "manifest.json",
+                "isCorrect": false
+            },
+            {
+                "text": "http.conf",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie können Umgebungsvariablen zwischen Entwicklungs‐ und Produktivumgebung unterschieden werden?",
+        "options": [
+            {
+                "text": "Es werden zwei Dateien angelegt: .env.development, .env.production",
+                "isCorrect": true
+            },
+            {
+                "text": "Werte innerhalb der .env Datei werden in die Blöcke development: und production: unterteilt",
+                "isCorrect": false
+            },
+            {
+                "text": "Die Namen der Werte für die Entwicklungsumgebung starten immer mit DEV_",
+                "isCorrect": false
+            },
+            {
+                "text": "Die Umgebungsvariablen für die Produktiv‐Umgebung werden nicht in der React‐App verwaltet sondern müssen direkt am Produktiv‐System eingetragen werden.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas muss beachtet werden, wenn man eigene Bezeichnungen für Umgebungsvariablen verwenden möchte?",
+        "options": [
+            {
+                "text": "Diese müssen immer mit REACT_APP_ beginnen",
+                "isCorrect": true
+            },
+            {
+                "text": "Sie dürfen reservierte Begriffe wie DOMAIN, PORT, etc. nicht enthalten",
+                "isCorrect": false
+            },
+            {
+                "text": "Die Bezeichnungen müssen immer mit $_ beginnen",
+                "isCorrect": false
+            },
+            {
+                "text": "Die Werte müssen immer zwischen zwei % stehen",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWird in einer React‐App eine .env Datei verwendet, muss dafür ein eigenes NPM‐Package installiert werden?",
+        "options": [
+            {
+                "text": "Nein, dotenv wurde bereits bei create‐react‐app installiert.",
+                "isCorrect": true
+            },
+            {
+                "text": "Nein, es muss jedoch das Startscript in der package.json angepasst werden.",
+                "isCorrect": false
+            },
+            {
+                "text": "Ja, ohne diesem wird die .env Datei ignoriert",
+                "isCorrect": false
+            },
+            {
+                "text": "Ja, es darf aber nur das Modul react‐env verwendet werden",
+                "isCorrect": false
+            }
+        ]
+    }
+]

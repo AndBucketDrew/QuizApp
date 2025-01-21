@@ -1,0 +1,108 @@
+
+[
+    {
+        "questionText": "\nWofür werden Refs in React verwendet?",
+        "options": [
+            {
+                "text": "um direkt auf HTML‐Element im DOM zugreifen zu können",
+                "isCorrect": true
+            },
+            {
+                "text": "um State Werte global verfügbar zu machen",
+                "isCorrect": false
+            },
+            {
+                "text": "um Secrets (z.B. Datenbankpasswort, Keys, usw.) verschlüsselt im Code zu speichern",
+                "isCorrect": false
+            },
+            {
+                "text": "um mehrere Elemente in eine Komponente ohne Funktion zu verpacken",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie wird eine Referenz (Beispiel „myRef“) auf ein HTML‐Element in React erzeugt?",
+        "options": [
+            {
+                "text": "const myRef = React.createRef();",
+                "isCorrect": true
+            },
+            {
+                "text": "const myRef = useRef(null);",
+                "isCorrect": true
+            },
+            {
+                "text": "ref=\"myRef\"",
+                "isCorrect": false
+            },
+            {
+                "text": "const myRef = [...this.refs];",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelches Attribut muss das HTML‐Element erhalten, damit über eine Referenz in React darauf zugegriffen werden kann?",
+        "options": [
+            {
+                "text": "ref",
+                "isCorrect": true
+            },
+            {
+                "text": "id",
+                "isCorrect": false
+            },
+            {
+                "text": "data‐ref",
+                "isCorrect": false
+            },
+            {
+                "text": "value",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWenn ein Referenz‐Objekt (Beispiel “myRef”) in React erzeugt wurde, wie wird dann auf das HTML‐Element zugegriffen?",
+        "options": [
+            {
+                "text": "myRef.current",
+                "isCorrect": true
+            },
+            {
+                "text": "myRef",
+                "isCorrect": false
+            },
+            {
+                "text": "useRef( myRef )",
+                "isCorrect": false
+            },
+            {
+                "text": "getElementByRef( “myRef” )",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas sind Anwendungsfälle um Referenzen auf HTML‐Elemente in React zu nutzen?",
+        "options": [
+            {
+                "text": "den Fokus eines Elementes zu setzen",
+                "isCorrect": true
+            },
+            {
+                "text": "um mit Funktionen anderer DOM‐Bibliotheken zu interagieren",
+                "isCorrect": true
+            },
+            {
+                "text": "um auf Eigenschaften von Formularelementen Zugriff zu erhalten",
+                "isCorrect": false
+            },
+            {
+                "text": "zur Änderung des style Attributes",
+                "isCorrect": false
+            }
+        ]
+    }
+]

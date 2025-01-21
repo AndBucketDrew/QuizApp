@@ -1,0 +1,86 @@
+[
+    {
+        "questionText": "\nWofür wird Context bei React‐Komponenten eingesetzt?",
+        "options": [
+            {
+                "text": "Daten werden für alle im DOM unterhalb liegenden Komponenten zur Verfügung gestellt, ohne diese über props durchreichen zu müssen.",
+                "isCorrect": true
+            },
+            {
+                "text": "Der Inhalt einer Komponente kann sich mit Hilfe des Context an einen State anpassen.",
+                "isCorrect": false
+            },
+            {
+                "text": "Der Context ersetzt alle Komponenten State und macht diese an einer zentralen Stelle verwaltbar.",
+                "isCorrect": false
+            },
+            {
+                "text": "Mit dem Context lassen sich alle Eventhandler einer Komponente zentral verwalten.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche beiden Methoden benötigt man um mit dem Context arbeiten zu können?",
+        "options": [
+            {
+                "text": "createContext(), useContext()",
+                "isCorrect": true
+            },
+            {
+                "text": "setContext(), getContext()",
+                "isCorrect": false
+            },
+            {
+                "text": "setContext(), useContext()",
+                "isCorrect": false
+            },
+            {
+                "text": "new Context(), useContext()",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie wird eine Komponente, die mit createContext() erstellt wurde, verwendet?\nconst MyContext = createContext(1)",
+        "options": [
+            {
+                "text": "<MyContext.Provider value={/*...*/}>",
+                "isCorrect": true
+            },
+            {
+                "text": "<MyContext value={/*...*/}>",
+                "isCorrect": false
+            },
+            {
+                "text": "<Context.MyContext value={/*...*/}>",
+                "isCorrect": false
+            },
+            {
+                "text": "<MyComp context={MyContext}>",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas wäre ein passendes Beispiel um mit Context in React zu arbeiten?",
+        "options": [
+            {
+                "text": "Ein User kann zwischen Theme1 und Theme2 switchen, wodurch viele Kompenten ihr Aussehen verändern.",
+                "isCorrect": true
+            },
+            {
+                "text": "Daten zum eingeloggten User können an unterschiedlichsten Stellen in der App, vor allem unabhängig von der Komponenten‐Hierarchie, abgerufen werden.",
+                "isCorrect": true
+            },
+            {
+                "text": "Bei einem Klick auf einen Button, soll innerhalb der gleichen Komponente die Ausgabe verändert werden.",
+                "isCorrect": false
+            },
+            {
+                "text": "Requests zum Server sollen aus unterschiedlichen Komponenten heraus gemacht werden.",
+                "isCorrect": false
+            }
+        ]
+    }
+]

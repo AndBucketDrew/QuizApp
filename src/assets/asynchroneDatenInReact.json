@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWo werden asynchrone Scripts, die die Darstellung beeinflussen, in React Klassenkomponenten ausgeführt?",
+        "options": [
+            {
+                "text": "in der Methode componentDidMount()",
+                "isCorrect": true
+            },
+            {
+                "text": "in der Methode useEffect()",
+                "isCorrect": false
+            },
+            {
+                "text": "in der Methode dataFetch()",
+                "isCorrect": false
+            },
+            {
+                "text": "direkt in der constructor‐Methode",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWo werden asynchrone Scripts, die die Darstellung beeinflussen, in React Funktionskomponenten ausgeführt?",
+        "options": [
+            {
+                "text": "in der Methode useEffect()",
+                "isCorrect": true
+            },
+            {
+                "text": "in der Methode componentDidMount()",
+                "isCorrect": false
+            },
+            {
+                "text": "in der Methode dataFetch()",
+                "isCorrect": false
+            },
+            {
+                "text": "direkt in der Funktion der Funktionskomponente",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWorauf ist bei der Verwendung von setInterval in React‐Komponenten zu achten?",
+        "options": [
+            {
+                "text": "beim Unmounting soll das Interval mit clearInterval wieder beendet werden",
+                "isCorrect": true
+            },
+            {
+                "text": "das Zeitdelay darf nicht kleiner als 100ms sein, da es sonst zu einer Endlos‐Renderschleife kommt",
+                "isCorrect": false
+            },
+            {
+                "text": "setInterval sollte immer durch requestAnimationFrame ersetzt werden",
+                "isCorrect": false
+            },
+            {
+                "text": "setInterval sollte ausschließlich mit dem Hook useInterval initialisiert werden",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nMit welchen Funktionen bzw. Modulen werden Request zu WebAPIs üblicherweise in React Applikationen gemacht?",
+        "options": [
+            {
+                "text": "fetch",
+                "isCorrect": true
+            },
+            {
+                "text": "xhr",
+                "isCorrect": false
+            },
+            {
+                "text": "jQuery.ajax",
+                "isCorrect": false
+            },
+            {
+                "text": "http.request",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas ist bei folgendem Code das Problem?\nconst [data, setData] = useState({});\nuseEffect( ()=>{\n    fetch( 'https://api.com' ).then( resp => resp.json() ).then( respData => {\n        setData( respData );\n    }\n}, [data]);",
+        "options": [
+            {
+                "text": "Es kommt zu einem Endlosloop von Requests.",
+                "isCorrect": true
+            },
+            {
+                "text": "Die Funktion in useEffect muss async definiert werden.",
+                "isCorrect": false
+            },
+            {
+                "text": "An setData muss eine Funktion übergeben werden.",
+                "isCorrect": false
+            },
+            {
+                "text": "Der Code ist richtig und das Objekt im Response wird im State data gespeichert.",
+                "isCorrect": false
+            }
+        ]
+    }
+]

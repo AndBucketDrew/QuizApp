@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWas ist JSX?",
+        "options": [
+            {
+                "text": "eine Syntaxerweiterung für Javascript",
+                "isCorrect": true
+            },
+            {
+                "text": "eine neue Scriptsprache basierend auf Javascript",
+                "isCorrect": false
+            },
+            {
+                "text": "Javascript basierend auf XML Syntax",
+                "isCorrect": false
+            },
+            {
+                "text": "die neueste Version von Javascript",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas ist mit JSX möglich, was in VanillaJS nicht machbar ist?",
+        "options": [
+            {
+                "text": "HTML kann direkt im Scriptcode verwendet werden. \n  let element = <p>Hello World</p>;",
+                "isCorrect": true
+            },
+            {
+                "text": "Es können Klassen mit dem Begriff class angelegt werden. \n  class HelloWorld { /*...*/ }",
+                "isCorrect": false
+            },
+            {
+                "text": "Es können Module mit import geladen werden. \n  import {React} from ‚react‘;",
+                "isCorrect": false
+            },
+            {
+                "text": "Es können Array‐Methoden überall verwendet werden. \n  arr.map( (el)=>{ /*...*/ } );",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie kann in JSX der Inhalt einer Variable in einen HTML‐Code eingebettet werden? Beispiel: let name = 'Anna';",
+        "options": [
+            {
+                "text": "let element = <p>Hello, {name}</p>;",
+                "isCorrect": true
+            },
+            {
+                "text": "let element = `<p>Hello, ${name}</p>`;",
+                "isCorrect": false
+            },
+            {
+                "text": "let element = <p>Hello, %name%</p>;",
+                "isCorrect": false
+            },
+            {
+                "text": "let element = <p>Hello, {document.write( name );}</p>;",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWorauf muss bei HTML‐Tags in JSX Code geachtet werden?",
+        "options": [
+            {
+                "text": "Leere Tags müssen immer geschlossen werden mit / am Ende oder einem schließenden Tag.",
+                "isCorrect": true
+            },
+            {
+                "text": "Es dürfen nur W3C konforme Tags verwendet werden.",
+                "isCorrect": false
+            },
+            {
+                "text": "Alle Tags müssen camelcase geschrieben werden.",
+                "isCorrect": false
+            },
+            {
+                "text": "Attribute von Tags müssen im Code in einer eigenen Zeile stehen.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWelche Standard HTML Attribute müssen in JSX umbenannt werden?",
+        "options": [
+            {
+                "text": "class wird zu className",
+                "isCorrect": true
+            },
+            {
+                "text": "for wird zu htmlFor",
+                "isCorrect": true
+            },
+            {
+                "text": "src wird zu fileSrc",
+                "isCorrect": false
+            },
+            {
+                "text": "href wird zu to",
+                "isCorrect": false
+            }
+        ]
+    }
+]

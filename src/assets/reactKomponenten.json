@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWas sind die Properties einer React‐Komponente?",
+        "options": [
+            {
+                "text": "Attribute der Komponente, auf deren Werte kann mit props bzw. this.props innerhalb der Komponente zugegriffen werden.",
+                "isCorrect": true
+            },
+            {
+                "text": "Das sind die allgemeinen initialen Eigenschaften einer Komponente. Diese werden als option‐Objekt im Konstruktor der Komponente angegeben.",
+                "isCorrect": false
+            },
+            {
+                "text": "Diese Werte können nur innerhalb der Komponente verändert werden und sind wie lokale Variablen zu verstehen.",
+                "isCorrect": false
+            },
+            {
+                "text": "Komponenten haben die Property tagName, innerHTML und eventHandler, die beim Erstellen der Komponente gesetzt werden können.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas ist ein gültiger Komponentenname in React?",
+        "options": [
+            {
+                "text": "MeineKomponente",
+                "isCorrect": true
+            },
+            {
+                "text": "meineKomponente",
+                "isCorrect": false
+            },
+            {
+                "text": "meine_kompontente",
+                "isCorrect": false
+            },
+            {
+                "text": "meine.komponente",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie erstellen Sie eine neue React‐Komponente?",
+        "options": [
+            {
+                "text": "mit einer Funktion die ein Element zurückgibt",
+                "isCorrect": true
+            },
+            {
+                "text": "mit einer Subklasse von Component, die eine Methode render() enthält",
+                "isCorrect": true
+            },
+            {
+                "text": "mit dem Konstruktor new Component();",
+                "isCorrect": false
+            },
+            {
+                "text": "mit dem Anlegen einer JSX‐Datei im Unterordner components",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nIn welchen React‐Komponenten werden Hooks verwendet?",
+        "options": [
+            {
+                "text": "nur in Funktions‐Komponenten",
+                "isCorrect": true
+            },
+            {
+                "text": "nur in Klassen‐Komponenten",
+                "isCorrect": false
+            },
+            {
+                "text": "nur in Funktions‐ und Klassen‐Komponenten",
+                "isCorrect": false
+            },
+            {
+                "text": "nur in Hook‐Komponenten",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie wird eine geladene React‐Komponente eingesetzt? Beispiel: import MeineKomponente from ‚./MeineKomponente.jsx‘;",
+        "options": [
+            {
+                "text": "direkt im JSX als <Meine Komponente />",
+                "isCorrect": true
+            },
+            {
+                "text": "als DOM Element z.B. HTMLNODE.appendChild( MeineKomponente );",
+                "isCorrect": false
+            },
+            {
+                "text": "als Konstruktor let x = new MeineKomponente();",
+                "isCorrect": false
+            },
+            {
+                "text": "als Funktion im JSX Code eingebettet z.B. <div>{meineKomponente()}</div>",
+                "isCorrect": false
+            }
+        ]
+    }
+]

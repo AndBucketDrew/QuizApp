@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWomit kann eine Komponente „gestyled“ werden?",
+        "options": [
+            {
+                "text": "Inline CSS",
+                "isCorrect": true
+            },
+            {
+                "text": "Normales CSS",
+                "isCorrect": true
+            },
+            {
+                "text": "CSS Module",
+                "isCorrect": true
+            },
+            {
+                "text": "Verwendung von styled Components",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas ist beim inline CSS bei React Komponenten zu beachten?",
+        "options": [
+            {
+                "text": "Die Werte die dem Attribute style übergeben werden, müssen ein Javascript‐Objekt sein.",
+                "isCorrect": true
+            },
+            {
+                "text": "Die inline CSS Angaben können beim Re‐rendern nicht verändert werden.",
+                "isCorrect": false
+            },
+            {
+                "text": "Größenangaben dürfen nur in dynamischen Einheiten aber nicht in px angegeben werden.",
+                "isCorrect": false
+            },
+            {
+                "text": "Es kommt zu Performance‐Problemen, daher sollte inline CSS in React vermieden werden.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWorauf muss beim Formatieren mit CSS von React Komponenten geachtet werden?",
+        "options": [
+            {
+                "text": "Das Attribut class ist im Tag als className anzugeben.",
+                "isCorrect": true
+            },
+            {
+                "text": "CSS Id Selektoren sind in React nicht erlaubt.",
+                "isCorrect": false
+            },
+            {
+                "text": "Klassennamen müssen in der zur Komponente passenden CSS stehen, da sie sonst nicht funktionieren.",
+                "isCorrect": false
+            },
+            {
+                "text": "Mediaqueries sind nur in der index.css erlaubt.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWie sieht die Syntax aus um ein p‐Tag mit Schriftfarbe rot als styled‐Komponente im React zu erzeugen?\nimport styled from 'styled‐components';",
+        "options": [
+            {
+                "text": "const P = styled.p`color:red`;",
+                "isCorrect": true
+            },
+            {
+                "text": "const P = ({children})=>{ return <p style=\"color:red\">{children}</p> }};",
+                "isCorrect": false
+            },
+            {
+                "text": "const P = new styled( 'p', { color:'red' } );",
+                "isCorrect": false
+            },
+            {
+                "text": "const P = styled.p => { return {color:'red' } };",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas muss bei der Verwendung von CSS Modulen in React beachtet werden?",
+        "options": [
+            {
+                "text": "Die CSS‐Datei erhält die Endung .module.css",
+                "isCorrect": true
+            },
+            {
+                "text": "Klassennamen sind als Attribute des style‐Objekts anzugeben, className={style.meinName}",
+                "isCorrect": true
+            },
+            {
+                "text": "Das Modul ‚react‐css‘ muss importiert werden.",
+                "isCorrect": false
+            },
+            {
+                "text": "Alle verwendeten Klassennamen müssen eindeutig sein und dürfen in keiner anderen Komponente verwendet werden.",
+                "isCorrect": false
+            }
+        ]
+    }
+]

@@ -1,0 +1,107 @@
+[
+    {
+        "questionText": "\nWas ist Redux und wie wird es in React eingesetzt?",
+        "options": [
+            {
+                "text": "Redux ist ein State‐Management‐Tool für React, das die zentrale Verwaltung des Zustands der Anwendung ermöglicht.",
+                "isCorrect": true
+            },
+            {
+                "text": "Redux ist eine Alternative zu React und wird anstelle von React‐Komponenten eingesetzt.",
+                "isCorrect": false
+            },
+            {
+                "text": "Redux ist ein Framework für serverseitige Anwendungen in React.",
+                "isCorrect": false
+            },
+            {
+                "text": "Redux ist ein React‐Komponententool, das für das Styling von Komponenten verwendet wird.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas ist der Unterschied zwischen React Context API und Redux?",
+        "options": [
+            {
+                "text": "Die React Context API ist eine Möglichkeit, Daten in React‐Komponenten global zu verwalten, während Redux ein eigenständiges State‐Management‐Tool ist.",
+                "isCorrect": true
+            },
+            {
+                "text": "Die React Context API und Redux sind zwei Namen für dasselbe State‐Management‐Tool.",
+                "isCorrect": false
+            },
+            {
+                "text": "Die React Context API ist für kleinere Anwendungen geeignet, während Redux für größere Anwendungen empfohlen wird.",
+                "isCorrect": false
+            },
+            {
+                "text": "Redux ist ein Teil der React Context API und kann nicht unabhängig davon verwendet werden.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nKann in einer Reducer‐Funktion eine Eigenschaft im state‐Objekt direkt verändert werden? z.B. state.x = 1;",
+        "options": [
+            {
+                "text": "Ja, jedoch kommt es dann nicht zu einem Rerendering.",
+                "isCorrect": true
+            },
+            {
+                "text": "Nein, es muss immer eine Kopie des state‐Objekts erstellt werden um es zu verändern.",
+                "isCorrect": false
+            },
+            {
+                "text": "Nein, ein Reducer kann nur Werte zurückgeben, darf diese aber nicht verändern.",
+                "isCorrect": false
+            },
+            {
+                "text": "Ja, dafür sind Reducer‐Funktionen gedacht.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWofür wird der Hook useDispatch im Zusammenhang mit React Redux verwendet?",
+        "options": [
+            {
+                "text": "zur Erstellung der Methode dispatch, mit der Reducer‐Methoden aufgerufen werden können",
+                "isCorrect": true
+            },
+            {
+                "text": "um Werte aus dem Store zu lösen und als lokalen State nutzen zu können",
+                "isCorrect": false
+            },
+            {
+                "text": "um Werte aus dem Store abzurufen und in der Komponente ausgeben zu lassen",
+                "isCorrect": false
+            },
+            {
+                "text": "um Werte aus Formular‐Elementen im Store speichern zu können",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "questionText": "\nWas ist ein Reducer im Redux Store bzw. wofür wird er verwendet?",
+        "options": [
+            {
+                "text": "Ein Reducer ist eine Javascript‐Funktion, die den State und eine Action verwendet um eine neue upgedatete Instanz des State zu erstellen",
+                "isCorrect": true
+            },
+            {
+                "text": "Ein Reducer validiert Werte des State und liefert einen Error, wenn dieser nicht passt",
+                "isCorrect": false
+            },
+            {
+                "text": "Ein Reducer überprüft den Datentyp beim Setzen eines State.",
+                "isCorrect": false
+            },
+            {
+                "text": "Ein Reducer „reduziert“ den Speicherbedarf im Redux Store.",
+                "isCorrect": false
+            }
+        ]
+    }
+]
