@@ -21,7 +21,7 @@
         ]
     },
     {
-        "questionText": "\nWie können Personen in folgendem Array alphabetisch sortiert werden?",
+        "questionText": "\nWie können Personen in folgendem Array alphabetisch sortiert werden?  \nlet p = [{name:'Tom'},{name:'Max'},{name:'Anna'}];",
         "options": [
             {
                 "text": "p.sort((a,b)=>a.name>b.name?1:‐1);",
@@ -84,7 +84,7 @@
         ]
     },
     {
-        "questionText": "\nWie können Sie die Summe aller Zahlen aus dem folgenden Array berechnen?",
+        "questionText": "\nWie können Sie die Summe aller Zahlen aus dem folgenden Array berechnen? \nlet z = [1.5, 2.3, 0.765, 8.485, 0.2];",
         "options": [
             {
                 "text": "let sum = z.reduce( (a,b)=>a+b );",
