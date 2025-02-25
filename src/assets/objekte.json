@@ -21,7 +21,7 @@
         ]
     },
     {
-        "questionText": "\nWie kann man den Wert der Eigenschaft 'a' aus folgendem Objekt ansprechen?",
+        "questionText": "\nWie kann man den Wert der Eigenschaft 'a' aus folgendem Objekt ansprechen? \nlet o = { a: 1, b: 2};",
         "options": [
             {
                 "text": "console.log(o.a);",
@@ -42,7 +42,7 @@
         ]
     },
     {
-        "questionText": "\nWie kann man in einem bestehenden Objekt 'o' einen Wert hinzufügen?",
+        "questionText": "\nWie kann man in einem bestehenden Objekt 'o' einen Wert hinzufügen? \nlet o = new Object();\n o.a = 'Wert';",
         "options": [
             {
                 "text": "o.b = 'neuer Wert';",
@@ -84,7 +84,7 @@
         ]
     },
     {
-        "questionText": "\nWelche Antwort liefert 'OK' in der console, wenn das Objekt 'o' nachfolgend Eigenschaften besitzt?",
+        "questionText": "\nWelche Antwort liefert 'OK' in der console, wenn das Objekt 'o' nachfolgend Eigenschaften besitzt? \nlet o = { a:0, b:1 }",
         "options": [
             {
                 "text": "if (o) { console.log('OK'); }",

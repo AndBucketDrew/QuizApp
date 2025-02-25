@@ -42,7 +42,7 @@
         ]
     },
     {
-        "questionText": "\nWie lautet die korrekte Syntax um die Methode „test“ in der Klasse „Tier“ anzulegen?\nclass Tier {\n   constructor() { /*...*/ }\n   test() { } }",
+        "questionText": "\nWie lautet die korrekte Syntax um die Methode „test“ in der Klasse „Tier“ anzulegen?",
         "options": [
             {
                 "text": "class Tier { \nconstructor() { /*...*/ } \ntest() { } }",

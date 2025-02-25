@@ -21,7 +21,7 @@
         ]
     },
     {
-        "questionText": "\nWie kann der Wert der Eigenschaft “prop” von dem folgenden Objekt ausgelesen werden?",
+        "questionText": "\nWie kann der Wert der Eigenschaft “prop” von dem folgenden Objekt ausgelesen werden? \n let test = { prop:1 };",
         "options": [
             {
                 "text": "test.prop",
@@ -63,7 +63,7 @@
         ]
     },
     {
-        "questionText": "\nWie können Sie die Eigenschaft „prop2“ aus dem folgenden Objekt entfernen?",
+        "questionText": "\nWie können Sie die Eigenschaft „prop2“ aus dem folgenden Objekt entfernen? \nlet test = { prop:1, prop2:2 };",
         "options": [
             {
                 "text": "delete test['prop2']",
